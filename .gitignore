@@ -22,18 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 /.metadata/
-JavaCore/javacore/src/main/java/vn/com/ids/.DS_Store
-JavaCore/javacore/.classpath
-JavaCore/.DS_Store
-JavaCore/javacore/src/.DS_Store
-JavaCore/javacore/src/main/java/.DS_Store
-JavaCore/javacore/src/main/.DS_Store
-JavaCore/javacore/src/main/java/vn/.DS_Store
-JavaCore/javacore/.classpath
-JavaCore/javacore/src/main/java/vn/com/ids/javacore/.DS_Store
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
 .DS_Store
-RemoteSystemsTempFiles/.project
-JavaCore/javacore/target/*
-JavaCore/javacore/.settings/org.eclipse.jdt.core.prefs
-*.xml
-JavaCore/javacore/target/classes/META-INF/maven/vn.com.ids/javacore/pom.xml
+
+# Maven
+log/
+target/
