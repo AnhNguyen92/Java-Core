@@ -16,8 +16,9 @@ public class App {
 		System.out.println("HCM hour:" + hcmHour + "\t Belgium hour: " + belgiumHour);
 
 		System.out.println(DateUtil.isDaylightSavingTime());
-		
+
 		DateUtil.getDaylightSavingTime();
+		
 	}
 
 }

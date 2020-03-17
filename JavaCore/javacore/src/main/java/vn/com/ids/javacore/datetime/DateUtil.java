@@ -5,6 +5,7 @@ import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.time.zone.ZoneRules;
 import java.util.Calendar;
 import java.util.Date;
@@ -64,4 +65,9 @@ public class DateUtil {
 		}
 		return date;
 	}
+	
+	public static boolean isDayBeforeDayLightSavingTime() {
+        Instant instant = Instant.now();
+        return ZoneId.of(BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus( 1 , ChronoUnit.DAYS ));
+    }
 }
