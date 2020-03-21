@@ -24,5 +24,10 @@ public class DayName {
     public void setText(String text) {
         this.text = text;
     }
+
+    @Override
+    public String toString() {
+        return "DayName [language=" + language + ", text=" + text + "]";
+    }
     
 }

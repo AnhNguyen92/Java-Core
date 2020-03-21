@@ -18,7 +18,8 @@ public class App {
 		System.out.println(DateUtil.isDaylightSavingTime());
 		
 		DateUtil.getDaylightSavingTime();
-		DateUtil.getPublicDayInMonth("bel");
+		
+	    DateUtil.getPublicDayThisMonth("bel").forEach(pubDate -> pubDate.printDateAndName());
 	}
 
 }

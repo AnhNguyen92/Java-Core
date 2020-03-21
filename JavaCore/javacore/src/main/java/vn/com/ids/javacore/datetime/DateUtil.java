@@ -37,7 +37,7 @@ public class DateUtil {
 	private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
     private static final SimpleDateFormat formatter = new SimpleDateFormat("HH:mm dd/MM/yyyy");
 	private static final String BASE_PUBLIC_HOLIDAY_URL = "https://kayaposoft.com/enrico/json/v2.0";
-	// https://kayaposoft.com/enrico/json/v2.0?action=getHolidaysForMonth&month=1&year=2022&country=deu&region=bw&holidayType=public_holiday
+
 	public static void getFirtDateOfWeekInYear(int weekOfyear) {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd MM yyyy");
 		Calendar cal = Calendar.getInstance();
@@ -70,10 +70,9 @@ public class DateUtil {
 	}
 
 	public static int getCurrentHour(Date date, String timeZoneId) {
-		// Belgium/Brussels Time
 		Calendar calendar = new GregorianCalendar(TimeZone.getTimeZone(timeZoneId));
 		calendar.setTimeInMillis(date.getTime());
-
+				
 		return calendar.get(Calendar.HOUR_OF_DAY);
 	}
 
@@ -113,28 +112,27 @@ public class DateUtil {
 	 * All available of supported country in {@link} "https://kayaposoft.com/enrico/json/v2.0/?action=getSupportedCountries"n 
 	 *  List
 	 */
-	public static List<PublicHoliday> getPublicDayInMonth(String countryCode) {
+	public static List<PublicHoliday> getPublicDayThisMonth(String countryCode) {
+	    logger.info("start process get public day");
 	    List<PublicHoliday> publicHolidays = new ArrayList<PublicHoliday>();
 	    try {
-	        String urlParam = "action=getHolidaysForMonth&month="+ getCurrentMonth() + "&year=" + getCurrentYear() //
-	                         + "&country=" + countryCode + "&region=bw&holidayType=public_holiday";
+	        String urlParam = "?action=getHolidaysForMonth&month="+ getCurrentMonth() + "&year=" + getCurrentYear() //
+	                         + "&country=" + countryCode + "&holidayType=public_holiday";
             URL url = new URL(BASE_PUBLIC_HOLIDAY_URL + urlParam);
             ObjectMapper objectMapper = new ObjectMapper();
             try {
                 publicHolidays = objectMapper.readValue(url, new TypeReference<List<PublicHoliday>>(){});
             } catch (JsonParseException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage(), e);
             } catch (JsonMappingException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage(), e);
             } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage(), e);
             }
         } catch (MalformedURLException e) {
             logger.error(e.getMessage(), e);
         }
+	    logger.info("end process get public day");
 	    
 	    return publicHolidays;
 	}

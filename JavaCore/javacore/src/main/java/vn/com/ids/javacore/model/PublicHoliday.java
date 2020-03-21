@@ -37,5 +37,13 @@ public class PublicHoliday {
     public void setHolidayType(String holidayType) {
         this.holidayType = holidayType;
     }
+
+    @Override
+    public String toString() {
+        return "PublicHoliday [publicDate=" + publicDate + ", dayNames=" + dayNames + ", holidayType=" + holidayType + "]";
+    }
     
+    public void printDateAndName() {
+        System.out.println("PublicHoliday " + this.publicDate.getDay() + "/" + this.publicDate.getMonth() +  "/" + this.publicDate.getYear() + " - " + this.getDayNames().get(this.dayNames.size() -1).getText());
+    }
 }
