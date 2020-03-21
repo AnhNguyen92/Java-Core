@@ -9,6 +9,7 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.time.zone.ZoneRules;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -137,4 +138,8 @@ public class DateUtil {
 	    return publicHolidays;
 	}
 	
+	public static boolean isDayBeforeDayLightSavingTime() {
+        Instant instant = Instant.now();
+        return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus( 1 , ChronoUnit.DAYS ));
+    }
 }
