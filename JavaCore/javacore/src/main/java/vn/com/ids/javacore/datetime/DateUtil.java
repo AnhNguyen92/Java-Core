@@ -5,12 +5,15 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.time.YearMonth;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
 import java.time.zone.ZoneRules;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -143,5 +146,11 @@ public class DateUtil {
     public static boolean isDayBeforeDayLightSavingTime() {
         Instant instant = Instant.now();
         return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus(1, ChronoUnit.DAYS));
+    }
+    
+    public static LocalDate getLastSunDay() {
+        return YearMonth.of( LocalDate.now().getYear() , LocalDate.now().getMonth() )    // Represent the entirety of a specified month.
+            .atEndOfMonth()                                                     // Get the date of the last day of that month.
+            .with( TemporalAdjusters.previousOrSame( DayOfWeek.SUNDAY ) );
     }
 }

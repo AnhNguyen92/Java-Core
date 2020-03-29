@@ -20,6 +20,7 @@ public class App {
 		DateUtil.getDaylightSavingTime();
 		
 	    DateUtil.getPublicDayThisMonth("bel").forEach(pubDate -> pubDate.printDateAndName());
+	    System.out.println(DateUtil.getLastSunDay());
 	}
 
 }
