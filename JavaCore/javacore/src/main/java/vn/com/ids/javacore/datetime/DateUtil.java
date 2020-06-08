@@ -17,7 +17,6 @@ import org.slf4j.LoggerFactory;
 
 public class DateUtil {
 	private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
-	private static final SimpleDateFormat formatter = new SimpleDateFormat("HH:mm dd/MM/yyyy");
 	private static final String BELGIUM_ZONE_ID = "Europe/Brussels";
 
 	public static void getFirtDateOfWeekInYear(int weekOfyear) {
@@ -25,7 +24,9 @@ public class DateUtil {
 		Calendar cal = Calendar.getInstance();
 		cal.set(Calendar.WEEK_OF_YEAR, weekOfyear);
 		cal.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
-		System.out.println(sdf.format(cal.getTime()));
+		if (logger.isDebugEnabled()) {
+			logger.info("Firt Date Of Specific Week In Year {}", sdf.format(cal.getTime()));
+		}
 	}
 
 	// https://stackoverflow.com/questions/1060479/determine-whether-daylight-savings-time-dst-is-active-in-java-for-a-specified
@@ -44,7 +45,7 @@ public class DateUtil {
 		int year = calendar.get(Calendar.YEAR);
 		ZoneId zone = ZoneId.of(BELGIUM_ZONE_ID);
 		ZoneRules zoneRule = zone.getRules();
-		zoneRule.getTransitionRules().forEach(rule -> System.out.println(
+		zoneRule.getTransitionRules().forEach(rule -> logger.info(
 				rule.createTransition(year).getDateTimeBefore().format(DateTimeFormatter.ofPattern("dd-MMM-yy"))));
 	}
 
@@ -59,6 +60,7 @@ public class DateUtil {
 	public static Date getDateOfString(String dateInString) {
 		Date date = null;
 		try {
+			SimpleDateFormat formatter = new SimpleDateFormat("HH:mm dd/MM/yyyy");
 			date = formatter.parse(dateInString);
 		} catch (ParseException e) {
 			logger.error(e.getMessage(), e);
