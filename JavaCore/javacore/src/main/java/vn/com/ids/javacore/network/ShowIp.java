@@ -1,4 +1,4 @@
-package vn.com.ids.javacore.Network;
+package vn.com.ids.javacore.network;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

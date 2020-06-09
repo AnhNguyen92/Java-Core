@@ -30,7 +30,6 @@ import vn.com.ids.javacore.core.DashboardConstant;
 
 public class DateUtil {
 	private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
-	private static final String BELGIUM_ZONE_ID = "Europe/Brussels";
 
 	private DateUtil() {
 		throw new IllegalStateException("Utility class");
@@ -48,7 +47,7 @@ public class DateUtil {
 
 	// https://stackoverflow.com/questions/1060479/determine-whether-daylight-savings-time-dst-is-active-in-java-for-a-specified
 	public static boolean isDaylightSavingTime() {
-		return ZoneId.of(BELGIUM_ZONE_ID) // Represent a specific time zone, the history of past, present, and future
+		return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID) // Represent a specific time zone, the history of past, present, and future
 											// changes to the offset-from-UTC used by the people of a certain region.
 				.getRules() // Obtain the list of those changes in offset.
 				.isDaylightSavings( // See if the people of this region are observing Daylight Saving Time at a
@@ -60,7 +59,7 @@ public class DateUtil {
 	public static void getDaylightSavingTime() {
 		Calendar calendar = Calendar.getInstance();
 		int year = calendar.get(Calendar.YEAR);
-		ZoneId zone = ZoneId.of(BELGIUM_ZONE_ID);
+		ZoneId zone = ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID);
 		ZoneRules zoneRule = zone.getRules();
 		zoneRule.getTransitionRules().forEach(rule -> logger.info(
 				rule.createTransition(year).getDateTimeBefore().format(DateTimeFormatter.ofPattern("dd-MMM-yy"))));

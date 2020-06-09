@@ -1,4 +1,4 @@
-package vn.com.ids.javacore.Network;
+package vn.com.ids.javacore.network;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -33,6 +33,8 @@ public class Server {
 				receiveMessage = receiveRead.readLine();
 				if (receiveMessage != null) {
 					logger.info("client: {}", receiveMessage);
+				} else {
+					break;
 				}
 				sendMessage = reader.readLine();
 				printwrite.println(sendMessage);
