@@ -3,13 +3,16 @@ package vn.com.ids.javacore.datetime;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.WeekFields;
 import java.time.zone.ZoneRules;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.Locale;
 import java.util.TimeZone;
 
 import org.slf4j.Logger;
@@ -18,6 +21,10 @@ import org.slf4j.LoggerFactory;
 public class DateUtil {
 	private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
 	private static final String BELGIUM_ZONE_ID = "Europe/Brussels";
+
+	private DateUtil() {
+	    throw new IllegalStateException("Utility class");
+	  }
 
 	public static void getFirtDateOfWeekInYear(int weekOfyear) {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd MM yyyy");
@@ -72,4 +79,12 @@ public class DateUtil {
         Instant instant = Instant.now();
         return ZoneId.of(BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus( 1 , ChronoUnit.DAYS ));
     }
+	
+	public static int getCurrentWeekOfYear() {
+		Locale userLocale = Locale.getDefault();
+	    WeekFields weekNumbering = WeekFields.of(userLocale);
+	    LocalDate date = LocalDate.now();
+	    
+	    return date.get(weekNumbering.weekOfWeekBasedYear());
+	}
 }
