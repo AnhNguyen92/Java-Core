@@ -2,11 +2,15 @@ package vn.com.ids.javacore.datetime;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.time.Instant;
 import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.YearMonth;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
 import java.time.temporal.WeekFields;
 import java.time.zone.ZoneRules;
 import java.util.Calendar;
@@ -18,13 +22,19 @@ import java.util.TimeZone;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import vn.com.ids.javacore.core.DashboardConstant;
+
+/**
+ * @author manlyhumg
+ */
+
 public class DateUtil {
 	private static final Logger logger = LoggerFactory.getLogger(DateUtil.class);
 	private static final String BELGIUM_ZONE_ID = "Europe/Brussels";
 
 	private DateUtil() {
-	    throw new IllegalStateException("Utility class");
-	  }
+		throw new IllegalStateException("Utility class");
+	}
 
 	public static void getFirtDateOfWeekInYear(int weekOfyear) {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd MM yyyy");
@@ -74,17 +84,44 @@ public class DateUtil {
 		}
 		return date;
 	}
-	
+
+	public static int getCurrentHour(String timeZoneId) {
+		return LocalTime.now(ZoneId.of(timeZoneId)).getHour();
+	}
+
+	public static int getCurrentYear() {
+		return LocalDate.now().getYear();
+	}
+
+	public static int getCurrentMonth() {
+		return LocalDate.now().getMonthValue();
+	}
+
+	public static LocalDate getTomorrow() {
+		return LocalDate.now().plusDays(1);
+	}
+
+	public static boolean isTomorrowDate(Date compareDate) {
+		return compareDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate().equals(getTomorrow());
+	}
+
 	public static boolean isDayBeforeDayLightSavingTime() {
         Instant instant = Instant.now();
-        return ZoneId.of(BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus( 1 , ChronoUnit.DAYS ));
+        return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus(1, ChronoUnit.DAYS));
     }
-	
+
+	public static LocalDate getLastSunDay() {
+		return YearMonth.of(LocalDate.now().getYear(), LocalDate.now().getMonth()) // Represent the entirety of a
+																					// specified month.
+				.atEndOfMonth() // Get the date of the last day of that month.
+				.with(TemporalAdjusters.previousOrSame(DayOfWeek.SUNDAY));
+	}
+
 	public static int getCurrentWeekOfYear() {
 		Locale userLocale = Locale.getDefault();
-	    WeekFields weekNumbering = WeekFields.of(userLocale);
-	    LocalDate date = LocalDate.now();
-	    
-	    return date.get(weekNumbering.weekOfWeekBasedYear());
+		WeekFields weekNumbering = WeekFields.of(userLocale);
+		LocalDate date = LocalDate.now();
+
+		return date.get(weekNumbering.weekOfWeekBasedYear());
 	}
 }

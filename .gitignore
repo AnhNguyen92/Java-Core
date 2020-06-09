@@ -40,3 +40,5 @@ hs_err_pid*
 log/
 target/
 */target/**
+*.MF
+*.MF
