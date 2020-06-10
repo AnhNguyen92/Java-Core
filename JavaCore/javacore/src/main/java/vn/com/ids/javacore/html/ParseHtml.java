@@ -1,7 +1,6 @@
 package vn.com.ids.javacore.html;
 
 import java.io.IOException;
-import java.util.Base64.Encoder;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
@@ -58,9 +57,7 @@ public class ParseHtml {
 	        }
 	        
 	        logger.info("{}", emails);
-	        logger.info("{}", links);
-	        links.stream().forEach(System.out::println);
-	        
+	        logger.info("{}", links);	        
 		} catch (IOException e) {
 			logger.error(e.getMessage(), e);
 		}
@@ -96,8 +93,4 @@ public class ParseHtml {
 		logger.info("email after decode: {}", email);
 	}
 	
-	public static void main(String[] args) {
-//		getEmail();
-		decodeString();
-	}
 }
