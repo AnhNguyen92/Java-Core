@@ -1,5 +1,7 @@
 package vn.com.ids.javacore.datetime;
 
+import java.io.IOException;
+import java.net.URL;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.DayOfWeek;
@@ -13,16 +15,22 @@ import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
 import java.time.temporal.WeekFields;
 import java.time.zone.ZoneRules;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.List;
 import java.util.Locale;
 import java.util.TimeZone;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import vn.com.ids.javacore.core.DashboardConstant;
+import vn.com.ids.javacore.model.PublicHoliday;
 
 /**
  * @author manlyhumg
@@ -122,5 +130,32 @@ public class DateUtil {
 		LocalDate date = LocalDate.now();
 
 		return date.get(weekNumbering.weekOfWeekBasedYear());
+	}
+	
+	public static PublicHoliday getHoliday(LocalDate fromDate) {
+		logger.info("start check public date in Belgium");
+		List<PublicHoliday> publicHolidays = new ArrayList<>();
+		PublicHoliday result = null;
+		ObjectMapper mapper = new ObjectMapper();
+
+		try {
+			String dateFormat = "dd-MM-yyyy";
+			String urlParam = "?action=getHolidaysForDateRange&fromDate="
+					+ fromDate.format(DateTimeFormatter.ofPattern(dateFormat)) + "&toDate="
+					+ fromDate.format(DateTimeFormatter.ofPattern(dateFormat))
+					+ "&country=bel&region=be&holidayType=public_holiday";
+			URL url = new URL(DashboardConstant.DAY_LIGHT_BASE_URL + urlParam);
+			publicHolidays = mapper.readValue(url, new TypeReference<List<PublicHoliday>>() {
+			});
+			if (!publicHolidays.isEmpty()) {
+				result = publicHolidays.get(0);
+			}
+		} catch (IOException e) {
+			logger.info(e.getMessage(), e);
+		}
+
+		logger.info("check public date in Belgium done.");
+
+		return result;
 	}
 }
