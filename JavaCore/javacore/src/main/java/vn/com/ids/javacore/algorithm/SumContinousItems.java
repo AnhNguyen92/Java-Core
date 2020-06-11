@@ -14,6 +14,8 @@ public class SumContinousItems {
 		getSumUsingFor(k, arr);
 		logger.info("Using while -------------------------------");
 		getSumUsingWhile(k, arr);
+		logger.info("Using recursive -------------------------------");
+		getSumWithRecursive(k, arr);
 	}
 
 	public static void getSumUsingFor(int key, int[] arr) {
@@ -24,14 +26,12 @@ public class SumContinousItems {
 			int sum = arr[i];
 			if (sum == key) {
 				logger.info(PRINT_FORMAT_STR, sumStr, sum);
-				break;
 			}
 			for (int j = i + 1; j < arr.length; j++) {
 				sumStr.append(" + ").append(arr[j]);
 				sum += arr[j];
 				if (sum == key) {
 					logger.info(PRINT_FORMAT_STR, sumStr, sum);
-					break;
 				}
 			}
 		}
@@ -49,20 +49,42 @@ public class SumContinousItems {
 				i++;
 			} else {
 				int j = i + 1;
-				boolean isNotFound = true;
-				while (j < arr.length && isNotFound) {
+				while (j < arr.length) {
 					sumStr.append(" + ").append(arr[j]);
 					sum += arr[j];
 					if (sum == key) {
 						logger.info(PRINT_FORMAT_STR, sumStr, sum);
-						isNotFound = false;
-					} else {
-						j++;					
 					}
+					j++;
 				}
-				i++;
 			}
+			i++;
 		}
 	}
 
+	public static void getSumWithRecursive(int key, int[] arr) {
+		StringBuilder sumStr;
+		for (int i = 0; i < arr.length; i++) {
+			sumStr = new StringBuilder();
+			sumStr.append(arr[i]);
+			int sum = arr[i];
+			if (sum == key) {
+				logger.info(PRINT_FORMAT_STR, sumStr, sum);
+				break;
+			} else {
+				plusSum(i + 1, key, sum, sumStr, arr);
+			}
+		}
+	}
+	
+	public static void plusSum(int i,int key, int sum, StringBuilder sumStr, int[] arr) {
+		if (i < arr.length) {
+			sum += arr[i];
+			sumStr.append(" + ").append(arr[i]);
+			if (sum == key) {
+				logger.info(PRINT_FORMAT_STR, sumStr, sum);
+			}
+			plusSum(i + 1, key, sum, sumStr, arr);
+		}
+	}
 }
