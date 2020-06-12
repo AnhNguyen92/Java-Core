@@ -23,9 +23,6 @@ public class App {
 
 		DateUtil.getDaylightSavingTime();
 		logger.info("Current week of year: {}", DateUtil.getCurrentWeekOfYear());
-		
-		String emailStr = "";
-		
 	}
 
 }

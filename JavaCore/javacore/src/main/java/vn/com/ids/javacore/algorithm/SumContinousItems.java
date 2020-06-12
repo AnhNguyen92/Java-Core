@@ -3,6 +3,18 @@ package vn.com.ids.javacore.algorithm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * @author anh.nguyen
+ *
+ * <p>Problem:
+ * <p>Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.</p>
+ * </p>
+ * @see
+ * <blockquote><pre>
+ *     <a href=https://leetcode.com/problems/subarray-sum-equals-k>https://leetcode.com/problems/subarray-sum-equals-k</a>
+ *     <a href=https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x>https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x</a>
+ * </pre></blockquote>
+ */
 public class SumContinousItems {
 	private static final String PRINT_FORMAT_STR = "{} = {}";
 	private static final Logger logger = LoggerFactory.getLogger(SumContinousItems.class);
@@ -87,4 +99,5 @@ public class SumContinousItems {
 			plusSum(i + 1, key, sum, sumStr, arr);
 		}
 	}
+	
 }

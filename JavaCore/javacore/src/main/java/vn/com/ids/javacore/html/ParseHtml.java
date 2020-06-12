@@ -19,7 +19,7 @@ import com.squareup.okhttp.Request;
 public class ParseHtml {
 	private static final Logger logger = LoggerFactory.getLogger(ParseHtml.class);
 
-	public static void getEmail() {
+	public void getEmail() {
 		OkHttpClient okHttp = new OkHttpClient();
 		Request request = new Request.Builder().url("https://hosocongty.vn/cong-ty-tnhh-imex-worldwide-com-200.htm").get().build();
 		try {
@@ -29,12 +29,14 @@ public class ParseHtml {
 			for (Element element : elements) {
 				if (element.ownText().contains("Email:") ) {
 					logger.info("true");
-					logger.info(element.ownText());
-					logger.info(element.toString());
+					if (logger.isDebugEnabled()) {
+						logger.info(element.ownText());
+						logger.info(element.toString());
+					}
 					String emailEncoded = element.childNodes().get(13).toString();
 					logger.info("{}", emailEncoded);
 					int dataCdfEmailIndx = emailEncoded.indexOf("data-cfemail");
-					int firstLargerSign = emailEncoded.indexOf(">");
+					int firstLargerSign = emailEncoded.indexOf('>');
 					String cdfEmailStr = emailEncoded.substring(dataCdfEmailIndx + 14, firstLargerSign - 1);
 					logger.info("{}", cdfEmailStr);
 					
@@ -64,7 +66,7 @@ public class ParseHtml {
 
 	}
 	
-	public static void decodeString () {
+	public void decodeString () {
 		String emailEncoded = "3d545058454a5e517d5a505c5451135e5250";
 		// Holds the final output
 		StringBuilder email = new StringBuilder();
