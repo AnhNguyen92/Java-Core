@@ -1,6 +1,6 @@
 package vn.com.ids.javacore.algorithm.leetcode.first50;
 
-public class Problem27 {
+public class LeetCode27 {
 	public static void main(String[] args) {
 		int[] nums = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
 		int val = 2;
