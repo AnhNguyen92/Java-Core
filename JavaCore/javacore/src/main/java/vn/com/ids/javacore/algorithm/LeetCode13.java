@@ -1,24 +1,36 @@
 package vn.com.ids.javacore.algorithm;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class LeetCode13 {
+	private static Logger logger = LoggerFactory.getLogger(LeetCode13.class);
 	public static void main(String[] args) {
 		String s = "III";
-		int sum = 0;
-        int temp = 0;
-        for (int i = 0; i < s.length(); i++) {
-			sum += charToInt(s.charAt(i));
-            
-            if ((i < s.length() - 1) && (s.charAt(i - 1))) {
-            	
-            }
-                
-            sum += temp;
-            temp =0;
-            
-		}
+		logger.info("{}", romanToInt(s));
 	}
 	
-	private static int charToInt(char c) {
+	public static int romanToInt(String s) {
+        int sum = 0;
+        for (int i = 0; i < s.length(); i++) {
+			sum += charToInt(s.charAt(i));
+            if (i > 0) {
+                if ((s.charAt(i - 1) == 'I') && ((s.charAt(i) == 'V') || (s.charAt(i) == 'X'))) {
+                    sum -= 2;
+                }
+                if ((s.charAt(i - 1) == 'X') && ((s.charAt(i) == 'L') || (s.charAt(i) == 'C'))) {
+                    sum -= 20;
+                }
+                if ((s.charAt(i - 1) == 'C') && ((s.charAt(i) == 'D') || (s.charAt(i) == 'M'))) {
+                    sum -= 200;
+                }
+            }
+		}
+    
+        return sum;
+    }
+    
+    private static int charToInt(char c) {
         int result = 0;
         switch (c) {
             case 'I':
@@ -39,7 +51,7 @@ public class LeetCode13 {
             case 'D':
                 result = 500;
                 break;
-            default:
+            case 'M':
                 result = 1000;
                 break;
         }
