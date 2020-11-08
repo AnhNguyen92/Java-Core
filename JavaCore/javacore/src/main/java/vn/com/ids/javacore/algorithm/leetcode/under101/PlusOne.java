@@ -1,4 +1,4 @@
-package vn.com.ids.javacore.algorithm.leetcode.under100;
+package vn.com.ids.javacore.algorithm.leetcode.under101;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

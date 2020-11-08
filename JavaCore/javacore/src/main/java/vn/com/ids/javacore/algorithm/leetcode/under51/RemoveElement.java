@@ -1,6 +1,16 @@
-package vn.com.ids.javacore.algorithm.leetcode.first50;
+package vn.com.ids.javacore.algorithm.leetcode.under51;
 
-public class LeetCode27 {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/*
+ * LeetCode #27
+ */
+
+public class RemoveElement {
+    
+    private static final Logger logger = LoggerFactory.getLogger(RemoveElement.class);
+    
 	public static void main(String[] args) {
 		int[] nums = new int[] { 0, 1, 2, 2, 3, 0, 4, 2 };
 		int val = 2;
@@ -18,8 +28,8 @@ public class LeetCode27 {
 			}
 		}
 		for (int j2 = 0; j2 < nums.length; j2++) {
-			System.out.println(nums[j2]);
+			logger.info("{}", nums[j2]);
 		}
-		System.out.println(nums.length - counter);
+		logger.info("{}", nums.length - counter);
 	}
 }

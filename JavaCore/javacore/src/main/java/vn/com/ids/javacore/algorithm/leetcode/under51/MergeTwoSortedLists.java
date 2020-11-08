@@ -1,10 +1,14 @@
-package vn.com.ids.javacore.algorithm.leetcode.first50;
+package vn.com.ids.javacore.algorithm.leetcode.under51;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LeetCode21 {
-	private static final Logger logger = LoggerFactory.getLogger(LeetCode21.class);
+import vn.com.ids.javacore.algorithm.leetcode.model.ListNode;
+/*
+ * Leetcode #21
+ */
+public class MergeTwoSortedLists {
+	private static final Logger logger = LoggerFactory.getLogger(MergeTwoSortedLists.class);
 
 	public static void main(String[] args) {
 		ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));

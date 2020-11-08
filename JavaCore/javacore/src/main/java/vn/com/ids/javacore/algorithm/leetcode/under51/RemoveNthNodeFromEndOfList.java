@@ -1,10 +1,16 @@
-package vn.com.ids.javacore.algorithm.leetcode.first50;
+package vn.com.ids.javacore.algorithm.leetcode.under51;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LeetCode19 {
-	private static Logger logger = LoggerFactory.getLogger(LeetCode19.class);
+import vn.com.ids.javacore.algorithm.leetcode.model.ListNode;
+
+/*
+ * LeetCode #19
+ */
+
+public class RemoveNthNodeFromEndOfList {
+	private static Logger logger = LoggerFactory.getLogger(RemoveNthNodeFromEndOfList.class);
 
 	public static void main(String[] args) {
 		ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5)))));

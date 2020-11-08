@@ -1,13 +1,25 @@
-package vn.com.ids.javacore.algorithm.leetcode.first50;
+package vn.com.ids.javacore.algorithm.leetcode.under51;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class LeetCode1 {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/*
+ * Leetcode #1
+ */
+public class TwoSum {
+    
+    private static final Logger logger = LoggerFactory.getLogger(TwoSum.class);
+    
 	public static void main(String[] args) {
 		int[] nums = new int[] { 2, 7, 11, 15 };
-		int target = 9;
-		System.out.println(twoSum(nums, target));
+		int target = 22;
+		int[] result = twoSum(nums, target);
+		for (int i = 0; i < result.length; i++) {
+            logger.info("{}", result[i]);
+        }
 	}
 
 	public static int[] twoSum(int[] nums, int target) {

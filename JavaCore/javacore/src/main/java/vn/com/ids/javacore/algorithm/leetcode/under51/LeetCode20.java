@@ -1,4 +1,4 @@
-package vn.com.ids.javacore.algorithm.leetcode.first50;
+package vn.com.ids.javacore.algorithm.leetcode.under51;
 
 public class LeetCode20 {
 public static void main(String[] args) {
