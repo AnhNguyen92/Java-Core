@@ -40,10 +40,8 @@ public class MergeKSortedLists {
             int n2 = r - m;
             ListNode[] left = new ListNode[n1];
             ListNode[] right = new ListNode[n2];
-            for (int i = 0; i < n1; i++)
-                left[i] = lists[i];
-            for (int j = 0; j < n2; j++)
-                right[j] = lists[m + 1 + j];
+            System.arraycopy(lists, 0, left, 0, n1);
+            System.arraycopy(lists, m + 1, right, 0, n2);
             ListNode mergeLeft = mergeKLists(left);
             ListNode mergeRight = mergeKLists(right);
 
