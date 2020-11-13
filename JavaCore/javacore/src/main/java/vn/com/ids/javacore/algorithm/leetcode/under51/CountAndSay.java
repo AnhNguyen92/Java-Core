@@ -3,9 +3,13 @@ package vn.com.ids.javacore.algorithm.leetcode.under51;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LeetCode38 {
+/*
+ * LeetCode 38
+ */
+
+public class CountAndSay {
     private static final String ONE = "1";
-    private static final Logger logger = LoggerFactory.getLogger(LeetCode38.class);
+    private static final Logger logger = LoggerFactory.getLogger(CountAndSay.class);
 
     public static void main(String[] args) {
         String result = countAndSay(10);
@@ -16,7 +20,7 @@ public class LeetCode38 {
         if (n == 1) {
             return ONE;
         }
-        String result = "";
+        StringBuilder builder = new StringBuilder("");
         String previous = countAndSay(n - 1);
         int i = 0;
         int j = 0;
@@ -25,12 +29,13 @@ public class LeetCode38 {
             while (j < previous.length() && previous.charAt(i) == previous.charAt(j)) {
                 j++;
             }
-            result += j - i;
-            result += previous.charAt(i);
+
+            builder.append(j - i);
+            builder.append(previous.charAt(i));
             i = j;
         }
 
-        return result;
+        return builder.toString();
     }
 
 }

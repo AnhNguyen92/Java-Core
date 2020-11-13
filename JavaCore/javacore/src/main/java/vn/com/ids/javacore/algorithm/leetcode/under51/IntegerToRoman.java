@@ -2,9 +2,12 @@ package vn.com.ids.javacore.algorithm.leetcode.under51;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+/*
+ * LeetCode 12
+ */
 
-public class LeetCode12 {
-	private static Logger logger = LoggerFactory.getLogger(LeetCode12.class);
+public class IntegerToRoman {
+	private static Logger logger = LoggerFactory.getLogger(IntegerToRoman.class);
 
 	public static void main(String[] args) {
 		int number = 3;

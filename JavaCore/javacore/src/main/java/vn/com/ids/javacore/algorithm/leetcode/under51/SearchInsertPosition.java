@@ -3,8 +3,12 @@ package vn.com.ids.javacore.algorithm.leetcode.under51;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LeetCode35 {
-	private static Logger logger = LoggerFactory.getLogger(LeetCode35.class);
+/*
+ * LeetCode 35
+ */
+
+public class SearchInsertPosition {
+	private static Logger logger = LoggerFactory.getLogger(SearchInsertPosition.class);
 	
 	public static void main(String[] args) {
 		int[] nums = new int[] { 1, 3, 5, 6 };
