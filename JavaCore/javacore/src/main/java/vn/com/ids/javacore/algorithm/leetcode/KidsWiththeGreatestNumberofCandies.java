@@ -11,10 +11,10 @@ import org.slf4j.LoggerFactory;
 */
 
 public class KidsWiththeGreatestNumberofCandies {
-private static final Logger logger = LoggerFactory.getLogger(KidsWiththeGreatestNumberofCandies.class);
-    
+    private static final Logger logger = LoggerFactory.getLogger(KidsWiththeGreatestNumberofCandies.class);
+
     public static void main(String[] args) {
-        int[] candies = new int[] { 2,3,5,1,3 };
+        int[] candies = new int[] { 2, 3, 5, 1, 3 };
         int extraCandies = 3;
         List<Boolean> result = kidsWithCandies(candies, extraCandies);
         logger.info("{}", result);
@@ -29,12 +29,12 @@ private static final Logger logger = LoggerFactory.getLogger(KidsWiththeGreatest
             }
         }
         for (int i = 0; i < candies.length; i++) {
-            if (candies[i]  + extraCandies >= max) {
+            if (candies[i] + extraCandies >= max) {
                 result.add(Boolean.TRUE);
             } else {
                 result.add(Boolean.FALSE);
             }
         }
-        return result; 
+        return result;
     }
 }
