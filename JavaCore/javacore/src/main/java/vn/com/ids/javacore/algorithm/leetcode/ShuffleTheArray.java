@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 */
 
 public class ShuffleTheArray {
-    private static final Logger logger = LoggerFactory.getLogger(KidsWiththeGreatestNumberofCandies.class);
+    private static final Logger logger = LoggerFactory.getLogger(ShuffleTheArray.class);
 
     public static void main(String[] args) {
         int[] nums = new int[] { 2, 5, 1, 3, 4, 7 };
@@ -30,4 +30,5 @@ public class ShuffleTheArray {
         }
         return shuffle;
     }
+
 }
