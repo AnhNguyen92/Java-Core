@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under300;
 
 import java.util.Arrays;
 
+/*
+ * Leet code #217
+ */
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         Arrays.sort(nums);

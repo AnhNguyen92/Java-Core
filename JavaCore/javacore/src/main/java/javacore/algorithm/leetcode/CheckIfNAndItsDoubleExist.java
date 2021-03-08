@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 /*
  * LeetCode 1346
 */
-
 public class CheckIfNAndItsDoubleExist {
     private static final Logger logger = LoggerFactory.getLogger(CheckIfNAndItsDoubleExist.class);
 
