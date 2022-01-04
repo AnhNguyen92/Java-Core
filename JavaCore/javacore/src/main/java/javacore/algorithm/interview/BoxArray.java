@@ -37,14 +37,14 @@ public class BoxArray {
         boxB.add(9);
         
         List<Integer> boxC = new ArrayList<>();
-        boxC.add(4);
-        boxC.add(6);
-        boxC.add(7);
-        boxC.add(8);
+//        boxC.add(4);
+//        boxC.add(6);
+//        boxC.add(7);
+//        boxC.add(8);
         
-        int maxA = boxA.get(0);
-        int maxB = boxB.get(0);
-        int maxC = boxC.get(0);
+        int maxA = boxA.isEmpty() ? Integer.MAX_VALUE : boxA.get(0);
+        int maxB = boxB.isEmpty() ? Integer.MAX_VALUE : boxB.get(0);
+        int maxC = boxC.isEmpty() ? Integer.MAX_VALUE : boxC.get(0);
         
         int loop = 0;
         
