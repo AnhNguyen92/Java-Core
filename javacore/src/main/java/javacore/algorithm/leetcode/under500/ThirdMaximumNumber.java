@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode;
+package javacore.algorithm.leetcode.under500;
 
 import java.io.File;
 import java.io.FileNotFoundException;
