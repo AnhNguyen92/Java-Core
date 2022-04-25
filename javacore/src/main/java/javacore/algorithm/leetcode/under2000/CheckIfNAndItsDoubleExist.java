@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode;
+package javacore.algorithm.leetcode.under2000;
 
 import java.util.HashMap;
 import java.util.Map;

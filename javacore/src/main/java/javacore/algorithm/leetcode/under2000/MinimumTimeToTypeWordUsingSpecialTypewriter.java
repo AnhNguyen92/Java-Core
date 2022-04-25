@@ -1,7 +1,7 @@
-package javacore.algorithm.leetcode;
+package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1431
+ * LeetCode 1974
 */
 public class MinimumTimeToTypeWordUsingSpecialTypewriter {
 	public int minTimeToType(String word) {

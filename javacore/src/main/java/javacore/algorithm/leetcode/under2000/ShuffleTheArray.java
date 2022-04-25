@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode;
+package javacore.algorithm.leetcode.under2000;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 /*
  * LeetCode 1431
 */
-
 public class ShuffleTheArray {
     private static final Logger logger = LoggerFactory.getLogger(ShuffleTheArray.class);
 
