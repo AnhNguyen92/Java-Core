@@ -4,12 +4,7 @@ package javacore.algorithm.leetcode.under200;
  *  Leetcode #172
  */
 public class FactorialTrailingZeroes {
-	public static void main(String[] args) {
-		int n = 200;
-		System.out.println(trailingZeroes(n));
-	}
-
-	public static int trailingZeroes(int n) {
+	public int trailingZeroes(int n) {
 		int countFive = n / 5;
 		int temp;
 		for (int i = 25; i <= n; i += 25) {
