@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 
 import javacore.algorithm.leetcode.model.ListNode;
 
-/*
- * 
- */
 
+/*
+ * LeetCode 83
+ */
 public class RemoveDuplicatesFromSortedList {
     private static Logger logger = LoggerFactory.getLogger(RemoveDuplicatesFromSortedList.class);
 
