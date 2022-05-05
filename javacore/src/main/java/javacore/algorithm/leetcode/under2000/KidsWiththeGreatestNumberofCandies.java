@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 /*
  * LeetCode 1431
 */
-
 public class KidsWiththeGreatestNumberofCandies {
     private static final Logger logger = LoggerFactory.getLogger(KidsWiththeGreatestNumberofCandies.class);
 
