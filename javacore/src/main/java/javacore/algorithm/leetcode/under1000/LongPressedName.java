@@ -4,15 +4,7 @@ package javacore.algorithm.leetcode.under1000;
  * LeetCode 925
 */
 public class LongPressedName {
-	public static void main(String[] args) {
-		System.out.println(isLongPressedName("alex", "alexxr")); // false
-		System.out.println(isLongPressedName("alex", "aaleex")); // true
-		System.out.println(isLongPressedName("saeed", "ssaaedd")); // true
-		System.out.println(isLongPressedName("alex", "aaleexa")); // false
-		System.out.println(isLongPressedName("vtkgn", "vttkgnn")); // true
-	}
-
-	public static boolean isLongPressedName(String name, String typed) {
+	public boolean isLongPressedName(String name, String typed) {
 		int i = 0;
 		int j = 0;
 		int nlen = name.length();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 17
+ * LeetCode 2210
  */
 public class CountHillsAndValleysInAnArray {
 	public int countHillValley(int[] nums) {

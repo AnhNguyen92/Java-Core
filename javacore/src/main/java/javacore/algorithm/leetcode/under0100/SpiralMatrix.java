@@ -1,16 +1,13 @@
 package javacore.algorithm.leetcode.under0100;
 
+/*
+ * LeetCode 54
+ */
 import java.util.ArrayList;
 import java.util.List;
 
 public class SpiralMatrix {
-	public static void main(String[] args) {
-		int[][] matrix = new int[][] {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
-		List<Integer> lst = spiralOrder(matrix);
-		lst.forEach(item -> System.out.println(item));
-	}
-	
-	public static List<Integer> spiralOrder(int[][] matrix) {
+	public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> lst = new ArrayList<>();
         int left = 0;
         int up = 0;
