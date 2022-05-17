@@ -6,9 +6,8 @@ import org.slf4j.LoggerFactory;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode #2
+ * LeetCode 2
  */
-
 public class AddTwoNumbers {
     private static final Logger logger = LoggerFactory.getLogger(AddTwoNumbers.class);
 
