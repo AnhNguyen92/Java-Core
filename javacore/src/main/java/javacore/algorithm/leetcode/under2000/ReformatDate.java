@@ -3,23 +3,12 @@ package javacore.algorithm.leetcode.under2000;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /*
  * LeetCode 1507
 */
 
 public class ReformatDate {
-    private static final Logger logger = LoggerFactory.getLogger(ReformatDate.class);
-    
-    public static void main(String[] args) {
-        String date = "20th Oct 2052";
-        String reformatDate = reformatDate(date);
-        logger.info("Date in format 'yyyy-MM-dd': {}", reformatDate);
-    }
-    
-    public static String reformatDate(String date) {
+    public String reformatDate(String date) {
         Map<String, String> map = new HashMap<>();
         map.put("Jan", "01");
         map.put("Feb", "02");

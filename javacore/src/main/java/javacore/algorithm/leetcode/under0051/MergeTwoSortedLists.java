@@ -1,26 +1,11 @@
 package javacore.algorithm.leetcode.under0051;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import javacore.algorithm.leetcode.model.ListNode;
 /*
  * Leetcode #21
  */
 public class MergeTwoSortedLists {
-	private static final Logger logger = LoggerFactory.getLogger(MergeTwoSortedLists.class);
-
-	public static void main(String[] args) {
-		ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));
-		ListNode l2 = new ListNode(1, new ListNode(3, new ListNode(4)));
-		ListNode l3 = mergeTwoLists(l1, l2);
-		while(l3.next != null) {
-			logger.info("{}", l3.val);
-			l3 = l3.next;
-		}
-	}
-
-	public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		ListNode result = new ListNode();
 		if (l1 != null) {
         	if (l2 == null) {

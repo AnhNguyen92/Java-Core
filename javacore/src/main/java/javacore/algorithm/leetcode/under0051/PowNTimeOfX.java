@@ -3,24 +3,12 @@ package javacore.algorithm.leetcode.under0051;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /*
  * LeetCode 50
  */
 
 public class PowNTimeOfX {
-    private static final Logger logger = LoggerFactory.getLogger(PowNTimeOfX.class);
-
-    public static void main(String[] args) {
-        int n = -2147483648;
-        
-        double x = 2.00000;
-        logger.info("{}", myPow(x, n));
-    }
-
-    public static double myPow(double x, int n) {
+    public double myPow(double x, int n) {
         if (n == 0) {
             return 1;
         }

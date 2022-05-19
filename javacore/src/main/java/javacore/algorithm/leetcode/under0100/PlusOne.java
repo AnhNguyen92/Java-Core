@@ -1,22 +1,10 @@
 package javacore.algorithm.leetcode.under0100;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /*
  *  Leetcode #66
  */
 public class PlusOne {
-    private static final Logger logger = LoggerFactory.getLogger(PlusOne.class);
-    public static void main(String[] args) {
-        int[] digits = new int[] { 9 };
-        int[] result = plusOne(digits);
-        for (int i = 0; i < result.length; i++) {
-            logger.info("{}", result[i]);
-        }
-    }
-
-    public static int[] plusOne(int[] digits) {
+    public int[] plusOne(int[] digits) {
         int[] arr = digits;
         int reminder = 1;
         int i = arr.length - 1;

@@ -1,20 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-/*
- * LeetCode 12
- */
-
 public class IntegerToRoman {
-	private static Logger logger = LoggerFactory.getLogger(IntegerToRoman.class);
-
-	public static void main(String[] args) {
-		int number = 3;
-		logger.info("{}", intToRoman(number));
-	}
-
-	public static String intToRoman(int num) {
+	public String intToRoman(int num) {
 		StringBuilder builder = new StringBuilder("");
 		int count = 0;
 		int temp;
@@ -28,7 +15,7 @@ public class IntegerToRoman {
 		return builder.toString();
 	}
 
-	private static String buildPart(int temp, int count) {
+	private String buildPart(int temp, int count) {
 		String part = "";
 		if (count == 0) {
 			part = buildUnderTen(temp);
@@ -43,7 +30,7 @@ public class IntegerToRoman {
 		return part;
 	}
 
-	private static String buildUnderTen(int number) {
+	private String buildUnderTen(int number) {
 		String romanStr = "";
 		switch (number) {
 		case 1:
@@ -76,11 +63,11 @@ public class IntegerToRoman {
 		default: // 0
 			break;
 		}
-		
+
 		return romanStr;
 	}
 
-	private static String buildUnderHundereds(int number) {
+	private String buildUnderHundereds(int number) {
 		String romanStr = "";
 		switch (number) {
 		case 1:
@@ -113,11 +100,11 @@ public class IntegerToRoman {
 		default: // 0
 			break;
 		}
-		
+
 		return romanStr;
 	}
 
-	private static String buildUnderThousand(int number) {
+	private String buildUnderThousand(int number) {
 		String romanStr = "";
 		switch (number) {
 		case 1:
@@ -150,11 +137,11 @@ public class IntegerToRoman {
 		default: // 0
 			break;
 		}
-		
+
 		return romanStr;
 	}
 
-	private static String buildUnderMillion(int number) {
+	private String buildUnderMillion(int number) {
 		String romanStr = "";
 		switch (number) {
 		case 1:
@@ -169,8 +156,8 @@ public class IntegerToRoman {
 		default:
 			break;
 		}
-		
+
 		return romanStr;
 	}
-	
+
 }

@@ -14,22 +14,7 @@ import java.util.stream.Collectors;
  */
 
 public class FourSum {
-
-    public static void main(String[] args) {
-        int target = 0;
-        int[] nums = new int[] { -3,-1,0,2,4,5 };
-        List<List<Integer>> result = fourSum(nums, target);
-        System.out.println(result.size());
-        for (List<Integer> list : result) {
-            for (int num : list) {
-                System.out.print(num + " ");
-            }
-            System.out.println();
-        }
-        
-    }
-
-    public static List<List<Integer>> fourSum(int[] nums, int target) {
+    public List<List<Integer>> fourSum(int[] nums, int target) {
         Set<List<Integer>> result = new HashSet<>();
         Arrays.sort(nums);
         for (int i = 0; i <= nums.length - 4; i++) {
@@ -55,7 +40,7 @@ public class FourSum {
         return result.stream().collect(Collectors.toList());
     }
 
-    public static Map<Integer, Integer> twoSum(int[] nums, int firstIndex, int target) {
+    public Map<Integer, Integer> twoSum(int[] nums, int firstIndex, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();
         Map<Integer, Integer> result = new HashMap<>();
         for (int i = firstIndex; i < nums.length; i++) {

@@ -1,24 +1,14 @@
 package javacore.algorithm.leetcode.under0051;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /*
  * LeetCode 38
  */
 
 public class CountAndSay {
-    private static final String ONE = "1";
-    private static final Logger logger = LoggerFactory.getLogger(CountAndSay.class);
 
-    public static void main(String[] args) {
-        String result = countAndSay(10);
-        logger.info("{}", result);
-    }
-
-    public static String countAndSay(int n) {
+    public String countAndSay(int n) {
         if (n == 1) {
-            return ONE;
+            return "1";
         }
         StringBuilder builder = new StringBuilder("");
         String previous = countAndSay(n - 1);

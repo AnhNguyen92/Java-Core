@@ -7,13 +7,7 @@ import java.util.List;
  * Leetcode 100
  */
 public class Subsets {
-    public static void main(String[] args) {
-        int[] nums = new int[] { 1, 2, 3 };
-        List<List<Integer>> ans = subsets(nums);
-        ans.forEach(System.out::println);
-    }
-
-    public static List<List<Integer>> subsets(int[] nums) {
+    public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<>();
         int i = 0;
         while (i <= nums.length - 1) {

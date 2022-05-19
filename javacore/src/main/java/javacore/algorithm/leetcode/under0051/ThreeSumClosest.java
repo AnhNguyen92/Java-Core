@@ -5,13 +5,7 @@ package javacore.algorithm.leetcode.under0051;
  */
 
 public class ThreeSumClosest {
-    public static void main(String[] args) {
-        int[] nums = new int[] { -1, 2, 1, -4 };
-        int target = 1;
-        System.out.println(threeSumClosest(nums, target));
-    }
-
-    public static int threeSumClosest(int[] nums, int target) {
+    public int threeSumClosest(int[] nums, int target) {
         int nearestSum = Integer.MIN_VALUE;
         int tempSum;
         for (int i = 0; i < nums.length - 2; i++) {

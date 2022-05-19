@@ -4,15 +4,10 @@ package javacore.algorithm.leetcode.under0100;
  * Leet code #58
  */
 public class LengthOfLastWord {
-    public static void main(String[] args) {
-        String s = " a ";
-
-        System.out.println(s.trim());
-//        String s = "Hello ";
-        int lastIndex = s.lastIndexOf(" ");
-        if (lastIndex == s.length() - 1) {
-            System.out.println(s.length() - 1);
-        }
-        System.out.println(s.length() - 1 - lastIndex);
+	public int lengthOfLastWord(String s) {
+        s = s.trim();
+        int lastSpace = s.lastIndexOf(' ');
+        String lastStr = s.substring(lastSpace + 1, s.length());
+        return lastStr.length();
     }
 }

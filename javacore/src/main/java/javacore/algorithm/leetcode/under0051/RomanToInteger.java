@@ -1,21 +1,11 @@
 package javacore.algorithm.leetcode.under0051;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /*
  * LeetCode 13
  */
 
 public class RomanToInteger {
-    private static Logger logger = LoggerFactory.getLogger(RomanToInteger.class);
-
-    public static void main(String[] args) {
-        String s = "III";
-        logger.info("{}", romanToInt(s));
-    }
-
-    public static int romanToInt(String s) {
+    public int romanToInt(String s) {
         int sum = charToInt(s.charAt(0));
         for (int i = 1; i < s.length(); i++) {
             sum += charToInt(s.charAt(i));
@@ -33,7 +23,7 @@ public class RomanToInteger {
         return sum;
     }
 
-    private static int charToInt(char c) {
+    private int charToInt(char c) {
         int result = 0;
         if (c == 'I') {
             result = 1;
