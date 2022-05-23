@@ -55,8 +55,9 @@ public class DateUtil {
 
 	// https://stackoverflow.com/questions/1060479/determine-whether-daylight-savings-time-dst-is-active-in-java-for-a-specified
 	public static boolean isDaylightSavingTime() {
-		return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID) // Represent a specific time zone, the history of past, present, and future
-											// changes to the offset-from-UTC used by the people of a certain region.
+		return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID) // Represent a specific time zone, the history of past,
+															// present, and future
+				// changes to the offset-from-UTC used by the people of a certain region.
 				.getRules() // Obtain the list of those changes in offset.
 				.isDaylightSavings( // See if the people of this region are observing Daylight Saving Time at a
 									// specific moment.
@@ -113,9 +114,10 @@ public class DateUtil {
 	}
 
 	public static boolean isDayBeforeDayLightSavingTime() {
-        Instant instant = Instant.now();
-        return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID).getRules().isDaylightSavings(instant.plus(1, ChronoUnit.DAYS));
-    }
+		Instant instant = Instant.now();
+		return ZoneId.of(DashboardConstant.BELGIUM_ZONE_ID).getRules()
+				.isDaylightSavings(instant.plus(1, ChronoUnit.DAYS));
+	}
 
 	public static LocalDate getLastSunDay() {
 		return YearMonth.of(LocalDate.now().getYear(), LocalDate.now().getMonth()) // Represent the entirety of a
@@ -131,7 +133,7 @@ public class DateUtil {
 
 		return date.get(weekNumbering.weekOfWeekBasedYear());
 	}
-	
+
 	public static PublicHoliday getHoliday(LocalDate fromDate) {
 		logger.info("start check public date in Belgium");
 		List<PublicHoliday> publicHolidays = new ArrayList<>();
