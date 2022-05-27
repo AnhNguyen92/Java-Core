@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2100;
 /*
  * Leetcode 2042
  */
-public class CheckifNumbersAreAscendingInASentence {
+public class CheckIfNumbersAreAscendingInASentence {
 	public boolean areNumbersAscending(String s) {
         String[] st = s.split(" ");
         int n = 0;

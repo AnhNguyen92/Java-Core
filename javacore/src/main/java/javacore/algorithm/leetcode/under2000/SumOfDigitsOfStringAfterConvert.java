@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2000;
 /*
  * LeetCode 1945
  */
-public class SumofDigitsOfStringAfterConvert {
+public class SumOfDigitsOfStringAfterConvert {
 	public int getLucky(String s, int k) {
         StringBuilder sb = new StringBuilder();
         for (char c : s.toCharArray()) {

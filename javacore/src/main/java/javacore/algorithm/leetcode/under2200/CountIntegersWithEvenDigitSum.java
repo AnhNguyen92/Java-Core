@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 49
+ * LeetCode 2180
  */
 public class CountIntegersWithEvenDigitSum {
 	public int countEven(int num) {

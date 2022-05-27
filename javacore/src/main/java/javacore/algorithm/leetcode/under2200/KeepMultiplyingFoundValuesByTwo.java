@@ -9,11 +9,11 @@ import java.util.stream.Collectors;
  */
 public class KeepMultiplyingFoundValuesByTwo {
 	public int findFinalValue(int[] nums, int original) {
-        Set<Integer> lst = Arrays.stream(nums).boxed().collect(Collectors.toSet());
-        int ans = original;
-        while (lst.contains(ans)) {
-            ans *= 2;
-        }
-        return ans;
-    }
+		Set<Integer> lst = Arrays.stream(nums).boxed().collect(Collectors.toSet());
+		int ans = original;
+		while (lst.contains(ans)) {
+			ans *= 2;
+		}
+		return ans;
+	}
 }
