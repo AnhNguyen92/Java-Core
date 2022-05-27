@@ -2,7 +2,7 @@ package javacore.algorithm.leetcode.under2300;
 
 /*
  * LeetCode 2243
- */
+*/
 public class CalculateDigitSumOfAString {
 	public String digitSum(String s, int k) {
         while (s.length() > k) {

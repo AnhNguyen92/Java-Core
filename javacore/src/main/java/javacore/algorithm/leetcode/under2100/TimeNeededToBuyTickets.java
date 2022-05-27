@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode.under2500;
+package javacore.algorithm.leetcode.under2100;
 
 /*
  * LeetCode 2073
