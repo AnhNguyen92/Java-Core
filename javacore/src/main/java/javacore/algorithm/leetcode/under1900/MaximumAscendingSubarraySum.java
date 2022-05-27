@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode.under1800;
+package javacore.algorithm.leetcode.under1900;
 
 /*
  * Leetcode 1800

@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1795
+ * LeetCode 1757
  */
 
 select product_id from Products
