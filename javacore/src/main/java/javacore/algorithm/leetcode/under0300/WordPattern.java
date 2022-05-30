@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.HashMap;
 
 /*
- * Leet code #290
+ * Leet code 290
  */
 public class WordPattern {
     public boolean wordPattern(String pattern, String s) {

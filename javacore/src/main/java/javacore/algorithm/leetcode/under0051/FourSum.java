@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 /*
  * LeetCode 18
  */
-
 public class FourSum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Set<List<Integer>> result = new HashSet<>();

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * Leet code #263
+ * Leet code 268
  */
 public class MissingNumber {
     public int missingNumber(int[] nums) {

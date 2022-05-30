@@ -3,11 +3,10 @@ package javacore.algorithm.leetcode.under0300;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * Leet code #234
+ * Leet code 234
  */
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
-        // if (head == null || head.next == null) return true;
         StringBuilder s1 = new StringBuilder("");
         StringBuilder s2 = new StringBuilder("");
         while (head != null) {

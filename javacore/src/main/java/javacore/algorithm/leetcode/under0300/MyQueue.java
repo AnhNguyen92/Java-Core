@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leet code #232
+ * Leet code 232
  */
 class MyQueue {
     private List<Integer> list = new ArrayList<>();

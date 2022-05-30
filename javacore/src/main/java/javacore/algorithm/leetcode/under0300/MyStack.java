@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leet code #225
+ * Leet code 225
  */
 public class MyStack {
     private List<Integer> list = new ArrayList<>();

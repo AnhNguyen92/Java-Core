@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * Leet code #231
+ * Leet code 231
  */
 public class PowerOfTwo {
     public boolean isPowerOfTwo(int n) {
