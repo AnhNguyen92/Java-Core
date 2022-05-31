@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0051;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode #19
+ * LeetCode 19
  */
 
 public class RemoveNthNodeFromEndOfList {

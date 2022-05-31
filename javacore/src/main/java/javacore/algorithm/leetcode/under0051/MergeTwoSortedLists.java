@@ -2,7 +2,7 @@ package javacore.algorithm.leetcode.under0051;
 
 import javacore.algorithm.leetcode.model.ListNode;
 /*
- * Leetcode #21
+ * Leetcode 21
  */
 public class MergeTwoSortedLists {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- *  Leetcode #172
+ *  Leetcode 172
  */
 public class FactorialTrailingZeroes {
 	public int trailingZeroes(int n) {

@@ -10,7 +10,7 @@ import javacore.algorithm.leetcode.model.TreeNode;
 /*
  * Leetcode 501
  */
-public class FindModeinBinarySearchTree {
+public class FindModeInBinarySearchTree {
 	public int[] findMode(TreeNode root) {
 		HashMap<Integer, Integer> map = new HashMap<>();
 		addMode(map, root);

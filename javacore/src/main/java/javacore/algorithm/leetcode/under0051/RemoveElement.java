@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode #27
+ * LeetCode 27
  */
 public class RemoveElement {
 	public int removeElement(int[] nums, int val) {
