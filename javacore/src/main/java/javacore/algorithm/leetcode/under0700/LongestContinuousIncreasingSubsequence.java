@@ -5,7 +5,8 @@ package javacore.algorithm.leetcode.under0700;
  */
 public class LongestContinuousIncreasingSubsequence {
 	public int findLengthOfLCIS(int[] nums) {
-		int ans = 0, anchor = 0;
+		int ans = 0;
+		int anchor = 0;
 		for (int i = 0; i < nums.length; ++i) {
 			if (i > 0 && nums[i - 1] >= nums[i])
 				anchor = i;
