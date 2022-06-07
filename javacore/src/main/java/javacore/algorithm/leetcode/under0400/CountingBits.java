@@ -5,12 +5,12 @@ package javacore.algorithm.leetcode.under0400;
 */
 public class CountingBits {
 	public int[] countBits(int n) {
-        int[] arr = new int[n+1];
-        
-        for(int i = 1; i <= n; i++){
-            arr[i] = (i&1) + arr[i/2];
-        }
-        
-        return arr;
-    }
+		int[] arr = new int[n + 1];
+
+		for (int i = 1; i <= n; i++) {
+			arr[i] = (i & 1) + arr[i / 2];
+		}
+
+		return arr;
+	}
 }
