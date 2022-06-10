@@ -32,4 +32,5 @@ public class StringWithoutAAAOrBBB {
 		}
 		return sb.toString();
 	}
+
 }
