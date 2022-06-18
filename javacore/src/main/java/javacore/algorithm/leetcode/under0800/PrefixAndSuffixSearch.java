@@ -1,6 +1,5 @@
 package javacore.algorithm.leetcode.under0800;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -8,11 +7,10 @@ import java.util.Map;
 
 public class PrefixAndSuffixSearch {
 	class WordFilter {
-		List<String> lst = new ArrayList<>();
+		List<String> lst;
 		Map<String, Integer> map = new HashMap<>();
 
 		public WordFilter(String[] words) {
-			lst = new ArrayList<>();
 			lst = Arrays.asList(words);
 		}
 
