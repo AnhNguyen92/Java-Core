@@ -20,7 +20,7 @@ public class DesignHashMap {
 	}
 
 	/**
-	 * Returns the value to which the specified key is mapped, or -1 if this map
+	 * Returns the value to which the specified key is mapped, or -1 if this preorderMap
 	 * contains no mapping for the key
 	 */
 	public int get(int key) {
@@ -30,7 +30,7 @@ public class DesignHashMap {
 	}
 
 	/**
-	 * Removes the mapping of the specified value key if this map contains a mapping
+	 * Removes the mapping of the specified value key if this preorderMap contains a mapping
 	 * for the key
 	 */
 	public void remove(int key) {

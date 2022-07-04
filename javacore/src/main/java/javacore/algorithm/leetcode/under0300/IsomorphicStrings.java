@@ -20,7 +20,7 @@ public class IsomorphicStrings {
 		Arrays.fill(marked, Boolean.FALSE);
 
 		// To store mapping of every character from str1 to
-		// that of str2. Initialize all entries of map as -1.
+		// that of str2. Initialize all entries of preorderMap as -1.
 		int[] map = new int[256];
 		Arrays.fill(map, -1);
 
