@@ -19,7 +19,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
 		return buildTree(preorder, 0, preorder.length - 1);
     }
     
-    public TreeNode buildTree(int[] preorder, int start, int end) {
+    private TreeNode buildTree(int[] preorder, int start, int end) {
 		if (start > end) {
 			return null;
 		}

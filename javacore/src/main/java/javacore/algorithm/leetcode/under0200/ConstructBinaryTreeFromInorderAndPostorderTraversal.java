@@ -21,7 +21,7 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
 		return arrayToTree(postorder, 0, postorder.length - 1);
     }
     
-    public TreeNode arrayToTree(int[] preorder, int start, int end) {
+    private TreeNode arrayToTree(int[] preorder, int start, int end) {
 		if (start > end) {
 			return null;
 		}
