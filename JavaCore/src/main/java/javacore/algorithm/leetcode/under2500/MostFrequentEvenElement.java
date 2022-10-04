@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/*
+ * LeetCode 2404
+ */
 public class MostFrequentEvenElement {
     public int mostFrequentEven(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();

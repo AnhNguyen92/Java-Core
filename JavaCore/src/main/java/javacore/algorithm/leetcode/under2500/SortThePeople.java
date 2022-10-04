@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * LeetCode 2418
+ */
 public class SortThePeople {
     public String[] sortPeople(String[] names, int[] heights) {
         Map<Integer, String> map = new HashMap<>();

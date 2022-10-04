@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under2400;
 
 import java.util.Arrays;
 
+/*
+ * LeetCode 2389
+ */
 public class LongestSubsequenceWithLimitedSum {
     public int[] answerQueries(int[] nums, int[] queries) {
         Arrays.sort(nums);

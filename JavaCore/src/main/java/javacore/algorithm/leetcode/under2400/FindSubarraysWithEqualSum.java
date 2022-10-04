@@ -3,6 +3,9 @@ package javacore.algorithm.leetcode.under2400;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+ * LeetCode 2395
+ */
 public class FindSubarraysWithEqualSum {
     public boolean findSubarrays(int[] nums) {
         Set<Integer> lst = new HashSet<>();
