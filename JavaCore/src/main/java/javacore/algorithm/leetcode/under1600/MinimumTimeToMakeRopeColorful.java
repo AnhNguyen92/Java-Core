@@ -1,7 +1,6 @@
 package javacore.algorithm.leetcode.under1600;
 
 import java.util.Arrays;
-import java.util.List;
 
 /*
  * LeetCode 1578
@@ -10,7 +9,6 @@ public class MinimumTimeToMakeRopeColorful {
     public static int minCost(String colors, int[] neededTime) {
         int count = 0;
         int j;
-        List<Integer> lst;
         for (int i = 0; i < neededTime.length - 1; i++) {
             j = i;
             while (j < neededTime.length && colors.charAt(i) == colors.charAt(j)) {

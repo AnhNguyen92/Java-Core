@@ -22,7 +22,6 @@ public class DeleteTheMiddleNodeOfALinkedList {
     }
 
     public int count(ListNode head) {
-        int len = 0;
         return (head != null ? (1 + count(head.next)) : 0);
     }
 }
