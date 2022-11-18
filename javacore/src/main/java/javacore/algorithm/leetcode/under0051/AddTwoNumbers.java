@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0051;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 2
+ * LeetCode 2. Add Two Numbers
  */
 public class AddTwoNumbers {
 

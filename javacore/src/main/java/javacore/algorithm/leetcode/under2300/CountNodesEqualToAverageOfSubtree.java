@@ -6,7 +6,7 @@ import java.util.Map;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 2265
+ * LeetCode 2265. Count Nodes Equal to Average of Subtree
  */
 public class CountNodesEqualToAverageOfSubtree {
 	Map<TreeNode, Integer> sumMap = new HashMap<>();

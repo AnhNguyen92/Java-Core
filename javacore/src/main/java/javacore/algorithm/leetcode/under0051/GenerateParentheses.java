@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /*
- * LeetCode 22
+ * LeetCode 22. Generate Parentheses
  */
 public class GenerateParentheses {
 	public List<String> generateParenthesis(int n) {

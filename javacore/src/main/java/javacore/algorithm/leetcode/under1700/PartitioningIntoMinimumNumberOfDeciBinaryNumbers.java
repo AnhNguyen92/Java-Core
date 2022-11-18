@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 import java.util.Arrays;
 
 /*
- * LeetCode 1689
+ * LeetCode 1689. Partitioning Into Minimum Number Of Deci-Binary Numbers
  */
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
 	public int minPartitions(String n) {

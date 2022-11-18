@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 import java.util.Arrays;
 
 /*
- * LeetCode 1647
+ * LeetCode 1647. Minimum Deletions to Make Character Frequencies Unique
  */
 public class MinimumDeletionsToMakeCharacterFrequenciesUnique {
 	public int minDeletions(String s) {

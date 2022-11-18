@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2149
+ * LeetCode 2149. Rearrange Array Elements by Sign
  */
 public class RearrangeArrayElementsBySign {
 

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 17
+ * LeetCode 17. Letter Combinations of a Phone Number
  */
 public class LetterCombinationsOfAPhoneNumber {
 	

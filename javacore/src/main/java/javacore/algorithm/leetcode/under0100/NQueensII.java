@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 52
+ * LeetCode 52. N-Queens II
  */
 public class NQueensII {
 	int count = 0;

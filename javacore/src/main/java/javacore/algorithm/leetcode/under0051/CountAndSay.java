@@ -1,9 +1,8 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 38
+ * LeetCode 38. Count and Say
  */
-
 public class CountAndSay {
 
 	public String countAndSay(int n) {

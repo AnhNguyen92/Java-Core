@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 18
+ * LeetCode 18. 4Sum
  */
 public class FourSum {
     public List<List<Integer>> fourSum(int[] nums, int target) {

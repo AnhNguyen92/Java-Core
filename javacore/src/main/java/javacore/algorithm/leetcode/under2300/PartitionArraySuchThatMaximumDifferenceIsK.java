@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2300;
 import java.util.Arrays;
 
 /*
- * LeetCode 2294
+ * LeetCode 2294. Partition Array Such That Maximum Difference Is K
  */
 public class PartitionArraySuchThatMaximumDifferenceIsK {
 	public int partitionArray(int[] nums, int k) {

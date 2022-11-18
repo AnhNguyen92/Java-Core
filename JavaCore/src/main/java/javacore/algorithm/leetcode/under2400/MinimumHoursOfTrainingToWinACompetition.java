@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2338
+ * LeetCode 2383. Minimum Hours of Training to Win a Competition
  */
 public class MinimumHoursOfTrainingToWinACompetition {
 

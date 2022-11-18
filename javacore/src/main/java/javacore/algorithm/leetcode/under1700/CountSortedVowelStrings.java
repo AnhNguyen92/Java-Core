@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1641
+ * LeetCode 1641. Count Sorted Vowel Strings
  */
 public class CountSortedVowelStrings {
 	char[] arr = new char[] { 'a', 'e', 'i', 'o', 'u' };

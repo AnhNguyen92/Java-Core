@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2079
+ * LeetCode 2079. Watering Plants
  */
 public class WateringPlants {
     public int wateringPlants(int[] plants, int capacity) {

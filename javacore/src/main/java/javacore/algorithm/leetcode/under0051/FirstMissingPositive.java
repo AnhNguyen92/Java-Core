@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0051;
 import java.util.Arrays;
 
 /*
- * LeetCode 41
+ * LeetCode 41. First Missing Positive
  */
 public class FirstMissingPositive {
 	public int firstMissingPositive(int[] nums) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 5
+ * LeetCode 5. Longest Palindromic Substring
  */
 public class LongestPalindromicSubstring {
 

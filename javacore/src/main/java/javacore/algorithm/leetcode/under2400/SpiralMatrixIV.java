@@ -5,7 +5,7 @@ import java.util.Arrays;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 2326
+ * LeetCode 2326. Spiral Matrix IV
  */
 public class SpiralMatrixIV {
 	public int[][] spiralMatrix(int m, int n, ListNode head) {

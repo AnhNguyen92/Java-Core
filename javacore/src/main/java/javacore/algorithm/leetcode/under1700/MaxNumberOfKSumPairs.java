@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1679
+ * LeetCode 1679. Max Number of K-Sum Pairs
  */
 public class MaxNumberOfKSumPairs {
 

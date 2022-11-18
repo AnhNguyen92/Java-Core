@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*
+ * Leetcode 745. Prefix and Suffix Search
+ */
 public class PrefixAndSuffixSearch {
 	class WordFilter {
 		List<String> lst;

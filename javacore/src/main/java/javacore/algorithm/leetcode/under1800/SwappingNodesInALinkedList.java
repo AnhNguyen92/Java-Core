@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 1721
+ * LeetCode 1721. Swapping Nodes in a Linked List
  */
 public class SwappingNodesInALinkedList {
 	public ListNode swapNodes(ListNode head, int k) {

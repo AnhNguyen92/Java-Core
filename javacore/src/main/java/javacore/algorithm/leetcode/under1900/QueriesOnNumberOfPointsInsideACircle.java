@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * LeetCode 1828
+ * LeetCode 1828. Queries on Number of Points Inside a Circle
  */
 public class QueriesOnNumberOfPointsInsideACircle {
 	public int[] countPoints(int[][] points, int[][] queries) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * LeetCode 1769
+ * LeetCode 1769. Minimum Number of Operations to Move All Balls to Each Box
  */
 public class MinimumNumberoOfOperationsToMoveAllBallsToEachBox {
 	public int[] minOperations(String boxes) {

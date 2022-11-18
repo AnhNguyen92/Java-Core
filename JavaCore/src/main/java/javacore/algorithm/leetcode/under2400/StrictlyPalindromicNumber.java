@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2396
+ * LeetCode 2396. Strictly Palindromic Number
  */
 public class StrictlyPalindromicNumber {
     public boolean isStrictlyPalindromic(int n) {

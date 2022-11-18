@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0200;
 import java.util.Arrays;
 
 /*
- * LeetCode 135
+ * LeetCode 135. Candy
  */
 public class Candy {
     public int candy(int[] ratings) {

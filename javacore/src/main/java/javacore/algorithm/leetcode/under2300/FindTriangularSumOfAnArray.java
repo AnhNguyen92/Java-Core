@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2221
+ * LeetCode 2221. Find Triangular Sum of an Array
  */
 public class FindTriangularSumOfAnArray {
 	public int triangularSum(int[] nums) {

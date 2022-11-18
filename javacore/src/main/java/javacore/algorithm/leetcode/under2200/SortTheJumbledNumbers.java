@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under2200;
 
 import java.util.Arrays;
 
+/*
+ * LeetCode 2191. Sort the Jumbled Numbers
+ */
 public class SortTheJumbledNumbers {
 	public int[] sortJumbled(int[] mapping, int[] nums) {
 		int[][] arr = new int[nums.length][2];

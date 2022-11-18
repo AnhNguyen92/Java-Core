@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 45
+ * LeetCode 45. Jump Game II
  */
 public class JumpGameII {
 	public int jump(int[] nums) {

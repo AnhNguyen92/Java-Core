@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1662
+ * LeetCode 1662. Check If Two String Arrays are Equivalent
  */
 public class CheckIfTwoStringArraysAreEquivalent {
 	public boolean arrayStringsAreEqual(String[] word1, String[] word2) {

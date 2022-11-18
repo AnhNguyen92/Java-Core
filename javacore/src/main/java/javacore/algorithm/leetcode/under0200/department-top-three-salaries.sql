@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 185
+ * LeetCode 185. Department Top Three Salaries
  */
 
 select d.name 'Department',

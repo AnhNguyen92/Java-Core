@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 39
+ * LeetCode 39. Combination Sum
  */
 public class CombinationSum {
 	public List<List<Integer>> combinationSum(int[] candidates, int target) {

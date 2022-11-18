@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 1696
+ * LeetCode 1696. Jump Game VI
  */
 public class JumpGameVI {
 	public int maxResult(int[] nums, int k) {

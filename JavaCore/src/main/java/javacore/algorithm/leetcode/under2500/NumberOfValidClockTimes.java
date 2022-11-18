@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * Leet code 2437
+ * LeetCode 2437. Number of Valid Clock Times
  */
 public class NumberOfValidClockTimes {
 	    public int countTime(String time) {

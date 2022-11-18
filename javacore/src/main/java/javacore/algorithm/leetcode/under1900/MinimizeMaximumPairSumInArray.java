@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1900;
 import java.util.Arrays;
 
 /*
- * LeetCode 1877
+ * LeetCode 1877. Minimize Maximum Pair Sum in Array
  */
 public class MinimizeMaximumPairSumInArray {
 	public int minPairSum(int[] nums) {

@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 25
+ * LeetCode 25. Reverse Nodes in k-Group
  */
 public class ReverseNodesInKGroup {
 	public ListNode reverseKGroup(ListNode head, int k) {

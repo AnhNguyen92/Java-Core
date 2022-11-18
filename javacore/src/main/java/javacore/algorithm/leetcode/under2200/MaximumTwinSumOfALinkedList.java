@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 2130
+ * LeetCode 2130. Maximum Twin Sum of a Linked List
  */
 public class MaximumTwinSumOfALinkedList {
 	public int pairSum(ListNode head) {

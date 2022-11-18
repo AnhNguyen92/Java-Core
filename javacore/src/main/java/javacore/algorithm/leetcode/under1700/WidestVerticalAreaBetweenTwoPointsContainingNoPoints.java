@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 import java.util.Arrays;
 
 /*
- * LeetCode 1637
+ * LeetCode 1637. Widest Vertical Area Between Two Points Containing No Points
  */
 public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
 	public int maxWidthOfVerticalArea(int[][] points) {

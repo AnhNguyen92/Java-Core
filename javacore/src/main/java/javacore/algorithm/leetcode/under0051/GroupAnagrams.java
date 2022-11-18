@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 49
+ * LeetCode 49. Group Anagrams
  */
 public class GroupAnagrams {
 	public List<List<String>> groupAnagrams(String[] strs) {

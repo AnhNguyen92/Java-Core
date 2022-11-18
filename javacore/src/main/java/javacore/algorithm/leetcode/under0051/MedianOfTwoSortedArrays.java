@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0051;
 import java.util.Arrays;
 
 /*
- * LeetCode 4
+ * LeetCode 4. Median of Two Sorted Arrays
  */
 public class MedianOfTwoSortedArrays {
 	// not using array

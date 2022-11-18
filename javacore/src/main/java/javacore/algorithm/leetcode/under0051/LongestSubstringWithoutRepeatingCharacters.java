@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 3
+ * LeetCode 3. Longest Substring Without Repeating Characters
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 

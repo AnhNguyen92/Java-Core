@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 37
+ * LeetCode 37. Sudoku Solver
  */
 public class SudokuSolver {
 	public void solveSudoku(char[][] board) {

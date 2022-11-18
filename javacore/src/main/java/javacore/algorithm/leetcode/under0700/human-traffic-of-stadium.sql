@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 601
+ * LeetCode 601. Human Traffic of Stadium
  */
 
 select

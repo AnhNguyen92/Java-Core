@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1658
+ * LeetCode 1658. Minimum Operations to Reduce X to Zero
  */
 public class MinimumOperationsToReduceXToZero {
 

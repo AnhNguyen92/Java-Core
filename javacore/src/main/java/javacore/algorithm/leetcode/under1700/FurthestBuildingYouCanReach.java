@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 1642
+ * LeetCode 1642. Furthest Building You Can Reach
  */
 public class FurthestBuildingYouCanReach {
 

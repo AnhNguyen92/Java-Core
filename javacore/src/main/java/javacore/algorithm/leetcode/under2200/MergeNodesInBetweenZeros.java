@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2200;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 2181
+ * LeetCode 2181. Merge Nodes in Between Zeros
  */
 public class MergeNodesInBetweenZeros {
 	public ListNode mergeNodes(ListNode head) {

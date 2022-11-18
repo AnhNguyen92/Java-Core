@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 2161
+ * LeetCode 2161. Partition Array According to Given Pivot
  */
 public class PartitionArrayAccordingToGivenPivot {
 	public int[] pivotArray(int[] nums, int pivot) {

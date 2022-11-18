@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 11
+ * LeetCode 11. Container With Most Water
  */
 public class ContainerWithMostWater {
 	public int maxArea(int[] height) {

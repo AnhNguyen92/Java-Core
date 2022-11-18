@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under0051;
 
 import javacore.algorithm.leetcode.model.ListNode;
 
+/*
+ * LeetCode 23. Merge k Sorted Lists
+ */
 public class MergeKSortedLists {
 	public ListNode mergeKLists(ListNode[] lists) {
 		if (lists == null) {

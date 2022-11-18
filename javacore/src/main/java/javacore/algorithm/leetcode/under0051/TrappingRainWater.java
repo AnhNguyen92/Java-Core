@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 42
+ * LeetCode 42. Trapping Rain Water
  */
 public class TrappingRainWater {
 	public int trap(int[] height) {

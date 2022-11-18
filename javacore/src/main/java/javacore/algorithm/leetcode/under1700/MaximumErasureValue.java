@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1695
+ * LeetCode 1695. Maximum Erasure Value
  */
 public class MaximumErasureValue {
 	public int maximumUniqueSubarray(int[] nums) {

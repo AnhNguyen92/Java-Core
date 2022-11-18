@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 1985
+ * LeetCode 1985. Find the Kth Largest Integer in the Array
  */
 public class FindTheKthLargestIntegerInTheArray {
 	public String kthLargestNumber(String[] nums, int k) {

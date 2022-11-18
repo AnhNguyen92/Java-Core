@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 1630
+ * LeetCode 1630. Arithmetic Subarrays
  */
 public class ArithmeticSubarrays {
 	public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2310
+ * LeetCode 2310. Sum of Numbers With Units Digit K
  */
 public class SumOfNumbersWithUnitsDigitK {
 	public int minimumNumbers(int num, int k) {

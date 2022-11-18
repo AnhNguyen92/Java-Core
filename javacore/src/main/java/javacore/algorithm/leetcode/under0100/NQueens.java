@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 51
+ * LeetCode 51. N-Queens
  */
 public class NQueens {
 	List<List<String>> ans = new ArrayList<>();

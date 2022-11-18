@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 2303
+ * LeetCode 2336. Smallest Number in Infinite Set
  */
 public class SmallestNumberInInfiniteSet {
 	class SmallestInfiniteSet {

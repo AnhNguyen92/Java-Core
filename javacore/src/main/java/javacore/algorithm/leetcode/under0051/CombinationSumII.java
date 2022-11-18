@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 40
+ * LeetCode 40. Combination Sum II
  */
 public class CombinationSumII {
 	int temp;
