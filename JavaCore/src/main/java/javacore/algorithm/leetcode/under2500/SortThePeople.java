@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 2418
+ * LeetCode 2418. Sort the People
  */
 public class SortThePeople {
     public String[] sortPeople(String[] names, int[] heights) {

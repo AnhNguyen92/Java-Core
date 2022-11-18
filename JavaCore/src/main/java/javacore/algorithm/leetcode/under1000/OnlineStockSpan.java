@@ -10,7 +10,6 @@ public class OnlineStockSpan {
 	List<Integer> list = new ArrayList<>();
 
 	public OnlineStockSpan() {
-
 	}
 
 	public int next(int price) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1323
+ * LeetCode 1323. Maximum 69 Number
  */
 public class Maximum69Number {
 	public int maximum69Number (int num) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2500;
 import java.util.Arrays;
 
 /*
- * Leet code 2441
+ * Leet code 2441. Largest Positive Integer That Exists With Its Negative
  */
 public class LargestPositiveIntegerThatExistsWithItsNegative {
 	public int findMaxK(int[] nums) {

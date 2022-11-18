@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * Leet code 2446
+ * Leet code 2446. Determine if Two Events Have Conflict
  */
 public class DetermineIfTwoEventsHaveConflict {
 	public boolean haveConflict(String[] event1, String[] event2) {

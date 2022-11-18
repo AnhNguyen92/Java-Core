@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * LeetCode 2413
+ * LeetCode 2413. Smallest Even Multiple
  */
 public class SmallestEvenMultiple {
 	public int smallestEvenMultiple(int n) {

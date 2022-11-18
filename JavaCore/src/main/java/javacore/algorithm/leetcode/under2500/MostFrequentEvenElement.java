@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 2404
+ * LeetCode 2404. Most Frequent Even Element
  */
 public class MostFrequentEvenElement {
     public int mostFrequentEven(int[] nums) {

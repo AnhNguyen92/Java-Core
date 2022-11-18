@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * LeetCode 2409
+ * LeetCode 2409. Count Days Spent Together
  */
 public class CountDaysSpentTogether {
     int[] daysInMonth = new int[]{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};

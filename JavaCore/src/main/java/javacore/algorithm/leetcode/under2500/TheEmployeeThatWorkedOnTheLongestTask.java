@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * LeetCode 2432
+ * LeetCode 2432. The Employee That Worked on the Longest Task
  */
 public class TheEmployeeThatWorkedOnTheLongestTask {
 	public int hardestWorker(int n, int[][] logs) {

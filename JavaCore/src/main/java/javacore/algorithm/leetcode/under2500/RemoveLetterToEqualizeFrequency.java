@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2500;
 import java.util.Arrays;
 
 /*
- * LeetCode 2423
+ * LeetCode 2423. Remove Letter To Equalize Frequency
  */
 public class RemoveLetterToEqualizeFrequency {
 

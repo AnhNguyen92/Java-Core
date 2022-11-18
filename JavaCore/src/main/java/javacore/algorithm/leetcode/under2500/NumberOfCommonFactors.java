@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * LeetCode 2427
+ * LeetCode 2427. Number of Common Factors
  */
 public class NumberOfCommonFactors {
     public int commonFactors(int a, int b) {

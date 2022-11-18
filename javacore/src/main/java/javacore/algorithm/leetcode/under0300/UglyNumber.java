@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * Leet code 263
+ * LeetCode 263. Ugly Number
  */
 public class UglyNumber {
     public boolean isUgly(int num) {
