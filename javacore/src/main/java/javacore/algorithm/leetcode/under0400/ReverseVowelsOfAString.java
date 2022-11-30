@@ -1,8 +1,8 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 345
-*/
+ * LeetCode 345. Reverse Vowels of a String
+ */
 public class ReverseVowelsOfAString {
 	public String reverseVowels(String s) {
 		char[] arr = s.toCharArray();

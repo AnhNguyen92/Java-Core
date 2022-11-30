@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 73
+ * LeetCode 73. Set Matrix Zeroes
  */
 public class SetMatrixZeroes {
 	public void setZeroes(int[][] matrix) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 54
+ * LeetCode 54. Spiral Matrix
  */
 public class SpiralMatrix {
 	public List<Integer> spiralOrder(int[][] matrix) {

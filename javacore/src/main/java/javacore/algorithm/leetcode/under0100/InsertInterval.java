@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0100;
 import java.util.LinkedList;
 
 /*
- * LeetCode 57
+ * LeetCode 57. Insert Interval
  */
 public class InsertInterval {
 	public int[][] insert(int[][] intervals, int[] newInterval) {

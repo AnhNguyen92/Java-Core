@@ -5,6 +5,9 @@ import java.util.List;
 
 import javacore.algorithm.leetcode.model.ListNode;
 
+/*
+ * LeetCode 61. Rotate List
+ */
 public class RotateList {
 	public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null) {

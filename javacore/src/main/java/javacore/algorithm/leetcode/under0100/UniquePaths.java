@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 62
+ * LeetCode 62. Unique Paths
  */
 public class UniquePaths {
 	public int uniquePaths(int m, int n) {

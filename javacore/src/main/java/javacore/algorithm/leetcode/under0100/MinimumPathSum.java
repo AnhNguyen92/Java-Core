@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * Leetcode 64
+ * Leetcode 64. Minimum Path Sum
  */
 public class MinimumPathSum {
 	public int minPathSum(int[][] grid) {

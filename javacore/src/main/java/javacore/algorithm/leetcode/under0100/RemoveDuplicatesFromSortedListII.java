@@ -8,7 +8,7 @@ import java.util.TreeMap;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 82
+ * LeetCode 82. Remove Duplicates from Sorted List II
  */
 public class RemoveDuplicatesFromSortedListII {
 	public ListNode deleteDuplicates(ListNode head) {

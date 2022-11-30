@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- *  Leetcode 66
+ *  Leetcode 66. Plus One
  */
 public class PlusOne {
     public int[] plusOne(int[] digits) {

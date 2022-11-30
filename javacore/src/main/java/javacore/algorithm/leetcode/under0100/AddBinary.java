@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0100;
 import java.math.BigInteger;
 
 /*
- * LeetCode 67
+ * LeetCode 67. Add Binary
  */
 public class AddBinary {
 	public String addBinary(String a, String b) {

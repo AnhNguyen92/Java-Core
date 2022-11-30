@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 /*
- * LeetCode 90
+ * LeetCode 90. Subsets II
  */
 public class SubsetsII {
 	public List<List<Integer>> subsetsWithDup(int[] nums) {

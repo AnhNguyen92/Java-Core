@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /*
- * LeetCode 56
+ * LeetCode 56. Merge Intervals
  */
 public class MergeIntervals {
 	public int[][] merge(int[][] intervals) {

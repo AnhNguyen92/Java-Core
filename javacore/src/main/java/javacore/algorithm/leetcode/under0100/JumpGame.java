@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 55
+ * LeetCode 55. Jump Game
  */
 public class JumpGame {
 	public boolean canJump(int[] nums) {

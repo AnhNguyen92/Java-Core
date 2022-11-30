@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1047
+ * LeetCode 1047. Remove All Adjacent Duplicates In String
  */
 public class RemoveAllAdjacentDuplicatesInString {
 	public String removeDuplicates(String S) {

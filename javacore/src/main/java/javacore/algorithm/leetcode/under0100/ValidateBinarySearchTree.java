@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 98
+ * LeetCode 98. Validate Binary Search Tree
  */
 public class ValidateBinarySearchTree {
 	List<Integer> lst = new ArrayList<>();

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1544
+ * LeetCode 1544. Make The String Great
  */
 public class MakeTheStringGreat {
 	public String makeGood(String s) {

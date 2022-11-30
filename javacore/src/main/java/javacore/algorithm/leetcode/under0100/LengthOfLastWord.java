@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * Leet code 58
+ * Leet code 58. Length of Last Word
  */
 public class LengthOfLastWord {
 	public int lengthOfLastWord(String s) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 59
+ * LeetCode 59. Spiral Matrix II
  */
 public class SpiralMatrixII {
 

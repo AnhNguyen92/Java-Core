@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 70
+ * LeetCode 70. Climbing Stairs
  */
 public class ClimbingStairs {
 	public int climbStairs(int n) {

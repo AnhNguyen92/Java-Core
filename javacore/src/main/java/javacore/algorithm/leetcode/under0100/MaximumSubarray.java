@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 53
+ * LeetCode 53. Maximum Subarray
  */
 public class MaximumSubarray {
 	public int maxSubArray(int[] nums) {

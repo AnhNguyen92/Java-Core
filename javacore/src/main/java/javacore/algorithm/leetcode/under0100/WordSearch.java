@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 79
+ * LeetCode 79. Word Search
  */
 public class WordSearch {
 	public boolean exist(char[][] board, String word) {

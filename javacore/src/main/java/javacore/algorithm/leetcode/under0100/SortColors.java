@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 75
+ * LeetCode 75. Sort Colors
  */
 public class SortColors {
 	public void sortColors(int[] nums) {

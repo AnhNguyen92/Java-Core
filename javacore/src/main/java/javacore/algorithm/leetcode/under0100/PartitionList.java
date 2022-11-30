@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 86
+ * LeetCode 86. Partition List
  */
 public class PartitionList {
 	public ListNode partition(ListNode head, int x) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 77
+ * LeetCode 77. Combinations
  */
 public class Combinations {
 

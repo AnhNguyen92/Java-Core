@@ -4,7 +4,7 @@ import javacore.algorithm.leetcode.model.ListNode;
 
 
 /*
- * LeetCode 83
+ * LeetCode 83. Remove Duplicates from Sorted List
  */
 public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {

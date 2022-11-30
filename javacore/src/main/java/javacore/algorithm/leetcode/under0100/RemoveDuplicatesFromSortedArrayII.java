@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0100;
 
 /*
- * LeetCode 80
+ * LeetCode 80. Remove Duplicates from Sorted Array II
  */
 public class RemoveDuplicatesFromSortedArrayII {
 	public int removeDuplicates(int[] nums) {
