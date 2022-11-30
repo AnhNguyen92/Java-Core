@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 232
+ * LeetCode 232. Implement Queue using Stacks
  */
 public class ImplementQueueUsingStacks {
 	class MyQueue {

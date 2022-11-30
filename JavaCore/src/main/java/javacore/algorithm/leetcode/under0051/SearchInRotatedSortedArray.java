@@ -2,7 +2,7 @@ package javacore.algorithm.leetcode.under0051;
 
 
 /*
- * LeetCode 33
+ * LeetCode 33. Search in Rotated Sorted Array
 */
 public class SearchInRotatedSortedArray {
 	public int search(int[] nums, int target) {

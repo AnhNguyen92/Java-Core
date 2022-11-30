@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 9
+ * LeetCode 9. Palindrome Number
  */
 public class PalindromeNumber {
 	public boolean isPalindrome(int x) {

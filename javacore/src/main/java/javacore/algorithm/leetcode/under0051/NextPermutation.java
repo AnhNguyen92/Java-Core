@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0051;
 import java.util.Arrays;
 
 /*
- * LeetCode 31
+ * LeetCode 31. Next Permutation
 */
 public class NextPermutation {
 	public void nextPermutation(int[] nums) {

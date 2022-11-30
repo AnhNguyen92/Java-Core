@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 50
+ * LeetCode 50. Pow(x, n)
  */
 
 public class PowNTimeOfX {

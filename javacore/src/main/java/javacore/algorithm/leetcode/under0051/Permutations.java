@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 46
+ * LeetCode 46. Permutations
  */
 public class Permutations {
 	public List<List<Integer>> permute(int[] nums) {

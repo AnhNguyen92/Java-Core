@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 35
+ * LeetCode 35. Search Insert Position
  */
 
 public class SearchInsertPosition {

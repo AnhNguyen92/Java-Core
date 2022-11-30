@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 20
+ * LeetCode 20. Valid Parentheses
  */
 
 public class ValidParentheses {

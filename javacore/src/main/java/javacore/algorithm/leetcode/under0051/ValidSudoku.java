@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 36
+ * LeetCode 36. Valid Sudoku
  */
 public class ValidSudoku {
 

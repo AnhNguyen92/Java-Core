@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 48
+ * LeetCode 48. Rotate Image
  */
 public class RotateImage {
 	public void rotate(int[][] matrix) {

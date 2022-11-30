@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 6
+ * LeetCode 6. Zigzag Conversion
  */
 public class ZigzagConversion {
 	public String convert(String s, int numRows) {

@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 143
+ * LeetCode 143. Reorder List
  */
 public class ReorderList {
 	public void reorderList(ListNode head) {

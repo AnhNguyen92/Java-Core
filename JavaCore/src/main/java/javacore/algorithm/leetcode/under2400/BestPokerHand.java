@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2400;
 import java.util.Arrays;
 
 /*
- * LeetCode 2347
+ * LeetCode 2347. Best Poker Hand
  */
 public class BestPokerHand {
     public String bestHand(int[] ranks, char[] suits) {

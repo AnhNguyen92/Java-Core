@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * LeetCode 15
+ * LeetCode 15. 3Sum
  */
 
 public class ThreeSum {

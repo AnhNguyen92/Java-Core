@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /*
- * LeetCode 47
+ * LeetCode 47. Permutations II
  */
 public class PermutationsII {
 	public Set<List<Integer>> permuteUnique(int[] nums) {

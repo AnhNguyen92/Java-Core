@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 7
+ * LeetCode 7. Reverse Integer
  */
 public class ReverseInteger {
 	public int reverse(int x) {

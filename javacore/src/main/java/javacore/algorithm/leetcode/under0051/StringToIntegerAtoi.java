@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 8
+ * LeetCode 8. String to Integer (atoi)
  */
 public class StringToIntegerAtoi {
 	public int myAtoi(String str) {

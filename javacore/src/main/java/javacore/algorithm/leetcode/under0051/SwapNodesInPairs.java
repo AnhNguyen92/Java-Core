@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0051;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 24
+ * LeetCode 24. Swap Nodes in Pairs
  */
 public class SwapNodesInPairs {
 	public ListNode swapPairs(ListNode head) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 13
+ * LeetCode 13. Roman to Integer
  */
 
 public class RomanToInteger {

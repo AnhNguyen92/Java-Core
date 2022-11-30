@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * LeetCode 43
+ * LeetCode 43. Multiply Strings
  */
 public class MultiplyStrings {
 
