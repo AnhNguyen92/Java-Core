@@ -1,8 +1,7 @@
 
 /*
- * LeetCode 196
+ * LeetCode 196. Delete Duplicate Emails
  */
-
 
 # Write your MySQL query statement below
 DELETE t1 FROM Person t1

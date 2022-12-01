@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 197
+ * LeetCode 197. Rising Temperature
  */
 
 select w.id as id 

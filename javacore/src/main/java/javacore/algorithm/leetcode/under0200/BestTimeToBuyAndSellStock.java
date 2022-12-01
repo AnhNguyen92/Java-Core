@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 121
+ * LeetCode 121. Best Time to Buy and Sell Stock
  */
 public class BestTimeToBuyAndSellStock {
 	public int maxProfit(int[] prices) {

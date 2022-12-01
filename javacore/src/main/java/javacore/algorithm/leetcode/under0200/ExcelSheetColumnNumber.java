@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 171
+ * LeetCode 171. Excel Sheet Column Number
  */
 public class ExcelSheetColumnNumber {
 	public int titleToNumber(String s) {

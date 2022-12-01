@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 190
+ * LeetCode 190. Reverse Bits
  */
 public class ReverseBits {
 	public int reverseBits(int n) {

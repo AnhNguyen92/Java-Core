@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0200;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 141
+ * LeetCode 141. Linked List Cycle
  */
 public class LinkedListCycle {
 	public boolean hasCycle(ListNode head) {

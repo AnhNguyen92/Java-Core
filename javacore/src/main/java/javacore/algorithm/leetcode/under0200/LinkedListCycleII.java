@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 142
+ * LeetCode 142. Linked List Cycle II
  */
 public class LinkedListCycleII {
 	ListNode ans = null;

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 189
+ * LeetCode 189. Rotate Array
  */
 public class RotateArray {
 	public void rotate(int[] nums, int k) {

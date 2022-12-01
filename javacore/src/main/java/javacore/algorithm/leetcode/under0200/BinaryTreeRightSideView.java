@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 199
+ * LeetCode 199. Binary Tree Right Side View
  */
 public class BinaryTreeRightSideView {
 	public List<Integer> rightSideView(TreeNode root) {

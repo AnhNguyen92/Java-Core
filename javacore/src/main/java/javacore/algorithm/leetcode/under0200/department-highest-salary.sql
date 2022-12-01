@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 184
+ * LeetCode 184. Department Highest Salary
  */
 
 select d.name 'Department',

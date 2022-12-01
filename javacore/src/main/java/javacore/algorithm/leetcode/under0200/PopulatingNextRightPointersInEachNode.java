@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.Node;
 
 /*
- * LeetCode 116
+ * LeetCode 116. Populating Next Right Pointers in Each Node
  */
 public class PopulatingNextRightPointersInEachNode {
 	public Node connect(Node root) {

@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 177
+ * LeetCode 177. Nth Highest Salary
  */
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT

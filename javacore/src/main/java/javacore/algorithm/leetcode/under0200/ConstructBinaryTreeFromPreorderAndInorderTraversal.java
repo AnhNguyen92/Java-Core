@@ -6,7 +6,7 @@ import java.util.Map;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 105
+ * LeetCode 105. Construct Binary Tree from Preorder and Inorder Traversal
  */
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
 	Map<Integer, Integer> inorderMap = new HashMap<>();

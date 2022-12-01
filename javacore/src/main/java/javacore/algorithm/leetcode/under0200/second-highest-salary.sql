@@ -1,6 +1,5 @@
-
 /*
- * LeetCode 176
+ * LeetCode 176. Second Highest Salary
  */
 
 # Write your MySQL query statement below

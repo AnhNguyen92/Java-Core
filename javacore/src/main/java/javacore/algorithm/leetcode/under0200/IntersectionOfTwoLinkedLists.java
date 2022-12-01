@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 160
+ * LeetCode 160. Intersection of Two Linked Lists
  */
 public class IntersectionOfTwoLinkedLists {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

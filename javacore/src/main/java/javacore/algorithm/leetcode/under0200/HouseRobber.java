@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 198
+ * LeetCode 198. House Robber
  */
 public class HouseRobber {
 	public int rob(int[] nums) {

@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 145
+ * LeetCode 145. Binary Tree Postorder Traversal
  */
 public class BinaryTreePostorderTraversal {
 	public List<Integer> postorderTraversal(TreeNode root) {

@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 180
+ * LeetCode 180. Consecutive Numbers
  */
 
 SELECT

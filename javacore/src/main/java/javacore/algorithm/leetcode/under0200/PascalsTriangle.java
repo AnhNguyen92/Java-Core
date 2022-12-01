@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 118
+ * LeetCode 118. Pascal's Triangle
  */
 public class PascalsTriangle {
 	public List<List<Integer>> generate(int numRows) {

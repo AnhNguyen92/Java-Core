@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 110
+ * LeetCode 166. Fraction to Recurring Decimal
  */
 public class FractionToRecurringDecimal {
 

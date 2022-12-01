@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0200;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 111
+ * LeetCode 111. Minimum Depth of Binary Tree
  */
 public class MinimumDepthOfBinaryTree {
 	public int minDepth(TreeNode root) {

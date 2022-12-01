@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 200
+ * LeetCode 200. Number of Islands
  */
 public class NumberOfIslands {
 

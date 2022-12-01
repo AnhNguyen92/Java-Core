@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 168
+ * LeetCode 168. Excel Sheet Column Title
  */
 public class ExcelSheetColumnTitle {
 	public String convertToTitle(int n) {

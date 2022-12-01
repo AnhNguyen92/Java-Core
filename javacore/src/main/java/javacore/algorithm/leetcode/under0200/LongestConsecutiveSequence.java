@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under0200;
 
 import java.util.Arrays;
 
+/*
+ *  Leetcode 128. Longest Consecutive Sequence
+ */
 public class LongestConsecutiveSequence {
 
 	public int longestConsecutive(int[] nums) {

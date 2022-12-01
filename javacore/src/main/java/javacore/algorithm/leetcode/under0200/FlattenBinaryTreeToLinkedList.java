@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 114
+ * LeetCode 114. Flatten Binary Tree to Linked List
  */
 public class FlattenBinaryTreeToLinkedList {
 	public void flatten(TreeNode root) {

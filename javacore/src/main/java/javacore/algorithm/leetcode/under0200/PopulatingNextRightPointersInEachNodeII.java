@@ -8,7 +8,7 @@ import java.util.Map;
 import javacore.algorithm.leetcode.model.Node;
 
 /*
- * LeetCode 117
+ * LeetCode 117. Populating Next Right Pointers in Each Node II
  */
 public class PopulatingNextRightPointersInEachNodeII {
 	public Node connect(Node root) {

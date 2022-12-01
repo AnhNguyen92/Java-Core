@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0200;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 110
+ * LeetCode 110. Balanced Binary Tree
  */
 public class BalancedBinaryTree {
 	public boolean isBalanced(TreeNode root) {

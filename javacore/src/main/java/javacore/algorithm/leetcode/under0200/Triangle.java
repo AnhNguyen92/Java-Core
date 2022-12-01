@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0200;
 import java.util.List;
 
 /*
- * LeetCode 120
+ * LeetCode 120. Triangle
  */
 public class Triangle {
 	public int minimumTotal(List<List<Integer>> triangle) {

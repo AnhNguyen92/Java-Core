@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 102
+ * LeetCode 102. Binary Tree Level Order Traversal
  */
 public class BinaryTreeLevelOrderTraversal {
 	public List<List<Integer>> levelOrder(TreeNode root) {

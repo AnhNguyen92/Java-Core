@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 131
+ * LeetCode 131. Palindrome Partitioning
  */
 public class PalindromePartitioning {
 	

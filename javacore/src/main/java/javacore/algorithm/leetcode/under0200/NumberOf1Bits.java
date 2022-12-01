@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 191
+ * LeetCode 191. Number of 1 Bits
  */
 public class NumberOf1Bits {
 	public int hammingWeight(int n) {

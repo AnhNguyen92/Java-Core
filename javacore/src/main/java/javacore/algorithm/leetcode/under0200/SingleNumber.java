@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 136
+ * LeetCode 136. Single Number
  */
 public class SingleNumber {
 	public int singleNumber(int[] nums) {

@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 178
+ * LeetCode 178. Rank Scores
  */
 
 select score,

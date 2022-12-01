@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 153
+ * LeetCode 153. Find Minimum in Rotated Sorted Array
  */
 public class FindMinimumInRotatedSortedArray {
 

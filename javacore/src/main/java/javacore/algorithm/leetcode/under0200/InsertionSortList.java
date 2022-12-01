@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 147
+ * LeetCode 147. Insertion Sort List
  */
 public class InsertionSortList {
 	public ListNode insertionSortList(ListNode head) {

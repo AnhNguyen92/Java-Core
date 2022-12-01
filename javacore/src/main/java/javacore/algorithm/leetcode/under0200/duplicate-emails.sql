@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 182
+ * LeetCode 182. Duplicate Emails
  */
 
 select Email

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 169
+ * LeetCode 169. Majority Element
  */
 public class MajorityElement {
 	public int majorityElement(int[] nums) {

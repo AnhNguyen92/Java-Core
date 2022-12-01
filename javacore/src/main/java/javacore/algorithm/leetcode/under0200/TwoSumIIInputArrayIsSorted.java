@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * LeetCode 167
+ * LeetCode 167. Two Sum II - Input Array Is Sorted
  */
 public class TwoSumIIInputArrayIsSorted {
 	public int[] twoSum(int[] numbers, int target) {

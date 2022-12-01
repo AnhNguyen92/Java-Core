@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 146
+ * LeetCode 146. LRU Cache
  */
 public class LRUCache {
 

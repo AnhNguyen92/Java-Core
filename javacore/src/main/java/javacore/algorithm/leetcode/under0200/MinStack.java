@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 155
+ * LeetCode 155. Min Stack
  */
 public class MinStack {
 	/** initialize your data structure here. */
