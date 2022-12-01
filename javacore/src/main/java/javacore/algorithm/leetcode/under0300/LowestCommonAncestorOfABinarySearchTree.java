@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 235
+ * LeetCode 235. Lowest Common Ancestor of a Binary Search Tree
  */
 public class LowestCommonAncestorOfABinarySearchTree {
 	public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

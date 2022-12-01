@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 202
+ * LeetCode 202. Happy Number
  */
 public class HappyNumber {
 	public boolean isHappy(int n) {

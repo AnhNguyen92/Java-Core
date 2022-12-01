@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leet code 226
+ * Leet code 226. Invert Binary Tree
  */
 public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {

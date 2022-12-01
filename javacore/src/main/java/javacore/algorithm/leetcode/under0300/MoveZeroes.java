@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * LeetCode 283
+ * LeetCode 283. Move Zeroes
 */
 public class MoveZeroes {
 	public void moveZeroes(int[] nums) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 203
+ * LeetCode 203. Remove Linked List Elements
  */
 public class RemoveLinkedListElements {
 	public ListNode removeElements(ListNode head, int val) {

@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 /*
- * LeetCode 215
+ * LeetCode 215. Kth Largest Element in an Array
  */
 public class KthLargestElementInAnArray {
 	public int findKthLargest(int[] nums, int k) {

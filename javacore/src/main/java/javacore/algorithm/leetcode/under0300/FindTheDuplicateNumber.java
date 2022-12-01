@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * LeetCode 287
+ * LeetCode 287. Find the Duplicate Number
  */
 public class FindTheDuplicateNumber {
 	public int findDuplicate(int[] nums) {

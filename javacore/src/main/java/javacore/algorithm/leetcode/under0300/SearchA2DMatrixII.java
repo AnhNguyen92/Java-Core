@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * LeetCode 240
+ * LeetCode 240. Search a 2D Matrix II
  */
 public class SearchA2DMatrixII {
 	public boolean searchMatrix(int[][] matrix, int target) {

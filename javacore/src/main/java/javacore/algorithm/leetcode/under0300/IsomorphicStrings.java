@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.Arrays;
 
 /*
- * LeetCode 205
+ * LeetCode 205. Isomorphic Strings
  */
 public class IsomorphicStrings {
 	public boolean isIsomorphic(String s, String t) {

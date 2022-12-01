@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * Leet code 229
+ * Leet code 229. Majority Element II
  */
 public class MajorityElementII {
 	public List<Integer> majorityElement(int[] nums) {

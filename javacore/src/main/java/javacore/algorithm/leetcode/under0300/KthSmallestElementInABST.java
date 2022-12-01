@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 230
+ * LeetCode 230. Kth Smallest Element in a BST
  */
 public class KthSmallestElementInABST {
 	public int kthSmallest(TreeNode root, int k) {

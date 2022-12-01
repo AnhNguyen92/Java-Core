@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * LeetCode 204
+ * LeetCode 204. Count Primes
  */
 public class CountPrimes {
 	public int countPrimes(int n) {

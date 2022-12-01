@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.Arrays;
 
 /*
- * LeetCode 260
+ * LeetCode 260. Single Number III
  */
 public class SingleNumberIII {
 	public int[] singleNumber(int[] nums) {

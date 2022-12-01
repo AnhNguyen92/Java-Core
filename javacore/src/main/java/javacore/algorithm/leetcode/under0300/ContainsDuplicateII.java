@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * Leet code 219
+ * Leet code 219. Contains Duplicate II
  */
 public class ContainsDuplicateII {
 	public boolean containsNearbyDuplicate(int[] nums, int k) {

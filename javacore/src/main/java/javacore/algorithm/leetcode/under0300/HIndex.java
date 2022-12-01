@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.Arrays;
 
 /*
- * LeetCode 274
+ * LeetCode 274. H-Index
  */
 public class HIndex {
 	public int hIndex(int[] citations) {

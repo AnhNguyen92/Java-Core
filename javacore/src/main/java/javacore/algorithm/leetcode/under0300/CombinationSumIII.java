@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 216
+ * LeetCode 216. Combination Sum III
  */
 public class CombinationSumIII {
 	public List<List<Integer>> combinationSum3(int k, int n) {

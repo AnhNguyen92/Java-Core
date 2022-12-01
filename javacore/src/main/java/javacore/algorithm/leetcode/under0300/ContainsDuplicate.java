@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.Arrays;
 
 /*
- * Leet code 217
+ * Leet code 217. Contains Duplicate
  */
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
