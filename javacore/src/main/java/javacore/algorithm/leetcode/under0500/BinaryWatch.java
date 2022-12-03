@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 401
+ * LeetCode 401. Binary Watch
 */
 public class BinaryWatch {
 	public List<String> readBinaryWatch(int turnedOn) {

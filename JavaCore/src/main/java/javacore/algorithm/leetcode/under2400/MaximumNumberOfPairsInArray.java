@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2341
+ * LeetCode 2341. Maximum Number of Pairs in Array
  */
 public class MaximumNumberOfPairsInArray {
     public int[] numberOfPairs(int[] nums) {

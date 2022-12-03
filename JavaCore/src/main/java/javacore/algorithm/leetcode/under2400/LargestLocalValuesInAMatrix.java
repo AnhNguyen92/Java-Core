@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2373
+ * LeetCode 2373. Largest Local Values in a Matrix
  */
 public class LargestLocalValuesInAMatrix {
     public int[][] largestLocal(int[][] grid) {

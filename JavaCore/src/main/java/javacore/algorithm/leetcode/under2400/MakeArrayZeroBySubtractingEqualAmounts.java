@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2357
+ * LeetCode 2357. Make Array Zero by Subtracting Equal Amounts
  */
 public class MakeArrayZeroBySubtractingEqualAmounts {
     public int minimumOperations(int[] nums) {

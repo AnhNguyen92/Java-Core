@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2400;
 import java.util.Arrays;
 
 /*
- * LeetCode 2389
+ * LeetCode 2389. Longest Subsequence With Limited Sum
  */
 public class LongestSubsequenceWithLimitedSum {
     public int[] answerQueries(int[] nums, int[] queries) {

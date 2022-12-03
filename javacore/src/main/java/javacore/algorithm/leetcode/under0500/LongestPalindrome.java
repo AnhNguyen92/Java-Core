@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * LeetCode 409
+ * LeetCode 409. Longest Palindrome
 */
 public class LongestPalindrome {
 	public int longestPalindrome(String s) {

@@ -1,5 +1,8 @@
 package javacore.algorithm.leetcode.under2400;
 
+/*
+ * LeetCode 2351. First Letter to Appear Twice
+ */
 public class FirstLettetToAppearTwice {
 	public char repeatedCharacter(String s) {
         int[] alpha = new int[26];

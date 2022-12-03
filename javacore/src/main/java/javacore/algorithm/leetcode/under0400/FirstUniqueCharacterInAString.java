@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 387
+ * LeetCode 387. First Unique Character in a String
 */
 public class FirstUniqueCharacterInAString {
 	public int firstUniqChar(String s) {

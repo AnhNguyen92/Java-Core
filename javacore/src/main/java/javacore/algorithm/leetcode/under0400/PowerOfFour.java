@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 342
+ * LeetCode 342. Power of Four
 */
 public class PowerOfFour {
 	public boolean isPowerOfFour(int n) {

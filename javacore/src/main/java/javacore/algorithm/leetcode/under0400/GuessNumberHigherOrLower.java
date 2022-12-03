@@ -12,21 +12,28 @@ package javacore.algorithm.leetcode.under0400;
  * int guess(int num);
  */
 
-//public class GuessNumberHigherOrLower extends GuessGame  {
-//	public int guessNumber(int n) {
-//        int left = 1;
-//        int right = n;
-//        while (left < right) {
-//            int mid = left + (right - left) / 2;
-//            if (guess(mid) == -1) {
-//                right = mid;
-//            } else if (guess(mid) == 1) {
-//                left = mid + 1;
-//            } else {
-//                return mid;
-//            }
-//        }
-//        return left;
-//        
-//    }
-//}
+public class GuessNumberHigherOrLower extends GuessGame  {
+	public int guessNumber(int n) {
+        int left = 1;
+        int right = n;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (guess(mid) == -1) {
+                right = mid;
+            } else if (guess(mid) == 1) {
+                left = mid + 1;
+            } else {
+                return mid;
+            }
+        }
+        return left;
+
+    }
+}
+
+class GuessGame {
+    // demo code
+    protected int guess(int n) {
+        return n;
+    }
+}

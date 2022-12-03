@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0400;
 import java.math.BigInteger;
 
 /*
- * LeetCode 372
+ * LeetCode 372. Super Pow
  */
 public class SuperPow {
 

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2400;
 import java.util.Arrays;
 
 /*
- * LeetCode 2335
+ * LeetCode 2335. Minimum Amount of Time to Fill Cups
  */
 public class MinimumAmountOfTimeToFillCups {
 

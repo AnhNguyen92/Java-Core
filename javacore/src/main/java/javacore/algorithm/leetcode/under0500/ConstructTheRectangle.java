@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 492
+ * Leetcode 492. Construct the Rectangle
  */
 public class ConstructTheRectangle {
 	public int[] constructRectangle(int area) {

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 2363
+ * LeetCode 2363. Merge Similar Items
  */
 public class MergeSimilarItems {
     public List<List<Integer>> mergeSimilarItems(int[][] items1, int[][] items2) {

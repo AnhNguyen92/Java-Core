@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0400;
 import java.util.Arrays;
 
 /*
- * LeetCode 324
+ * LeetCode 324. Wiggle Sort II
  */
 public class WiggleSortII {
 	public void wiggleSort(int[] nums) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 461
+ * Leetcode 461. Hamming Distance
  */
 public class HammingDistance {
 	public int hammingDistance(int x, int y) {

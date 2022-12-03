@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0500;
 import java.util.Stack;
 
 /*
- * LeetCode 456
+ * LeetCode 456. 132 Pattern
  */
 public class OneTwoThreePattern {
 	public boolean find132pattern(int[] nums) {

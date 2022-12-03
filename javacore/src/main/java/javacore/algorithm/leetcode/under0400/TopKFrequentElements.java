@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 347
+ * LeetCode 347. Top K Frequent Elements
 */
 public class TopKFrequentElements {
 	public int[] topKFrequent(int[] nums, int k) {

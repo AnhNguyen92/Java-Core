@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 371
+ * LeetCode 371. Sum of Two Integers
  */
 public class SumOfTwoIntegers {
 	public int getSum(int a, int b) {

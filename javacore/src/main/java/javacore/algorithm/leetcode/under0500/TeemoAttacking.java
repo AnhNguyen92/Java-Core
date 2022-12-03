@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 495
+ * Leetcode 495. Teemo Attacking
  */
 public class TeemoAttacking {
 	public int findPoisonedDuration(int[] timeSeries, int duration) {

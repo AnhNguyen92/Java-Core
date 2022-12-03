@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0400;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 378
+ * LeetCode 378. Kth Smallest Element in a Sorted Matrix
  */
 public class KthSmallestElementInASortedMatrix {
 	public int kthSmallest(int[][] matrix, int k) {

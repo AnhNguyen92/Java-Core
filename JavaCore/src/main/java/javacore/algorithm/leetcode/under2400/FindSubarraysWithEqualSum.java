@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 2395
+ * LeetCode 2395. Find Subarrays With Equal Sum
  */
 public class FindSubarraysWithEqualSum {
     public boolean findSubarrays(int[] nums) {

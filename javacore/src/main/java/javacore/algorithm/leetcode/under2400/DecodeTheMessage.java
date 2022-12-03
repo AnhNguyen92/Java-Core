@@ -3,6 +3,9 @@ package javacore.algorithm.leetcode.under2400;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * LeetCode 2336. Decode the Message
+ */
 public class DecodeTheMessage {
 	public String decodeMessage(String key, String message) {
 		Map<Character, Character> map = new HashMap<>();

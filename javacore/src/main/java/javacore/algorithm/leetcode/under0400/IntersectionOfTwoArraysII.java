@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 350
+ * LeetCode 350. Intersection of Two Arrays II
 */
 public class IntersectionOfTwoArraysII {
 	public int[] intersect(int[] nums1, int[] nums2) {

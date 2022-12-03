@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 392
+ * LeetCode 392. Is Subsequence
 */
 public class IsSubsequence {
 	public boolean isSubsequence(String s, String t) {

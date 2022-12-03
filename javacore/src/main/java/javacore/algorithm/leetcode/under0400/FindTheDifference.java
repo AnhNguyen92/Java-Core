@@ -1,10 +1,10 @@
 package javacore.algorithm.leetcode.under0400;
 
-/*
- * LeetCode 389
-*/
 import java.util.Arrays;
 
+/*
+ * LeetCode 389. Find the Difference
+ */
 public class FindTheDifference {
 	public char findTheDifference(String s, String t) {
 		StringBuilder sb = new StringBuilder(sortString(s));

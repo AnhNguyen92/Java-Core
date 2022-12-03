@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2399
+ * LeetCode 2399. Check Distances Between Same Letters
  */
 public class CheckDistancesBetweenSameLetters {
     public boolean checkDistances(String s, int[] distance) {

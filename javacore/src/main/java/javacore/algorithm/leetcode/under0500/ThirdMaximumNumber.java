@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 /*
- * Leetcode 414
+ * Leetcode 414. Third Maximum Number
  */
 public class ThirdMaximumNumber {
 	public int thirdMax(int[] nums) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 397
+ * LeetCode 397. Integer Replacement
 */
 public class IntegerReplacement {
 	public int integerReplacement(int n) {

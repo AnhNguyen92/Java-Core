@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2315
+ * LeetCode 2315. Count Asterisks
  */
 public class CountAsterisks {
 	public int countAsterisks(String s) {

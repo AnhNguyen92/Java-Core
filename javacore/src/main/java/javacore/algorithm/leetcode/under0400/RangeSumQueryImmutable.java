@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 303
+ * LeetCode 303. Range Sum Query - Immutable
 */
 public class RangeSumQueryImmutable {
 	private int[] sum;

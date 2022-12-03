@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 496
+ * Leetcode 496. Next Greater Element I
  */
 public class NextGreaterElementI {
 	public int[] nextGreaterElement(int[] nums1, int[] nums2) {

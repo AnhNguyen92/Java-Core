@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2319
+ * LeetCode 2319. Check if Matrix Is X-Matrix
  */
 public class CheckIfMatrixIsXMatrix {
 	public boolean checkXMatrix(int[][] grid) {

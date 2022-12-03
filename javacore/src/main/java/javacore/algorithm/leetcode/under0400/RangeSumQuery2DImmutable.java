@@ -3,6 +3,9 @@ package javacore.algorithm.leetcode.under0400;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * LeetCode 304. Range Sum Query 2D - Immutable
+ */
 public class RangeSumQuery2DImmutable {
 	class NumMatrix {
 		int[][] arr;

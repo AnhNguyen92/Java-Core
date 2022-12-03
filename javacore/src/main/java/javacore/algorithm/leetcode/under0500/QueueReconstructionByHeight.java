@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * Leetcode 406
+ * Leetcode 406. Queue Reconstruction by Height
  */
 public class QueueReconstructionByHeight {
 	public int[][] reconstructQueue(int[][] people) {

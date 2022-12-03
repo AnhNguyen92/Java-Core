@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2309
+ * LeetCode 2309. Greatest English Letter in Upper and Lower Case
  */
 public class GreatestEnglishLetterInUpperAndLowerCase {
 

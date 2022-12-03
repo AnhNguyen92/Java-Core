@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0500;
 import java.util.Arrays;
 
 /*
- * Leetcode 455
+ * Leetcode 455. Assign Cookies
  */
 public class AssignCookies {
 	public int findContentChildren(int[] g, int[] s) {

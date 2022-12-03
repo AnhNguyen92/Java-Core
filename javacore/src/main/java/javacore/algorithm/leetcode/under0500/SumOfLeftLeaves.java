@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0500;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 404
+ * LeetCode 404. Sum of Left Leaves
 */
 public class SumOfLeftLeaves {
 	public int sumOfLeftLeaves(TreeNode root) {

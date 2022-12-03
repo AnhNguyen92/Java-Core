@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.NestedInteger;
 
 /*
- * LeetCode 341
+ * LeetCode 341. Flatten Nested List Iterator
  */
 public class FlattenNestedListIterator implements Iterator<Integer> {
 	private List<Integer> lst = new ArrayList<>();

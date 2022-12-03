@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 344
+ * LeetCode 344. Reverse String
 */
 public class ReverseString {
 	public void reverseString(char[] s) {

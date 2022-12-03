@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 349
+ * LeetCode 349. Intersection of Two Arrays
 */
 public class IntersectionOfTwoArrays {
 	public int[] intersection(int[] nums1, int[] nums2) {

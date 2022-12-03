@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 376
+ * LeetCode 376. Wiggle Subsequence
  */
 public class WiggleSubsequence {
 

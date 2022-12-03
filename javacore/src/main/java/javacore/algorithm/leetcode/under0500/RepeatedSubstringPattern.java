@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 459
+ * Leetcode 459. Repeated Substring Pattern
  */
 public class RepeatedSubstringPattern {
 	public boolean repeatedSubstringPattern(String s) {

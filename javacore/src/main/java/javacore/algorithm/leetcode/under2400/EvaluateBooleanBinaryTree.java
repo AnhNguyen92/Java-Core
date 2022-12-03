@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2400;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 2331
+ * LeetCode 2331. Evaluate Boolean Binary Tree
  */
 public class EvaluateBooleanBinaryTree {
 	public boolean evaluateTree(TreeNode root) {

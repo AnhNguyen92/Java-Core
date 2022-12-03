@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2367
+ * LeetCode 2367. Number of Arithmetic Triplets
  */
 public class NumberofArithmeticTriplets {
 	public int arithmeticTriplets(int[] nums, int diff) {

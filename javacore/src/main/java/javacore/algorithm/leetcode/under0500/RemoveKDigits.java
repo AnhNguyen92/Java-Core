@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * LeetCode 402
+ * LeetCode 402. Remove K Digits
  */
 public class RemoveKDigits {
 

@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.NodeList;
 
 /*
- * Leetcode 429
+ * Leetcode 429. N-ary Tree Level Order Traversal
  */
 public class NaryTreeLevelOrderTraversal {
 	List<List<Integer>> lst;

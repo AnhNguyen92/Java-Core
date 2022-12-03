@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 412
+ * LeetCode 412. Fizz Buzz
 */
 public class FizzBuzz {
 	public List<String> fizzBuzz(int n) {

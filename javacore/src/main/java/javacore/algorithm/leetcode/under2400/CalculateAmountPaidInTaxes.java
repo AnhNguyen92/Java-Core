@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * LeetCode 2303
+ * LeetCode 2303. Calculate Amount Paid in Taxes
  */
 public class CalculateAmountPaidInTaxes {
 

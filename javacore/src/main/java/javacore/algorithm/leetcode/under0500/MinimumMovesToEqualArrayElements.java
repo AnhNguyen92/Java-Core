@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 453
+ * Leetcode 453. Minimum Moves to Equal Array Elements
  */
 public class MinimumMovesToEqualArrayElements {
 	public int minMoves(int[] nums) {

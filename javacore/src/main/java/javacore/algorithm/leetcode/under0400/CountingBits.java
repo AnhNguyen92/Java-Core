@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 338
+ * LeetCode 338. Counting Bits
 */
 public class CountingBits {
 	public int[] countBits(int n) {

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 383
+ * LeetCode 383. Ransom Note
 */
 public class RansomNote {
 	public boolean canConstruct(String ransomNote, String magazine) {

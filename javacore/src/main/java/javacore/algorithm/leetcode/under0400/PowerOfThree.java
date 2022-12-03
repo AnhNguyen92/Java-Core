@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0400;
 
 /*
- * LeetCode 326
+ * LeetCode 326. Power of Three
 */
 public class PowerOfThree {
 	public boolean isPowerOfThree(int n) {
