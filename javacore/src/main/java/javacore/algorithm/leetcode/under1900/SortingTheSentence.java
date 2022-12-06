@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1859
+ * Leetcode 1859. Sorting the Sentence
  */
 public class SortingTheSentence {
 	public String sortSentence(String s) {

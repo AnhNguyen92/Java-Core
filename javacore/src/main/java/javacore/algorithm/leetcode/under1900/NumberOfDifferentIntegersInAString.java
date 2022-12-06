@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * Leetcode 1805
+ * Leetcode 1805. Number of Different Integers in a String
  */
 public class NumberOfDifferentIntegersInAString {
 	public int numDifferentIntegers(String word) {

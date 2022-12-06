@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1827
+ * Leetcode 1827. Minimum Operations to Make the Array Increasing
  */
 public class MinimumOperationsToMakeTheArrayIncreasing {
 	public int minOperations(int[] nums) {

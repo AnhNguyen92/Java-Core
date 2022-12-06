@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * LeetCode 1822
+ * LeetCode 1822. Sign of the Product of an Array
  */
 public class SignOfTheProductOfAnArray {
 	public int arraySign(int[] nums) {

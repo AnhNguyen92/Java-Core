@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * LeetCode 1848
+ * LeetCode 1848. Minimum Distance to the Target Element
  */
 public class MinimumDistanceToTheTargetElement {
 	public int getMinDistance(int[] nums, int target, int start) {

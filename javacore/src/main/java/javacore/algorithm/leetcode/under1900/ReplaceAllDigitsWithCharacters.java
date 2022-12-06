@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1844
+ * Leetcode 1844. Replace All Digits with Characters
  */
 public class ReplaceAllDigitsWithCharacters {
 	private char[] alphabet = new char[] { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',

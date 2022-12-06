@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1869
+ * Leetcode 1869. Longer Contiguous Segments of Ones than Zeros
  */
 public class LongerContiguousSegmentsOfOnesThanZeros {
 	public boolean checkZeroOnes(String s) {

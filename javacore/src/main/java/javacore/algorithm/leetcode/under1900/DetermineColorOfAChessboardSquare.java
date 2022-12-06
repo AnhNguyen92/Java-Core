@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1812
+ * Leetcode 1812. Determine Color of a Chessboard Square
  */
 public class DetermineColorOfAChessboardSquare {
 	public boolean squareIsWhite(String coordinates) {

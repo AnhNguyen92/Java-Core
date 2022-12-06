@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1880
+ * Leetcode 1880. Check if Word Equals Summation of Two Words
  */
 public class CheckIfWordEqualsSummationOfTwoWords {
 	public boolean isSumEqual(String firstWord, String secondWord, String targetWord) {

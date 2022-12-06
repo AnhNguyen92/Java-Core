@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1873
+ * LeetCode 1873. Calculate Special Bonus
  */
 
 select employee_id, 

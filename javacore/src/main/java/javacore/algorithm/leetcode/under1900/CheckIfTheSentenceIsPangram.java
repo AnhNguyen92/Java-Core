@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1832
+ * Leetcode 1832. Check if the Sentence Is Pangram
  */
 public class CheckIfTheSentenceIsPangram {
 	public boolean checkIfPangram(String sentence) {

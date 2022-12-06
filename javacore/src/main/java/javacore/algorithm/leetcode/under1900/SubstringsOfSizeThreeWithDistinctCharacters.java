@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * LeetCode 1876
+ * LeetCode 1876. Substrings of Size Three with Distinct Characters
  */
 public class SubstringsOfSizeThreeWithDistinctCharacters {
 	public int countGoodSubstrings(String s) {
