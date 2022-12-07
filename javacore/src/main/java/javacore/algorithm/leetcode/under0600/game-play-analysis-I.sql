@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 511
+ * LeetCode 511. Game Play Analysis I
  */
 
 select player_id, min(event_date) as 'first_login'

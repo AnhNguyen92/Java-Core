@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 596
+ * LeetCode 596. Classes More Than 5 Students
  */
 
 select class

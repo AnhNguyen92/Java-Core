@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 541
+ * LeetCode 541. Reverse String II
  */
 public class ReverseStringII {
 	public String reverseStr(String s, int k) {

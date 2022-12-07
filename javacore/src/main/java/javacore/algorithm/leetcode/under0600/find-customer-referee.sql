@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 584
+ * LeetCode 584. Find Customer Referee
  */
 
 select name

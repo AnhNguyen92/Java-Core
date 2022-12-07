@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 599
+ * LeetCode 599. Minimum Index Sum of Two Lists
  */
 public class MinimumIndexSumofTwoLists {
 	public String[] findRestaurant(String[] list1, String[] list2) {

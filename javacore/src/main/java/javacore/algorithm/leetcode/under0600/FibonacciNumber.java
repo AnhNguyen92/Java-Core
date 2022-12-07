@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 509
+ * LeetCode 509. Fibonacci Number
  */
 public class FibonacciNumber {
 	public int fib(int n) {

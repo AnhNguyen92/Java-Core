@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 560
+ * LeetCode 560. Subarray Sum Equals K
  */
 public class SubarraySumEqualsK {
 	public int subarraySum(int[] nums, int k) {

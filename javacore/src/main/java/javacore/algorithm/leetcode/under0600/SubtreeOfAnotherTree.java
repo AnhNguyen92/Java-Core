@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0600;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- *  Leetcode 572
+ *  Leetcode 572. Subtree of Another Tree
  */
 public class SubtreeOfAnotherTree {
 	public boolean isSubtree(TreeNode root, TreeNode subRoot) {

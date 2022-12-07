@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 506
+ * LeetCode 506. Relative Ranks
  */
 public class RelativeRanks {
 	public String[] findRelativeRanks(int[] nums) {

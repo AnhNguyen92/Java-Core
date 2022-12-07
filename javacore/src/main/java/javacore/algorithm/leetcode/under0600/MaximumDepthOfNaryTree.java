@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0600;
 import javacore.algorithm.leetcode.model.NodeList;
 
 /*
- * LeetCode 559
+ * LeetCode 559. Maximum Depth of N-ary Tree
  */
 public class MaximumDepthOfNaryTree {
 	int sum = 0;

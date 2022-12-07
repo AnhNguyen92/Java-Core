@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 535
+ * LeetCode 535. Encode and Decode TinyURL
  */
 public class EncodeAndDecodeTinyURL {
 	private int index = 1;

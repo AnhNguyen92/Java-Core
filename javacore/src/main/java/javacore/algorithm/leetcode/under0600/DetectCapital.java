@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 520
+ * LeetCode 520. Detect Capital
  */
 public class DetectCapital {
 	public boolean detectCapitalUse(String word) {

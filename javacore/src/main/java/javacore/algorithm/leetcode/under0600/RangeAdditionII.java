@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 598
+ * LeetCode 598. Range Addition II
  */
 public class RangeAdditionII {
 	public int maxCount(int m, int n, int[][] ops) {

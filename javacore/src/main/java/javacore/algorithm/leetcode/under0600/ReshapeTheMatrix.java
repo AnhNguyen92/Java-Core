@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 566
+ * LeetCode 566. Reshape the Matrix
 */
 public class ReshapeTheMatrix {
 	public int[][] matrixReshape(int[][] mat, int r, int c) {

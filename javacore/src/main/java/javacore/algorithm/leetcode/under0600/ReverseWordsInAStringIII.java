@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 557
+ * LeetCode 557. Reverse Words in a String III
  */
 public class ReverseWordsInAStringIII {
 	public String reverseWords(String s) {

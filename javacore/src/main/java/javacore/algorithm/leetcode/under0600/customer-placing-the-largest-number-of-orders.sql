@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 586
+ * LeetCode 586. Customer Placing the Largest Number of Orders
  */
 
 select customer_number from

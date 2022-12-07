@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * Leetcode 537
+ * Leetcode 537. Complex Number Multiplication
  */
 public class ComplexNumberMultiplication {
 	public String complexNumberMultiply(String num1, String num2) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 507
+ * LeetCode 507. Perfect Number
  */
 public class PerfectNumber {
 	public boolean checkPerfectNumber(int num) {

@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 595
+ * LeetCode 595. Big Countries
  */
 
 SELECT

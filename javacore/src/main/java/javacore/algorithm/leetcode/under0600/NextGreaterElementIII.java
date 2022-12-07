@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0600;
 import java.util.Arrays;
 
 /*
- * LeetCode 556
+ * LeetCode 556. Next Greater Element III
  */
 public class NextGreaterElementIII {
 	public int nextGreaterElement(int n) {

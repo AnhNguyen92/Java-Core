@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0600;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 543
+ * LeetCode 543. Diameter of Binary Tree
  */
 public class DiameterOfBinaryTree {
 	public int height(TreeNode root) {

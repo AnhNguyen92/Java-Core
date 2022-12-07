@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 575
+ * LeetCode 575. Distribute Candies
  */
 public class DistributeCandies {
 	public int distributeCandies(int[] candies) {

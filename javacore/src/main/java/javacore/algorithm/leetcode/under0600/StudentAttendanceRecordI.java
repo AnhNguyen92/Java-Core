@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * LeetCode 551
+ * LeetCode 551. Student Attendance Record I
  */
 public class StudentAttendanceRecordI {
 	public boolean checkRecord(String s) {

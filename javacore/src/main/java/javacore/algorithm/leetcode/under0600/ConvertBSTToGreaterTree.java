@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 538
+ * LeetCode 538. Convert BST to Greater Tree
  */
 public class ConvertBSTToGreaterTree {
 	public TreeNode convertBST(TreeNode root) {

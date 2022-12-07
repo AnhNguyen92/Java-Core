@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- * LeetCode 539
+ * LeetCode 539. Minimum Time Difference
  */
 public class MinimumTimeDifference {
 	public int findMinDifference(List<String> timePoints) {

@@ -3,9 +3,9 @@ package javacore.algorithm.leetcode.under0600;
 import java.util.Arrays;
 
 /*
- * LeetCode 561
+ * LeetCode 561. Array Partition
  */
-public class ArrayPartitionI {
+public class ArrayPartition {
 	public int arrayPairSum(int[] nums) {
 		Arrays.sort(nums);
 		int sum = 0;

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * Leetcode 594
+ * Leetcode 594. Longest Harmonious Subsequence
  */
 public class LongestHarmoniousSubsequence {
 	public int findLHS(int[] nums) {

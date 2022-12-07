@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 530
+ * LeetCode 530. Minimum Absolute Difference in BST
  */
 public class MinimumAbsoluteDifferenceInBST {
 	int minDiff = Integer.MAX_VALUE;
