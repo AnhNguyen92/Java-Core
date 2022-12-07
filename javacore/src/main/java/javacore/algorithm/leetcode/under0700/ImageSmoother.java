@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 661
+ * LeetCode 661. Image Smoother
  */
 public class ImageSmoother {
 	public int[][] imageSmoother(int[][] img) {

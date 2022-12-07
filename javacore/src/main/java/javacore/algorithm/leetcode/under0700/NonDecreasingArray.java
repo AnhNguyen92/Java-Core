@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 665
+ * LeetCode 665. Non-decreasing Array
  */
 public class NonDecreasingArray {
 	public boolean checkPossibility(int[] nums) {

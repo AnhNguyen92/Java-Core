@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 680
+ * LeetCode 680. Valid Palindrome II
  */
 public class ValidPalindromeII {
 	public boolean validPalindrome(String s) {

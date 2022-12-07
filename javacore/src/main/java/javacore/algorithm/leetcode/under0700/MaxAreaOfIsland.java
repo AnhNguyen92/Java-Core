@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 695
+ * LeetCode 695. Max Area of Island
  */
 public class MaxAreaOfIsland {
 	public int maxAreaOfIsland(int[][] grid) {

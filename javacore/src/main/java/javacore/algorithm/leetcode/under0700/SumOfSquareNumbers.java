@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 633
+ * LeetCode 633. Sum of Square Numbers
  */
 public class SumOfSquareNumbers {
 	public boolean judgeSquareSum(int c) {

@@ -7,7 +7,7 @@ import java.util.TreeSet;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 680
+ * LeetCode 671. Second Minimum Node In a Binary Tree
  */
 public class SecondMinimumNodeInABinaryTree {
 	int min1;

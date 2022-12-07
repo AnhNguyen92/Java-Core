@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 643
+ * LeetCode 643. Maximum Average Subarray I
  */
 public class MaximumAverageSubarrayI {
 	public double findMaxAverage(int[] nums, int k) {

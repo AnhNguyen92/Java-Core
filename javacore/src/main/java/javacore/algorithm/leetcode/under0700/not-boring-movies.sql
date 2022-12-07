@@ -1,5 +1,5 @@
 /*
- * LeetCode 620
+ * LeetCode 620. Not Boring Movies
  */
 
 select *     

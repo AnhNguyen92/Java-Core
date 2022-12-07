@@ -6,7 +6,7 @@ import java.util.Map;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 653
+ * LeetCode 653. Two Sum IV - Input is a BST
  */
 public class TwoSumIVInputIsABST {
 	public boolean findTarget(TreeNode root, int k) {

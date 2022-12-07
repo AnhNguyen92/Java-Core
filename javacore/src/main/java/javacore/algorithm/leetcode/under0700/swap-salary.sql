@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 627
+ * LeetCode 627. Swap Salary
  */
 
 update salary

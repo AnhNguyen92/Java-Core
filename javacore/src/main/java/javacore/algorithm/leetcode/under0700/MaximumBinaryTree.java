@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 654
+ * LeetCode 654. Maximum Binary Tree
  */
 public class MaximumBinaryTree {
 	class Solution {

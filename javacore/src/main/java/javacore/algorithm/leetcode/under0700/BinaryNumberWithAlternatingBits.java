@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 693
+ * LeetCode 693. Binary Number with Alternating Bits
  */
 public class BinaryNumberWithAlternatingBits {
 	public boolean hasAlternatingBits(int n) {

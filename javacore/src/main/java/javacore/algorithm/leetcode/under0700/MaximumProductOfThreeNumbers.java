@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import java.util.Arrays;
 
 /*
- * LeetCode 628
+ * LeetCode 628. Maximum Product of Three Numbers
  */
 public class MaximumProductOfThreeNumbers {
 	public int maximumProduct(int[] nums) {

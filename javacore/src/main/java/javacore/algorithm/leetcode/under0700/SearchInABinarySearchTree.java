@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 700
+ * LeetCode 700. Search in a Binary Search Tree
  */
 public class SearchInABinarySearchTree {
 	public TreeNode searchBST(TreeNode root, int val) {

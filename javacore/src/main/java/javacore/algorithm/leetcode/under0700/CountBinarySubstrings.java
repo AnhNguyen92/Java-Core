@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 696
+ * LeetCode 696. Count Binary Substrings
  */
 public class CountBinarySubstrings {
 	public int countBinarySubstrings(String s) {

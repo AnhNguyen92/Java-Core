@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 623
+ * LeetCode 623. Add One Row to Tree
  */
 public class AddOneRowToTree {
 	public TreeNode addOneRow(TreeNode root, int val, int depth) {

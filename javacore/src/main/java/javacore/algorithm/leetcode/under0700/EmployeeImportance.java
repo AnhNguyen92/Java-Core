@@ -5,7 +5,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.Employee;
 
 /*
- * LeetCode 690
+ * LeetCode 690. Employee Importance
  */
 public class EmployeeImportance {
 	public int getImportance(List<Employee> employees, int id) {

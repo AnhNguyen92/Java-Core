@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 674
+ * LeetCode 674. Longest Continuous Increasing Subsequence
  */
 public class LongestContinuousIncreasingSubsequence {
 	public int findLengthOfLCIS(int[] nums) {

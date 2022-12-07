@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 605
+ * LeetCode 605. Can Place Flowers
  */
 public class CanPlaceFlowers {
 	public boolean canPlaceFlowers(int[] flowerbed, int n) {

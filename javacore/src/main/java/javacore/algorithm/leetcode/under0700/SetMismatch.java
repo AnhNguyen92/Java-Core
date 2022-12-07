@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0700;
 
 /*
- * LeetCode 645
+ * LeetCode 645. Set Mismatch
  */
 public class SetMismatch {
 	public int[] findErrorNums(int[] nums) {

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 697
+ * LeetCode 697. Degree of an Array
  */
 public class DegreeOfAnArray {
 	public int findShortestSubArray(int[] nums) {

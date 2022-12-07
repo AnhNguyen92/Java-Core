@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 637
+ * LeetCode 637. Average of Levels in Binary Tree
  */
 public class AverageOfLevelsInBinaryTree {
 	List<List<Integer>> lst = new ArrayList<>();

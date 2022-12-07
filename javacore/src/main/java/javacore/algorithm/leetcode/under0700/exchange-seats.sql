@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 626
+ * LeetCode 626. Exchange Seats
  */
 
 select 

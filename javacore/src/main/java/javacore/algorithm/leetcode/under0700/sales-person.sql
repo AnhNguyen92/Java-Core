@@ -1,5 +1,5 @@
 /*
- * LeetCode 607
+ * LeetCode 607. Sales Person
  */
 
 select s.name 

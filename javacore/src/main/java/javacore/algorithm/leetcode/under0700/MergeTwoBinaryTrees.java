@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 617
+ * LeetCode 617. Merge Two Binary Trees
  */
 public class MergeTwoBinaryTrees {
 	public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {

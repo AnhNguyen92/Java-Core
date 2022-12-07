@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 682
+ * LeetCode 682. Baseball Game
  */
 public class BaseballGame {
 	public int calPoints(String[] ops) {

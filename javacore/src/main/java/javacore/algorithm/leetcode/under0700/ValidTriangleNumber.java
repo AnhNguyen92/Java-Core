@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import java.util.Arrays;
 
 /*
- * LeetCode 611
+ * LeetCode 611. Valid Triangle Number
  */
 public class ValidTriangleNumber {
 	public int triangleNumber(int[] nums) {

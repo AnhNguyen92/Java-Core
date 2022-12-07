@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 692
+ * LeetCode 692. Top K Frequent Words
  */
 public class TopKFrequentWords {
 
