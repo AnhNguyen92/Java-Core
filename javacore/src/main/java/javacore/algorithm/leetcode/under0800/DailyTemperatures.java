@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 739
+ * LeetCode 739. Daily Temperatures
  */
 public class DailyTemperatures {
 	public int[] dailyTemperatures(int[] temperatures) {

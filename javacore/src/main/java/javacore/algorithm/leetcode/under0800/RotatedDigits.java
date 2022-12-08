@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 788
+ * LeetCode 788. Rotated Digits
  */
 public class RotatedDigits {
 	public int rotatedDigits(int n) {

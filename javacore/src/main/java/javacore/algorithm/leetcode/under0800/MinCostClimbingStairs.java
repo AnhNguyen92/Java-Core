@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 746
+ * LeetCode 746. Min Cost Climbing Stairs
  */
 public class MinCostClimbingStairs {
 	public int minCostClimbingStairs(int[] cost) {

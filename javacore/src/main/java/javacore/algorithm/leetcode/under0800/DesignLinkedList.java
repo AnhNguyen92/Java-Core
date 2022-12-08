@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 707
+ * LeetCode 707. Design Linked List
  */
 public class DesignLinkedList {
 	private List<Integer> lst = new ArrayList<>();

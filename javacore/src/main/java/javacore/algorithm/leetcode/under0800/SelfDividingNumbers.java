@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 728
+ * LeetCode 728. Self Dividing Numbers
  */
 public class SelfDividingNumbers {
 	public List<Integer> selfDividingNumbers(int left, int right) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0800;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 701
+ * LeetCode 701. Insert into a Binary Search Tree
  */
 public class InsertIntoABinarySearchTree {
 	public TreeNode insertIntoBST(TreeNode root, int val) {

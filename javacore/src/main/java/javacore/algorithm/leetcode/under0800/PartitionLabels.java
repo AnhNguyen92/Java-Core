@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 763
+ * LeetCode 763. Partition Labels
  */
 public class PartitionLabels {
 	public List<Integer> partitionLabels(String S) {

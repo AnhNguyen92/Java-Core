@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 717
+ * LeetCode 717. 1-bit and 2-bit Characters
  */
 public class OneBitAndTwoBitCharacters {
 	public boolean isOneBitCharacter(int[] bits) {

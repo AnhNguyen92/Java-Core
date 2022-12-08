@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * Leetcode 766
+ * Leetcode 766. Toeplitz Matrix
  */
 public class ToeplitzMatrix {
 	public boolean isToeplitzMatrix(int[][] matrix) {

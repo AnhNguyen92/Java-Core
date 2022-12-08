@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 705
+ * LeetCode 705. Design HashSet
  */
 public class DesignHashSet {
 	Set<Integer> set = new HashSet<>();

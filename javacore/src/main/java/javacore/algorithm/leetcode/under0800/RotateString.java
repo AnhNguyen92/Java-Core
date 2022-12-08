@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 796
+ * LeetCode 796. Rotate String
  */
 public class RotateString {
 	public boolean rotateString(String a, String b) {

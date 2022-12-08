@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 706
+ * LeetCode 706. Design HashMap
  */
 public class DesignHashMap {
 	Map<Integer, Integer> map = new HashMap<>();

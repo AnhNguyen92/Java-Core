@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0800;
 import java.util.Arrays;
 
 /*
- * LeetCode 771
+ * LeetCode 771. Jewels and Stones
  */
 public class JewelsAndStones {
 	public int numJewelsInStones(String j, String s) {

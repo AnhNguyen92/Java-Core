@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 762
+ * LeetCode 762. Prime Number of Set Bits in Binary Representation
  */
 public class PrimeNumberOfSetBitsInBinaryRepresentation {
 	public int countPrimeSetBits(int L, int R) {

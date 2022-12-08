@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 733
+ * LeetCode 733. Flood Fill
  */
 public class FloodFill {
 	public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0800;
 import java.util.Arrays;
 
 /*
- * LeetCode 747
+ * LeetCode 747. Largest Number At Least Twice of Others
  */
 public class LargestNumberAtLeastTwiceOfOthers {
 	public int dominantIndex(int[] nums) {

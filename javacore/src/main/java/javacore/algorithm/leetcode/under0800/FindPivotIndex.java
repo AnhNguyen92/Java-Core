@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0800;
 
 /*
- * LeetCode 724
+ * LeetCode 724. Find Pivot Index
  */
 public class FindPivotIndex {
 	public int pivotIndex(int[] nums) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0800;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 703
+ * LeetCode 703. Kth Largest Element in a Stream
  */
 public class KthLargestElementInAStream {
 	PriorityQueue<Integer> pq;
