@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 872
+ * LeetCode 872. Leaf-Similar Trees
  */
 public class LeafSimilarTrees {
 	public boolean leafSimilar(TreeNode root1, TreeNode root2) {

@@ -1,9 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
-import java.util.Calendar;
-
 /*
- * LeetCode 565. Array Partition
+ * LeetCode 565. Array Nesting
  */
 public class ArrayNesting {
 

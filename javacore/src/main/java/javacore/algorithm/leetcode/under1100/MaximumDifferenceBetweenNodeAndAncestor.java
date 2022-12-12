@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1026
+ * LeetCode 1026. Maximum Difference Between Node and Ancestor
  */
 public class MaximumDifferenceBetweenNodeAndAncestor {
 	public int maxAncestorDiff(TreeNode root) {
