@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 868
+ * LeetCode 868. Binary Gap
  */
 public class BinaryGap {
 	public int binaryGap(int n) {

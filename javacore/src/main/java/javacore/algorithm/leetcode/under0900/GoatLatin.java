@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 824
+ * LeetCode 824. Goat Latin
  */
 public class GoatLatin {
 	public String toGoatLatin(String s) {

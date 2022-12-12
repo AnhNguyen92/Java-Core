@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 860
+ * LeetCode 860. Lemonade Change
  */
 public class LemonadeChange {
 	public boolean lemonadeChange(int[] bills) {

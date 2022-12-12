@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 811
+ * LeetCode 811. Subdomain Visit Count
  */
 public class SubdomainVisitCount {
 	public List<String> subdomainVisits(String[] cpdomains) {

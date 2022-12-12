@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 888
+ * LeetCode 888. Fair Candy Swap
  */
 public class FairCandySwap {
 	public int[] fairCandySwap(int[] a, int[] b) {

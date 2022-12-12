@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0900;
 import java.util.Arrays;
 
 /*
- * LeetCode 896
+ * LeetCode 896. Monotonic Array
  */
 public class MonotonicArray {
 	public boolean isMonotonic(int[] a) {

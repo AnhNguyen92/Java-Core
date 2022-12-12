@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 804
+ * LeetCode 804. Unique Morse Code Words
  */
 public class UniqueMorseCodeWords {
 	public int uniqueMorseRepresentations(String[] words) {

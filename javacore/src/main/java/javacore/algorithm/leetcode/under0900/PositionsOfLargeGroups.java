@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 830
+ * LeetCode 830. Positions of Large Groups
  */
 public class PositionsOfLargeGroups {
 	public List<List<Integer>> largeGroupPositions(String s) {

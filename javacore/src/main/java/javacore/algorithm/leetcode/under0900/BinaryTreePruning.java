@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under0900;
 
 import javacore.algorithm.leetcode.model.TreeNode;
 
+/*
+ * LeetCode 814. Binary Tree Pruning
+ */
 public class BinaryTreePruning {
 	public TreeNode pruneTree(TreeNode root) {
         if (root != null) {

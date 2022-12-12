@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 819
+ * LeetCode 819. Most Common Word
  */
 public class MostCommonWord {
 	public String mostCommonWord(String paragraph, String[] banned) {

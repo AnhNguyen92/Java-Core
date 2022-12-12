@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 812
+ * LeetCode 812. Largest Triangle Area
  */
 public class LargestTriangleArea {
 	public double largestTriangleArea(int[][] points) {

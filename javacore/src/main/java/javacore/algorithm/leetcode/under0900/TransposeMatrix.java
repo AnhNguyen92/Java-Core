@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 867
+ * LeetCode 867. Transpose Matrix
  */
 public class TransposeMatrix {
 	public int[][] transpose(int[][] arr) {

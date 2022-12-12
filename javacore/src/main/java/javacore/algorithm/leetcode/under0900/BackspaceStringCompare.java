@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 844
+ * LeetCode 844. Backspace String Compare
  */
 public class BackspaceStringCompare {
 	public boolean backspaceCompare(String S, String T) {

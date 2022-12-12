@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 897
+ * LeetCode 897. Increasing Order Search Tree
  */
 public class IncreasingOrderSearchTree {
 	public TreeNode increasingBST(TreeNode root) {

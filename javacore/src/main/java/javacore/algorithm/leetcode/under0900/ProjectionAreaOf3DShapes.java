@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 883
+ * LeetCode 883. Projection Area of 3D Shapes
  */
 public class ProjectionAreaOf3DShapes {
 	public int projectionArea(int[][] grid) {

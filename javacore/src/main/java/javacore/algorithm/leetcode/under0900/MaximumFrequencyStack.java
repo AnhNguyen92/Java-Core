@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Stack;
 
 /*
- * LeetCode 895
+ * LeetCode 895. Maximum Frequency Stack
  */
 public class MaximumFrequencyStack {
 

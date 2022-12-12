@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 832
+ * LeetCode 832. Flipping an Image
  */
 public class FlippingAnImage {
 	public int[][] flipAndInvertImage(int[][] arr) {

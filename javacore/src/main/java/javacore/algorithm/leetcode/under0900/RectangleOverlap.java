@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 836
+ * LeetCode 836. Rectangle Overlap
  */
 public class RectangleOverlap {
 	public boolean isRectangleOverlap(int[] rec1, int[] rec2) {

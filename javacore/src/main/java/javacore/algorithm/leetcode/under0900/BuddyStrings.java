@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 859
+ * LeetCode 859. Buddy Strings
  */
 public class BuddyStrings {
 	public boolean buddyStrings(String a, String b) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0900;
 import java.util.Arrays;
 
 /*
- * LeetCode 820
+ * LeetCode 820. Short Encoding of Words
  */
 public class ShortEncodingOfWords {
 	public int minimumLengthEncoding(String[] words) {

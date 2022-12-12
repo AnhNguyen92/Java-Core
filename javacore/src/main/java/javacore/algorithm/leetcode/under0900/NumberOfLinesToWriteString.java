@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 806
+ * LeetCode 806. Number of Lines To Write String
  */
 public class NumberOfLinesToWriteString {
 	public int[] numberOfLines(int[] widths, String s) {

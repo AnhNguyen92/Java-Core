@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0900;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * LeetCode 876
+ * LeetCode 876. Middle of the Linked List
  */
 public class MiddleOfTheLinkedList {
 	public ListNode middleNode(ListNode head) {

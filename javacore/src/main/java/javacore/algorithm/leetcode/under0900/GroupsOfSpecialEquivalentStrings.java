@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 893
+ * LeetCode 893. Groups of Special-Equivalent Strings
  */
 public class GroupsOfSpecialEquivalentStrings {
 	public int numSpecialEquivGroups(String[] a) {

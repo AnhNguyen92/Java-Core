@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * LeetCode 821
+ * LeetCode 821. Shortest Distance to a Character
  */
 public class ShortestDistanceToACharacter {
 	public int[] shortestToChar(String s, char c) {

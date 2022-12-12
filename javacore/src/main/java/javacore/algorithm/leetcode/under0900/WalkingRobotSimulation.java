@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 874
+ * LeetCode 874. Walking Robot Simulation
  */
 public class WalkingRobotSimulation {
 	Map<List<Integer>, Boolean> map = new HashMap<>();
