@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1002
+ * LeetCode 1002. Find Common Characters
  */
 public class FindCommonCharacters {
 	public List<String> commonChars(String[] A) {

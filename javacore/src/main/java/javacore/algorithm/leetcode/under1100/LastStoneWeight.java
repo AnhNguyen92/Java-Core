@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1100;
 import java.util.Arrays;
 
 /*
- * LeetCode 1046
+ * LeetCode 1046. Last Stone Weight
  */
 public class LastStoneWeight {
 	public int lastStoneWeight(int[] stones) {

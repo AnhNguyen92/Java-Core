@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1037
+ * LeetCode 1037. Valid Boomerang
  */
 public class ValidBoomerang {
 	public boolean isBoomerang(int[][] points) {

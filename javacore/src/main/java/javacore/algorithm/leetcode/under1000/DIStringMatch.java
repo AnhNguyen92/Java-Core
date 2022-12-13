@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 942
+ * Leetcode 942. DI String Match
  */
 public class DIStringMatch {
 	public int[] diStringMatch(String s) {

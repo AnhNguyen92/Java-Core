@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1000;
 import java.util.Arrays;
 
 /*
- * Leetcode 977
+ * Leetcode 977. Squares of a Sorted Array
  */
 public class SquaresOfASortedArray {
 	public int[] sortedSquares(int[] nums) {

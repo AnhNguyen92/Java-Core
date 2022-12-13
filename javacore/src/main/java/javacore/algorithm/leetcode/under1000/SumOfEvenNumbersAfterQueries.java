@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * LeetCode 985
+ * LeetCode 985. Sum of Even Numbers After Queries
  */
 public class SumOfEvenNumbersAfterQueries {
 	public int[] sumEvenAfterQueries(int[] arr, int[][] queries) {

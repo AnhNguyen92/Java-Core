@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1051
+ * LeetCode 1051. Height Checker
  */
 public class HeightChecker {
 	public int heightChecker(int[] heights) {

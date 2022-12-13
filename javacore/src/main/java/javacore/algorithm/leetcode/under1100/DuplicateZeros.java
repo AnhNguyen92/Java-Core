@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1089
+ * LeetCode 1089. Duplicate Zeros
  */
 public class DuplicateZeros {
 	public void duplicateZeros(int[] arr) {

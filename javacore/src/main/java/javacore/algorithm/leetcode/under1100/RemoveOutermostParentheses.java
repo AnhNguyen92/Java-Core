@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1021
+ * LeetCode 1021. Remove Outermost Parentheses
  */
 public class RemoveOutermostParentheses {
 	public String removeOuterParentheses(String S) {

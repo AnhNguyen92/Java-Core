@@ -1,5 +1,8 @@
 package javacore.algorithm.leetcode.under1100;
 
+/*
+ * LeetCode 1030. Matrix Cells in Distance Order
+ */
 public class MatrixCellsInDistanceOrder {
 	public int[][] allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {
         int[][] arr = new int[rows * cols][2];

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 941
+ * Leetcode 941. Valid Mountain Array
  */
 public class ValidMountainArray {
 	public boolean validMountainArray(int[] arr) {

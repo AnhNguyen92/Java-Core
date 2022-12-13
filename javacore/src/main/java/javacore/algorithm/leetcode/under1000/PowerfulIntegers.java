@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 /*
- * LeetCode 970
+ * LeetCode 970. Powerful Integers
  */
 public class PowerfulIntegers {
 	public List<Integer> powerfulIntegers(int x, int y, int bound) {

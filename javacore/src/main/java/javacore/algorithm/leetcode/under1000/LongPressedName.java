@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * LeetCode 925
+ * LeetCode 925. Long Pressed Name
 */
 public class LongPressedName {
 	public boolean isLongPressedName(String name, String typed) {

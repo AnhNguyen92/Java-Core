@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 953
+ * Leetcode 953. Verifying an Alien Dictionary
  */
 public class VerifyingAnAlienDictionary {
 	public boolean isAlienSorted(String[] words, String order) {

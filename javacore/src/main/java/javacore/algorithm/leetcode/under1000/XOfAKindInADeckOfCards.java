@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * Leetcode 914
+ * Leetcode 914. X of a Kind in a Deck of Cards
  */
 public class XOfAKindInADeckOfCards {
 	public boolean hasGroupsSizeX(int[] deck) {

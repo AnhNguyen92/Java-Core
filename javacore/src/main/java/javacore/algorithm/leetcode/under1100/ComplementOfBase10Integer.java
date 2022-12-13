@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1009
+ * LeetCode 1009. Complement of Base 10 Integer
  */
 public class ComplementOfBase10Integer {
 	public int bitwiseComplement(int n) {

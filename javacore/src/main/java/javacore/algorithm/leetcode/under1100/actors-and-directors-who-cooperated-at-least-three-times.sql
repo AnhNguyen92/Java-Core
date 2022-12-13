@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1050
+ * LeetCode 1050. Actors and Directors Who Cooperated At Least Three Times
  */
 
 select actor_id, director_id

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 961
+ * Leetcode 961. N-Repeated Element in Size 2N Array
  */
 public class NRepeatedElementInSize2NArray {
 	public int repeatedNTimes(int[] nums) {

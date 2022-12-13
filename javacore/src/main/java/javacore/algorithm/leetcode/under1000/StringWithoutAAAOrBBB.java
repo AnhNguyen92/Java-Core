@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * LeetCode 984
+ * LeetCode 984. String Without AAA or BBB
  */
 public class StringWithoutAAAOrBBB {
 	public String strWithout3a3b(int a, int b) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1018
+ * LeetCode 1018. Binary Prefix Divisible By 5
  */
 public class BinaryPrefixDivisibleBy5 {
 	public List<Boolean> prefixesDivBy5(int[] arr) {

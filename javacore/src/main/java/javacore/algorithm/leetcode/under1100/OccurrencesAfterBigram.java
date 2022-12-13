@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1078
+ * LeetCode 1078. Occurrences After Bigram
  */
 public class OccurrencesAfterBigram {
 	public String[] findOcurrences(String text, String first, String second) {

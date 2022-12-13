@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * Leetcode 929
+ * Leetcode 929. Unique Email Addresses
  */
 public class UniqueEmailAddresses {
 	public int numUniqueEmails(String[] emails) {

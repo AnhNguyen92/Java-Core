@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1100;
 
 /*
- * LeetCode 1013
+ * LeetCode 1013. Partition Array Into Three Parts With Equal Sum
  */
 public class PartitionArrayIntoThreePartsWithEqualSum {
 	public boolean canThreePartsEqualSum(int[] arr) {

@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /*
- * LeetCode 1071
+ * LeetCode 1071. Greatest Common Divisor of Strings
  */
 public class GreatestCommonDivisorOfStrings {
 	public String gcdOfStrings(String str1, String str2) {

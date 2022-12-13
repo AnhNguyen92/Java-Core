@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 999
+ * Leetcode 999. Available Captures for Rook
  */
 public class AvailableCapturesForRook {
 	public int numRookCaptures(char[][] board) {

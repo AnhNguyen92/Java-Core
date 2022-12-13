@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1100;
 import java.util.Arrays;
 
 /*
- * LeetCode 1005
+ * LeetCode 1005. Maximize Sum Of Array After K Negations
  */
 public class MaximizeSumOfArrayAfterKNegations {
 	public int largestSumAfterKNegations(int[] arr, int k) {

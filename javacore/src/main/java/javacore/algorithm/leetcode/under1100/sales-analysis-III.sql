@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1084
+ * LeetCode 1084. Sales Analysis III
  */
 
 select distinct p.product_id, p.product_name 

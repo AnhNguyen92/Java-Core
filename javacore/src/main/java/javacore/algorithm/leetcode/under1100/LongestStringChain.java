@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1048
+ * LeetCode 1048. Longest String Chain
  */
 public class LongestStringChain {
 

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1100;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1038
+ * LeetCode 1038. Binary Search Tree to Greater Sum Tree
  */
 public class BinarySearchTreeToGreaterSumTree {
 	int lastValue = 0;

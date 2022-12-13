@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1100;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1022
+ * LeetCode 1022. Sum of Root To Leaf Binary Numbers
  */
 public class SumOfRootToLeafBinaryNumbers {
 	int rootToLeaf = 0;

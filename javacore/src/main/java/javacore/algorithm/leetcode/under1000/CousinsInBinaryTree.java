@@ -8,7 +8,7 @@ import java.util.Map;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 993
+ * Leetcode 993. Cousins in Binary Tree
  */
 public class CousinsInBinaryTree {
 	public boolean isCousins(TreeNode root, int x, int y) {

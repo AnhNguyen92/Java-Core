@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 997
+ * LeetCode 997. Find the Town Judge
 */
 public class FindTheTownJudge {
 	public int findJudge(int n, int[][] trust) {
