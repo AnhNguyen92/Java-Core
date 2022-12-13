@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1431
+ * LeetCode 1431. Kids With the Greatest Number of Candies
  */
 public class KidsWithTheGreatestNumberOfCandies {
 	public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {

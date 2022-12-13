@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1446
+ * LeetCode 1446. Consecutive Characters
  */
 public class ConsecutiveCharacters {
 	public int maxPower(String s) {

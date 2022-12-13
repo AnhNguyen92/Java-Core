@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 1403
+ * LeetCode 1403. Minimum Subsequence in Non-Increasing Order
  */
 public class MinimumSubsequenceInNonIncreasingOrder {
 	public List<Integer> minSubsequence(int[] nums) {

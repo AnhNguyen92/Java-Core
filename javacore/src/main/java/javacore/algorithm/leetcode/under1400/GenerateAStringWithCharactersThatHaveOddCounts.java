@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1374
+ * LeetCode 1374. Generate a String With Characters That Have Odd Counts
  */
 public class GenerateAStringWithCharactersThatHaveOddCounts {
 	public String generateTheString(int n) {

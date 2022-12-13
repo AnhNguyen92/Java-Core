@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1409
+ * LeetCode 1409. Queries on a Permutation With Key
  */
 public class QueriesOnAPermutationWithKey {
 	public int[] processQueries(int[] queries, int m) {

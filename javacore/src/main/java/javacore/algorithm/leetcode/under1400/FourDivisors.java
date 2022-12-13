@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1390
+ * LeetCode 1390. Four Divisors
  */
 public class FourDivisors {
 	public int sumFourDivisors(int[] nums) {

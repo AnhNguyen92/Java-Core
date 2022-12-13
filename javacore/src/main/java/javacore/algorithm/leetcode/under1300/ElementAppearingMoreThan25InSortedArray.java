@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1287
+ * Leetcode 1287. Element Appearing More Than 25% In Sorted Array
  */
 public class ElementAppearingMoreThan25InSortedArray {
 	public int findSpecialInteger(int[] arr) {

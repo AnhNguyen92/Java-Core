@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1222
+ * LeetCode 1222. Queens That Can Attack the King
  */
 public class QueensThatCanAttackTheKing {
 	List<List<Integer>> ans = new ArrayList<>();

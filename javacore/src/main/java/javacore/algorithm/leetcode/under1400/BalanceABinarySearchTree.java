@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1382
+ * LeetCode 1382. Balance a Binary Search Tree
  */
 public class BalanceABinarySearchTree {
 	List<Integer> lst = new ArrayList<>();

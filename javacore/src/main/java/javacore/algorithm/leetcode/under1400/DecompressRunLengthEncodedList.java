@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1313
+ * LeetCode 1313. Decompress Run-Length Encoded List
  */
 public class DecompressRunLengthEncodedList {
 	public int[] decompressRLElist(int[] nums) {

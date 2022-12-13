@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1476
+ * LeetCode 1476. Subrectangle Queries
  */
 public class SubrectangleQueries {
 	private int[][] rectangle;

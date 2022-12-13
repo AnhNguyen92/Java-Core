@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1417
+ * LeetCode 1417. Reformat The String
  */
 public class ReformatTheString {
 	public String reformat(String s) {

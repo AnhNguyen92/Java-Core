@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1394
+ * LeetCode 1394. Find Lucky Integer in an Array
  */
 public class FindLuckyIntegerInAnArray {
 	public int findLucky(int[] arr) {

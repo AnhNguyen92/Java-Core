@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1395
+ * LeetCode 1395. Count Number of Teams
  */
 public class CountNumberOfTeams {
 	public int numTeams(int[] rating) {

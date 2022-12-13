@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1500;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1448
+ * LeetCode 1448. Count Good Nodes in Binary Tree
  */
 public class CountGoodNodesInBinaryTree {
 	int count = 0;

@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 1338
+ * LeetCode 1338. Reduce Array Size to The Half
  */
 public class ReduceArraySizeToTheHalf {
 	public int minSetSize(int[] arr) {

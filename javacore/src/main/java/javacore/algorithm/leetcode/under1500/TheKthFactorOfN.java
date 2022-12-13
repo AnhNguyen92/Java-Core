@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- * LeetCode 1492
+ * LeetCode 1492. The kth Factor of n
  */
 public class TheKthFactorOfN {
 	public int kthFactor(int n, int k) {

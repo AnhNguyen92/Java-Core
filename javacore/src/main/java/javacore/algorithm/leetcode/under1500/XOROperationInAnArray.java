@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1486
+ * LeetCode 1486. XOR Operation in an Array
  */
 public class XOROperationInAnArray {
 	public int xorOperation(int n, int start) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1332
+ * LeetCode 1332. Remove Palindromic Subsequences
  */
 public class RemovePalindromicSubsequences {
 	public int removePalindromeSub(String s) {

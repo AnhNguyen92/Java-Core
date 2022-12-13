@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1399
+ * LeetCode 1399. Count Largest Group
  */
 public class CountLargestGroup {
 	public int countLargestGroup(int n) {

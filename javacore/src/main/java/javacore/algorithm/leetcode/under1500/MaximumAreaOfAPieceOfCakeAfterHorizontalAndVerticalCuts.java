@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1500;
 import java.util.Arrays;
 
 /*
- * LeetCode 1465
+ * LeetCode 1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts
  */
 public class MaximumAreaOfAPieceOfCakeAfterHorizontalAndVerticalCuts {
 	public int maxArea(int h, int w, int[] horizontalCuts, int[] verticalCuts) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1365
+ * LeetCode 1365. How Many Numbers Are Smaller Than the Current Number
  */
 public class HowManyNumbersAreSmallerThanTheCurrentNumber {
 	public int[] smallerNumbersThanCurrent(int[] nums) {

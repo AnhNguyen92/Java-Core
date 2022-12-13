@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- * Leetcode 1290
+ * Leetcode 1290. Convert Binary Number in a Linked List to In
  */
 public class ConvertBinaryNumberInALinkedListToInteger {
 	public int getDecimalValue(ListNode head) {

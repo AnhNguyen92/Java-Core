@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1381
+ * LeetCode 1381. Design a Stack With Increment Operation
  */
 public class DesignAStackWithIncrementOperation {
 	class CustomStack {

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1346
+ * LeetCode 1346. Check If N and Its Double Exist
  */
 public class CheckIfNAndItsDoubleExist {
 	public boolean checkIfExist(int[] arr) {

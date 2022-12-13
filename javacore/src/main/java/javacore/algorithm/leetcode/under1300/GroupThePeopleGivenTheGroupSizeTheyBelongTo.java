@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 1282
+ * LeetCode 1282. Group the People Given the Group Size They Belong To
  */
 public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
 	public List<List<Integer>> groupThePeople(int[] groupSizes) {

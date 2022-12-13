@@ -9,7 +9,7 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 1337
+ * LeetCode 1337. The K Weakest Rows in a Matrix
  */
 public class TheKWeakestRowsInAMatrix {
 	public int binarySearch(int[] arr) {

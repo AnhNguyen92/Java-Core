@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1400;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1302
+ * LeetCode 1302. Deepest Leaves Sum
  */
 public class DeepestLeavesSum {
 	class SumLevel {

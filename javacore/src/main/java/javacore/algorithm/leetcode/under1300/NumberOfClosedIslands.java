@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1254
+ * Leetcode 1254. Number of Closed Islands
  */
 public class NumberOfClosedIslands {
 	public int closedIsland(int[][] grid) {

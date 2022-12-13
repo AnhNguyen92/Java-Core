@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * LeetCode 1331
+ * LeetCode 1331. Rank Transform of an Array
  */
 public class RankTransformOfAnArray {
 	public int[] arrayRankTransform(int[] arr) {

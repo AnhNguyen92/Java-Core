@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1351
+ * LeetCode 1351. Count Negative Numbers in a Sorted Matrix
  */
 public class CountNegativeNumbersInASortedMatrix {
 	public int countNegatives(int[][] grid) {

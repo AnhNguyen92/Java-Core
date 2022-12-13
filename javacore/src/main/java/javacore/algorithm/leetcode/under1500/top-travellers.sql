@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1407
+ * LeetCode 1407. Top Travellers
  */
 
 select u.name, COALESCE(sum(r.distance),0) as 'travelled_distance'

@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1305
+ * LeetCode 1305. All Elements in Two Binary Search Trees
  */
 public class AllElementsInTwoBinarySearchTrees {
 	private List<Integer> lst = new ArrayList<>();

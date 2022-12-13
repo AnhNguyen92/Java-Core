@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1500;
 import java.util.Arrays;
 
 /*
- * LeetCode 1491
+ * LeetCode 1491. Average Salary Excluding the Minimum and Maximum Salary
  */
 public class AverageSalaryExcludingTheMinimumAndMaximumSalary {
 	public double average(int[] salary) {

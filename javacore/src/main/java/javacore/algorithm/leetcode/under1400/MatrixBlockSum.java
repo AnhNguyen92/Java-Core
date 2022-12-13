@@ -1,23 +1,23 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1314
+ * LeetCode 1314. Matrix Block Sum
  */
 public class MatrixBlockSum {
 	public int[][] matrixBlockSum(int[][] mat, int K) {
-        int[][] ans = new int[mat.length][mat[0].length];
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                for (int r = Math.max(i - K, 0); r <= Math.min(i + K, mat.length - 1); r++) {
-                    for (int c = Math.max(j - K, 0); c <= Math.min(j + K, mat[i].length - 1); c++) {
-                        ans[i][j] += mat[r][c];
-                    }
-                }
-            }
-        }
-        return ans;
-    }
-	
+		int[][] ans = new int[mat.length][mat[0].length];
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				for (int r = Math.max(i - K, 0); r <= Math.min(i + K, mat.length - 1); r++) {
+					for (int c = Math.max(j - K, 0); c <= Math.min(j + K, mat[i].length - 1); c++) {
+						ans[i][j] += mat[r][c];
+					}
+				}
+			}
+		}
+		return ans;
+	}
+
 	public int[][] matrixBlockSum2(int[][] mat, int K) {
 		int m = mat.length, n = mat[0].length;
 		int[][] prefix = new int[m + 1][n + 1], answer = new int[m][n];

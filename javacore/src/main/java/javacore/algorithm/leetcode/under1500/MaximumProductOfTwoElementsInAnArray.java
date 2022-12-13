@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1500;
 import java.util.Arrays;
 
 /*
- * LeetCode 1464
+ * LeetCode 1464. Maximum Product of Two Elements in an Array
  */
 public class MaximumProductOfTwoElementsInAnArray {
 	public int maxProduct(int[] nums) {

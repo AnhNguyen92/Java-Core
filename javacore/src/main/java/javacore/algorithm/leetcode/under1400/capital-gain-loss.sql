@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1393
+ * LeetCode 1393. Capital Gain/Loss
  */
 
 select stock_name,

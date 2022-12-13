@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1304
+ * LeetCode 1304. Find N Unique Integers Sum up to Zero
  */
 public class FindNUniqueIntegersSumUpToZero {
 	public int[] sumZero(int n) {

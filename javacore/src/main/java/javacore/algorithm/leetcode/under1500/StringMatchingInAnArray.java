@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /*
- * LeetCode 1408
+ * LeetCode 1408. String Matching in an Array
  */
 public class StringMatchingInAnArray {
 	public List<String> stringMatching(String[] words) {

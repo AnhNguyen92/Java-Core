@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1317
+ * LeetCode 1317. Convert Integer to the Sum of Two No-Zero
  */
 public class ConvertIntegerToTheSumOfTwoNoZeroIntegers {
 	public int[] getNoZeroIntegers(int n) {

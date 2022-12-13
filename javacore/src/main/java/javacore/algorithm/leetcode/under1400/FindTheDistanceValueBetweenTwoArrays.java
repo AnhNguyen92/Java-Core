@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1400;
 import java.util.Arrays;
 
 /*
- * LeetCode 1385
+ * LeetCode 1385. Find the Distance Value Between Two Arrays
  */
 public class FindTheDistanceValueBetweenTwoArrays {
 	public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1480
+ * LeetCode 1480. Running Sum of 1d Array
  */
 public class RunningSumOf1dArray {
 	public int[] runningSum(int[] nums) {

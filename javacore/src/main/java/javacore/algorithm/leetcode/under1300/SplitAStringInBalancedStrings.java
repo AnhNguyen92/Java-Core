@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1221
+ * Leetcode 1221. Split a String in Balanced Strings
  */
 public class SplitAStringInBalancedStrings {
 	public int balancedStringSplit(String s) {

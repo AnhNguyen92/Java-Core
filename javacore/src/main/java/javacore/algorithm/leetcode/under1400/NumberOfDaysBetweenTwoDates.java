@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1360
+ * LeetCode 1360. Number of Days Between Two Dates
  */
 public class NumberOfDaysBetweenTwoDates {
 	public int daysBetweenDates(String date1, String date2) {

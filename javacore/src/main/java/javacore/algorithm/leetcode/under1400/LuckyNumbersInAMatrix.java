@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1380
+ * LeetCode 1380. Lucky Numbers in a Matrix
  */
 public class LuckyNumbersInAMatrix {
 	public List<Integer> luckyNumbers (int[][] matrix) {

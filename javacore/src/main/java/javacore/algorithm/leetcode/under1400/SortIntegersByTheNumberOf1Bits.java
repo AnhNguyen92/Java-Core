@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 1356
+ * LeetCode 1356. Sort Integers by The Number of 1 Bits
  */
 public class SortIntegersByTheNumberOf1Bits {
 	public int[] sortByBits(int[] arr) {

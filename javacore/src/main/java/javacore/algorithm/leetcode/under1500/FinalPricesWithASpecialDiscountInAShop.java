@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1475
+ * LeetCode 1475. Final Prices With a Special Discount in a Shop
  */
 public class FinalPricesWithASpecialDiscountInAShop {
 	public int[] finalPrices(int[] prices) {

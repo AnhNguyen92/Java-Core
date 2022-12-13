@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1460
+ * LeetCode 1460. Make Two Arrays Equal by Reversing Subarrays
  */
 public class MakeTwoArraysEqualByReversingSubArrays {
 	public boolean canBeEqual(int[] target, int[] arr) {

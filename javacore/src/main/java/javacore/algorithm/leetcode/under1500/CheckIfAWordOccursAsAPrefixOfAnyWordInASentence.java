@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1455
+ * LeetCode 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
  */
 public class CheckIfAWordOccursAsAPrefixOfAnyWordInASentence {
 	public int isPrefixOfWord(String sentence, String searchWord) {

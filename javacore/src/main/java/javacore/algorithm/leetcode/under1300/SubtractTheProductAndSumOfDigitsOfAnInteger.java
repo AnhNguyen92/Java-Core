@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1281
+ * Leetcode 1281. Subtract the Product and Sum of Digits of an Integer
  */
 public class SubtractTheProductAndSumOfDigitsOfAnInteger {
 	public int subtractProductAndSum(int n) {

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /*
- * LeetCode 1436
+ * LeetCode 1436. Destination City
  */
 public class DestinationCity {
 	public String destCity(List<List<String>> paths) {

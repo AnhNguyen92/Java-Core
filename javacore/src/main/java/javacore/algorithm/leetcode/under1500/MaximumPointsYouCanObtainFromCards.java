@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1423
+ * LeetCode 1423. Maximum Points You Can Obtain from Cards
  */
 public class MaximumPointsYouCanObtainFromCards {
 	public int maxScore(int[] cardPoints, int k) {

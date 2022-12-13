@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1252
+ * Leetcode 1252. Cells with Odd Values in a Matrix
  */
 public class CellsWithOddValuesInAMatrix {
 	public int oddCells(int n, int m, int[][] indices) {
@@ -18,7 +18,6 @@ public class CellsWithOddValuesInAMatrix {
 			for (int k = 0; k < m; k++) {
 				result += (row[j] + col[k]) % 2;
 			}
-
 		}
 
 		return result;

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1450
+ * LeetCode 1450. Number of Students Doing Homework at a Given Time
  */
 public class NumberOfStudentsDoingHomeworkAtAGivenTime {
 	public int busyStudent(int[] startTime, int[] endTime, int queryTime) {

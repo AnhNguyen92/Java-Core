@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * LeetCode 1370
+ * LeetCode 1370. Increasing Decreasing String
  */
 public class IncreasingDecreasingString {
 	public String sortString(String s) {

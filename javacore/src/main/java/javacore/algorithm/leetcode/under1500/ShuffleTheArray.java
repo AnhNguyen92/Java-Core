@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode 1470
+ * LeetCode 1470. Shuffle the Array
  */
 public class ShuffleTheArray {
 	public int[] shuffle(int[] nums, int n) {

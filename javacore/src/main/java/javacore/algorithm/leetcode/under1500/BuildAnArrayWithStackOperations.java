@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1441
+ * LeetCode 1441. Build an Array With Stack Operations
  */
 public class BuildAnArrayWithStackOperations {
 	public List<String> buildArray(int[] target, int n) {

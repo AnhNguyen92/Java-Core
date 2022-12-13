@@ -1,5 +1,8 @@
 package javacore.algorithm.leetcode.under1300;
 
+/*
+ * Leetcode 1232. Check If It Is a Straight Line
+ */
 public class CheckIfItIsAStraightLine {
 	public boolean checkStraightLine(int[][] coordinates) {
 		int[] slope = new int[] { coordinates[1][1] - coordinates[0][1], coordinates[1][0] - coordinates[0][0] };

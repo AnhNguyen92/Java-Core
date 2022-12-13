@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 1329
+ * LeetCode 1329. Sort the Matrix Diagonally
  */
 public class SortTheMatrixDiagonally {
 	public int[][] diagonalSort(int[][] mat) {
@@ -45,25 +45,25 @@ public class SortTheMatrixDiagonally {
 		if (i < right)
 			quickSort(mat, pinX, pinY, i, right);
 	}
-	
+
 	public int[][] diagonalSort2(int[][] mat) {
-        List<PriorityQueue<Integer>> lst = new ArrayList<>();
-        for (int i = 1; i < mat.length + mat[0].length; i++) {
-            lst.add(new PriorityQueue<>());
-        }
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                PriorityQueue<Integer> queue = lst.get(i - j + mat[0].length - 1);
-                queue.add(mat[i][j]);
-            }
-        }
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                PriorityQueue<Integer> queue = lst.get(i - j + mat[0].length - 1);
-                Integer val = queue.poll();
-                mat[i][j] = val.intValue();
-            }
-        }
-        return mat;
-    }
+		List<PriorityQueue<Integer>> lst = new ArrayList<>();
+		for (int i = 1; i < mat.length + mat[0].length; i++) {
+			lst.add(new PriorityQueue<>());
+		}
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				PriorityQueue<Integer> queue = lst.get(i - j + mat[0].length - 1);
+				queue.add(mat[i][j]);
+			}
+		}
+		for (int i = 0; i < mat.length; i++) {
+			for (int j = 0; j < mat[i].length; j++) {
+				PriorityQueue<Integer> queue = lst.get(i - j + mat[0].length - 1);
+				Integer val = queue.poll();
+				mat[i][j] = val.intValue();
+			}
+		}
+		return mat;
+	}
 }
