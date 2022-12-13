@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1629
+ * LeetCode 1629. Slowest Key
  */
 public class SlowestKey {
 	public char slowestKey(int[] releaseTimes, String keysPressed) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1608
+ * LeetCode 1608. Special Array With X Elements Greater Than or Equal X
  */
 public class SpecialArrayWithXElementsGreaterThanOrEqualX {
 	public int specialArray(int[] nums) {

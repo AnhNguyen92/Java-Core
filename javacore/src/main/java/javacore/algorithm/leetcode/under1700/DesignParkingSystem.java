@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1603
+ * LeetCode 1603. Design Parking System
  */
 public class DesignParkingSystem {
 	private int big;

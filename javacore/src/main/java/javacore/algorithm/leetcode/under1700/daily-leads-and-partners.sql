@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1693
+ * LeetCode 1693. Daily Leads and Partners
  */
 
 select date_id, make_name, count(distinct lead_id) as 'unique_leads', count(distinct partner_id ) as 'unique_partners'

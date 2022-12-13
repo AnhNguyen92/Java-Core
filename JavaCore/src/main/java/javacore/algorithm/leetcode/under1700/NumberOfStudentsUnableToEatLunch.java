@@ -1,7 +1,7 @@
-package javacore.algorithm.leetcode.under1800;
+package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1700
+ * LeetCode 1700. Number of Students Unable to Eat Lunch
  */
 public class NumberOfStudentsUnableToEatLunch {
 	public int countStudents(int[] students, int[] sandwiches) {

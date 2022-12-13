@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1678
+ * LeetCode 1678. Goal Parser Interpretation
  */
 public class GoalParserInterpretation {
 	public String interpret(String command) {

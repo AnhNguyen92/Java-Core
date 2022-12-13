@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1614
+ * LeetCode 1614. Maximum Nesting Depth of the Parentheses
  */
 public class MaximumNestingDepthOfTheParentheses {
 	public int maxDepth(String s) {

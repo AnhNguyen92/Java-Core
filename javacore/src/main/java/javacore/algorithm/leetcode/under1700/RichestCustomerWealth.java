@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1672
+ * LeetCode 1672. Richest Customer Wealth
  */
 public class RichestCustomerWealth {
 	public int maximumWealth(int[][] accounts) {

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 1636
+ * LeetCode 1636. Sort Array by Increasing Frequency
  */
 public class SortArrayByIncreasingFrequency {
 	public int[] frequencySort(int[] nums) {

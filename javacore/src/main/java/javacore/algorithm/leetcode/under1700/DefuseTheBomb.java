@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1652
+ * LeetCode 1652. Defuse the Bomb
  */
 public class DefuseTheBomb {
 	public int[] decrypt(int[] code, int k) {

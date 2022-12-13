@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1609
+ * LeetCode 1609. Even Odd Tree
  */
 public class EvenOddTree {
 	public boolean isEvenOddTree(TreeNode root) {

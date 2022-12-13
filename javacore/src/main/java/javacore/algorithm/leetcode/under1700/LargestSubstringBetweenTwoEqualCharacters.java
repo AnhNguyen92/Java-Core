@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1623
+ * LeetCode 1624. Largest Substring Between Two Equal Characters
  */
 public class LargestSubstringBetweenTwoEqualCharacters {
 	public int maxLengthBetweenEqualCharacters(String s) {

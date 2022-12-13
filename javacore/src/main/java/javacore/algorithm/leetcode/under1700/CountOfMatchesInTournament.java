@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1688
+ * LeetCode 1688. Count of Matches in Tournament
  */
 public class CountOfMatchesInTournament {
 	public int numberOfMatches(int n) {

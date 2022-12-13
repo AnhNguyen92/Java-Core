@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1694
+ * LeetCode 1694. Reformat Phone Number
  */
 public class ReformatPhoneNumber {
 	public String reformatNumber(String number) {

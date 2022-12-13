@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1603
+ * LeetCode 1603. Design an Ordered Stream
  */
 public class DesignAnOrderedStream {
 	String[] arr;

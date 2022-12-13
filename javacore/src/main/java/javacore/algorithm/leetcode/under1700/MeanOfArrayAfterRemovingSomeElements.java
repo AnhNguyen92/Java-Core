@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 import java.util.Arrays;
 
 /*
- * LeetCode 1619
+ * LeetCode 1619. Mean of Array After Removing Some Elements
  */
 public class MeanOfArrayAfterRemovingSomeElements {
 	public double trimMean(int[] arr) {

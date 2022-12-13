@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1684
+ * LeetCode 1684. Count the Number of Consistent Strings
  */
 public class CounttheNumberOfConsistentStrings {
 	public int countConsistentStrings(String allowed, String[] words) {

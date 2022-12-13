@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1668
+ * LeetCode 1668. Maximum Repeating Substring
  */
 public class MaximumRepeatingSubstring {
 	public int maxRepeating(String sequence, String word) {

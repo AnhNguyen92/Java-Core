@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1646
+ * LeetCode 1646. Get Maximum in Generated Array
  */
 public class GetMaximumInGeneratedArray {
 	public int getMaximumGenerated(int n) {

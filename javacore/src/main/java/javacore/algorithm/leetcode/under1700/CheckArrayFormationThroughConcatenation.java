@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1700;
 
 /*
- * LeetCode 1640
+ * LeetCode 1640. Check Array Formation Through Concatenation
  */
 public class CheckArrayFormationThroughConcatenation {
 	public boolean canFormArray(int[] arr, int[][] pieces) {
