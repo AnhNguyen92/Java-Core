@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 2289
+ * LeetCode 2289. Steps to Make Array Non-decreasing
  */
 public class StepsToMakeArrayNonDecreasing {
 	public static void main(String[] args) {
 		StepsToMakeArrayNonDecreasing app = new StepsToMakeArrayNonDecreasing();
-		System.out.println(app.totalSteps(new int[] { 4,5,7,7,13 }));
+		System.out.println(app.totalSteps(new int[] { 4, 5, 7, 7, 13 }));
 
 	}
 

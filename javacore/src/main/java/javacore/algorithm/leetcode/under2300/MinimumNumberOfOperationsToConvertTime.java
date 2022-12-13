@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2224
+ * LeetCode 2224. Minimum Number of Operations to Convert Time
 */
 public class MinimumNumberOfOperationsToConvertTime {
 	public int convertTime(String current, String correct) {

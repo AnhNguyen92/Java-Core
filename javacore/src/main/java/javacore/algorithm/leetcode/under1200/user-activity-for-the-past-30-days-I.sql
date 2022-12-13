@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1141
+ * LeetCode 1141. User Activity for the Past 30 Days I
  */
 
 # Write your MySQL query statement below

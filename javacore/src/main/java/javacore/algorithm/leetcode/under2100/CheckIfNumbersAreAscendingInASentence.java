@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * Leetcode 2042
+ * Leetcode 2042. Check if Numbers Are Ascending in a Sentence
  */
 public class CheckIfNumbersAreAscendingInASentence {
 	public boolean areNumbersAscending(String s) {

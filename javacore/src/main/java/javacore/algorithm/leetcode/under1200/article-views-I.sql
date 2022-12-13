@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1148
+ * LeetCode 1148. Article Views I
  */
 
 select distinct author_id as id

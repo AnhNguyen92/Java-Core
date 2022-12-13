@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2100;
 import java.util.Arrays;
 
 /*
- * LeetCode 2037
+ * LeetCode 2037. Minimum Number of Moves to Seat Everyone
 */
 public class MinimumNumberOfMovesToSeatEveryone {
 	public int minMovesToSeat(int[] seats, int[] students) {

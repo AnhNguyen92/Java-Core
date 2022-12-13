@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode.under2300;
+package javacore.algorithm.leetcode.under2200;
 
 import java.util.HashSet;
 import java.util.List;

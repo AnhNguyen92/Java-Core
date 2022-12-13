@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 2053
+ * LeetCode 2053. Kth Distinct String in an Array
 */
 public class KthDistinctStringInAnArray {
 	public String kthDistinct(String[] arr, int k) {

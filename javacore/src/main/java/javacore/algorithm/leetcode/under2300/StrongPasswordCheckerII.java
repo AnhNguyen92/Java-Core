@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2299
+ * LeetCode 2299. Strong Password Checker II
  */
 public class StrongPasswordCheckerII {
 	public boolean strongPasswordCheckerII(String password) {

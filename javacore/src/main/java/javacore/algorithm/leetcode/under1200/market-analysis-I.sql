@@ -1,5 +1,5 @@
 /*
- * LeetCode 1158
+ * LeetCode 1158. Market Analysis I
  */
 
 # Write your MySQL query statement below

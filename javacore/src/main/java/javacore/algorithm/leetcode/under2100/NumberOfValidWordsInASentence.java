@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2047
+ * LeetCode 2047. Number of Valid Words in a Sentence
 */
 public class NumberOfValidWordsInASentence {
 	public int countValidWords(String sentence) {

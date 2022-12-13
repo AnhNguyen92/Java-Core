@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 2206
+ * LeetCode 2206. Divide Array Into Equal Pairs
  */
 public class DivideArrayIntoEqualPairs {
 	public boolean divideArray(int[] nums) {

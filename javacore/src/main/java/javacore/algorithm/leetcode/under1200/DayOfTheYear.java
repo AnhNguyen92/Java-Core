@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1200;
 
 /*
- * LeetCode 1154
+ * LeetCode 1154. Day of the Year
  */
 public class DayOfTheYear {
 	public int dayOfYear(String date) {

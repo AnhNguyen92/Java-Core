@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1200;
 
 /*
- * LeetCode 1185
+ * LeetCode 1185. Day of the Week
  */
 public class DayOfTheWeek {
 	public String dayOfTheWeek(int day, int month, int year) {

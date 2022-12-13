@@ -1,9 +1,5 @@
 package javacore.algorithm.leetcode.under2400;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 /*
  * LeetCode 2391. Minimum Amount of Time to Collect Garbage
  */

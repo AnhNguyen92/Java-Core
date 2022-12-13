@@ -2,6 +2,9 @@ package javacore.algorithm.leetcode.under1200;
 
 import java.util.function.IntConsumer;
 
+/*
+ * LeetCode 1195. Fizz Buzz Multithreaded
+ */
 public class FizzBuzzMultithreaded {
     class FizzBuzz {
         private int n;

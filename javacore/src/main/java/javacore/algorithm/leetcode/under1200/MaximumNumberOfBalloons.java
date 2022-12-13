@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1200;
 
 /*
- * LeetCode 1189
+ * LeetCode 1189. Maximum Number of Balloons
  */
 public class MaximumNumberOfBalloons {
 	public int maxNumberOfBalloons(String text) {
@@ -46,22 +46,22 @@ public class MaximumNumberOfBalloons {
 		}
 		return counter;
 	}
-	
+
 	public int maxNumberOfBalloons2(String text) {
-        int[] arr = new int[5];
-         for (char c : text.toCharArray()) {
-             if (c == 'b') {
-                 arr[0]++;
-             } else if (c == 'a') {
-                 arr[1]++;
-             } else if (c == 'l') {
-                 arr[2]++;
-             } else if (c == 'o') {
-                 arr[3]++;
-             } else if (c == 'n') {
-                 arr[4]++;
-             }
-         }
-        return Math.min(arr[0], Math.min(arr[1], Math.min(arr[2]/2, Math.min(arr[3]/2, arr[4]))));
-    }
+		int[] arr = new int[5];
+		for (char c : text.toCharArray()) {
+			if (c == 'b') {
+				arr[0]++;
+			} else if (c == 'a') {
+				arr[1]++;
+			} else if (c == 'l') {
+				arr[2]++;
+			} else if (c == 'o') {
+				arr[3]++;
+			} else if (c == 'n') {
+				arr[4]++;
+			}
+		}
+		return Math.min(arr[0], Math.min(arr[1], Math.min(arr[2] / 2, Math.min(arr[3] / 2, arr[4]))));
+	}
 }

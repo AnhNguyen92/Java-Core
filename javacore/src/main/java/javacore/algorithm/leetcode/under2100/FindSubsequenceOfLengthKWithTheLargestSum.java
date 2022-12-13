@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2100;
 import java.util.PriorityQueue;
 
 /*
- * LeetCode 2099
+ * LeetCode 2099. Find Subsequence of Length K With the Largest Sum
  */
 public class FindSubsequenceOfLengthKWithTheLargestSum {
 	public int[] maxSubsequence(int[] nums, int k) {

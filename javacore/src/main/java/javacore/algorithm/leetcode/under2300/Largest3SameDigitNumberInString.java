@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2264
+ * LeetCode 2264. Largest 3-Same-Digit Number in String
 */
 public class Largest3SameDigitNumberInString {
 	public String largestGoodInteger(String num) {

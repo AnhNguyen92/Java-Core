@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2243
+ * LeetCode 2243. Calculate Digit Sum of a String
 */
 public class CalculateDigitSumOfAString {
 	public String digitSum(String s, int k) {

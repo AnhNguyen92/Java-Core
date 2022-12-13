@@ -1,12 +1,12 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2062
+ * LeetCode 2062. Count Vowel Substrings of a String
  */
 public class CountVowelSubstringsOfAString {
 	public int countVowelSubstrings(String word) {
 		int count = 0;
-        boolean foundA = false;
+		boolean foundA = false;
 		boolean foundE = false;
 		boolean foundI = false;
 		boolean foundO = false;
@@ -29,7 +29,7 @@ public class CountVowelSubstringsOfAString {
 				} else if (word.charAt(j) == 'u') {
 					foundU = true;
 				} else {
-                    if (!foundA || !foundE || !foundI || !foundO || !foundU) {
+					if (!foundA || !foundE || !foundI || !foundO || !foundU) {
 						i = j;
 					}
 					break;
@@ -38,7 +38,7 @@ public class CountVowelSubstringsOfAString {
 					count++;
 				}
 			}
-			
+
 		}
 
 		return count;

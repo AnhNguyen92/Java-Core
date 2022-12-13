@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1128
+ * LeetCode 1128. Number of Equivalent Domino Pairs
  */
 public class NumberOfEquivalentDominoPairs {
 	public int numEquivDominoPairs2(int[][] dominoes) {

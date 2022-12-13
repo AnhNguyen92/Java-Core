@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1200;
 
 /*
- * LeetCode 1103
+ * LeetCode 1103. Distribute Candies to People
  */
 public class DistributeCandiesToPeople {
 	public int[] distributeCandies(int candies, int numPeople) {

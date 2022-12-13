@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1200;
 
 /*
- * LeetCode 1137
+ * LeetCode 1137. N-th Tribonacci Number
  */
 public class NthTribonacciNumber {
 	public int tribonacci(int n) {

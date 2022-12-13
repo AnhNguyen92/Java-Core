@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 1110
+ * LeetCode 1110. Delete Nodes And Return Forest
  */
 public class DeleteNodesAndReturnForest {
 	public List<TreeNode> delNodes(TreeNode root, int[] toDelete) {

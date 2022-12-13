@@ -5,25 +5,25 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 2273
+ * LeetCode 2273. Find Resultant Array After Removing Anagrams
 */
 public class FindResultantArrayAfterRemovingAnagrams {
 	public List<String> removeAnagrams(String[] words) {
-        List<String> sorted = new ArrayList<>();
-        List<String> ans = new ArrayList<>();
-        for (String word : words) {
-            String s = sortString(word);
-            if (sorted.size() == 0 || !sorted.get(sorted.size() - 1).equals(s)) {
-                sorted.add(s);
-                ans.add(word);
-            }
-        }
-        return ans;
-    }
-    
-    public String sortString(String s) {
-        char[] arr = s.toCharArray();
-        Arrays.sort(arr);
-        return new String(arr);
-    }
+		List<String> sorted = new ArrayList<>();
+		List<String> ans = new ArrayList<>();
+		for (String word : words) {
+			String s = sortString(word);
+			if (sorted.size() == 0 || !sorted.get(sorted.size() - 1).equals(s)) {
+				sorted.add(s);
+				ans.add(word);
+			}
+		}
+		return ans;
+	}
+
+	public String sortString(String s) {
+		char[] arr = s.toCharArray();
+		Arrays.sort(arr);
+		return new String(arr);
+	}
 }

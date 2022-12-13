@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1200;
 import java.util.Arrays;
 
 /*
- * LeetCode 1170
+ * LeetCode 1170. Compare Strings by Frequency of the Smallest Character
  */
 public class CompareStringsByFrequencyOfTheSmallestCharacter {
 	public int[] numSmallerByFrequency(String[] queries, String[] words) {

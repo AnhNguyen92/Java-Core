@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 2089
+ * LeetCode 2089. Find Target Indices After Sorting Array
 */
 public class FindTargetIndicesAfterSortingArray {
 	public List<Integer> targetIndices(int[] nums, int target) {

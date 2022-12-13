@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * Leetcode 2278
+ * Leetcode 2278. Percentage of Letter in String
  */
 public class PercentageOfLetterInString {
 	public int percentageLetter(String s, char letter) {

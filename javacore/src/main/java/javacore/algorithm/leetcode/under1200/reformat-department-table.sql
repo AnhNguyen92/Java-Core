@@ -1,5 +1,5 @@
 /*
- * LeetCode 1179
+ * LeetCode 1179. Reformat Department Table
  */
 
 # Write your MySQL query statement below

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2269
+ * LeetCode 2269. Find the K-Beauty of a Number
 */
 public class FindTheKBeautyOfANumber {
 	public int divisorSubstrings(int num, int k) {

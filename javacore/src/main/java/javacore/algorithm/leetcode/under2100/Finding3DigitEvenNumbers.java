@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 2094
+ * LeetCode 2094. Finding 3-Digit Even Numbers
 */
 public class Finding3DigitEvenNumbers {
 	public int[] findEvenNumbers(int[] digits) {

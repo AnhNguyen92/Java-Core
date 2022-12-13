@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2027
+ * LeetCode 2027. Minimum Moves to Convert String
  */
 public class MinimumMovesToConvertString {
 	public int minimumMoves(String s) {

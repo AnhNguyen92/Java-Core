@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2068
+ * LeetCode 2068. Check Whether Two Strings are Almost Equivalent
  */
 public class CheckWhetherTwoStringsAreAlmostEquivalent {
 	public boolean checkAlmostEquivalent(String word1, String word2) {

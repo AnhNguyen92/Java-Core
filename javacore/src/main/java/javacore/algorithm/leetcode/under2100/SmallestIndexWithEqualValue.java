@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2057
+ * LeetCode 2057. Smallest Index With Equal Value
 */
 public class SmallestIndexWithEqualValue {
 	public int smallestEqual(int[] nums) {

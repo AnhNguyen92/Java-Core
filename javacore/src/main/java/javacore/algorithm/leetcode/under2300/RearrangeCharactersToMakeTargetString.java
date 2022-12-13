@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2287
+ * LeetCode 2287. Rearrange Characters to Make Target String
  */
 public class RearrangeCharactersToMakeTargetString {
 	public int rearrangeCharacters(String s, String target) {

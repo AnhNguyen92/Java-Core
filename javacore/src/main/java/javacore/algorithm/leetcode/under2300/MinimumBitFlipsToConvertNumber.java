@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2300;
 
 /*
- * LeetCode 2220
+ * LeetCode 2220. Minimum Bit Flips to Convert Number
  */
 public class MinimumBitFlipsToConvertNumber {
 	public int minBitFlips(int start, int goal) {

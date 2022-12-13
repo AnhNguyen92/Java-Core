@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 2215
+ * LeetCode 2215. Find the Difference of Two Arrays
  */
 public class FindTheDifferenceOfTwoArrays {
 	public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {

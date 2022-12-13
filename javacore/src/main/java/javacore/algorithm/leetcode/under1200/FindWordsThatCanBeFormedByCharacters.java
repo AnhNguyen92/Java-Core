@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1200;
 
 /*
- * LeetCode 1160
+ * LeetCode 1160. Find Words That Can Be Formed by Characters
  */
 public class FindWordsThatCanBeFormedByCharacters {
 	public int countCharacters(String[] words, String chars) {

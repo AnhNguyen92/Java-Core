@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2100;
 
 /*
- * LeetCode 2078
+ * LeetCode 2078. Two Furthest Houses With Different Colors
  */
 public class TwoFurthestHousesWithDifferentColors {
 

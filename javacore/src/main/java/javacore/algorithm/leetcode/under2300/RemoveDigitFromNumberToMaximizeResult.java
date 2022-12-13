@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- * LeetCode 2259
+ * LeetCode 2259. Remove Digit From Number to Maximize Result
  */
 public class RemoveDigitFromNumberToMaximizeResult {
 	public String removeDigit(String number, char digit) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1200;
 import java.util.Arrays;
 
 /*
- * LeetCode 1122
+ * LeetCode 1122. Relative Sort Array
  */
 public class RelativeSortArray {
 	public int[] relativeSortArray(int[] arr1, int[] arr2) {

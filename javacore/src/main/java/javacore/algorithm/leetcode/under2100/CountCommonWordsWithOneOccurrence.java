@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 2085
+ * LeetCode 2085. Count Common Words With One Occurrence
 */
 public class CountCommonWordsWithOneOccurrence {
 	public int countWords(String[] words1, String[] words2) {
