@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1556
+ * LeetCode 1556. Thousand Separator
  */
 public class ThousandSeparator {
 	public String thousandSeparator(int n) {

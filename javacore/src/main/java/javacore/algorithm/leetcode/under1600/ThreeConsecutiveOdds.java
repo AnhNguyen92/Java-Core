@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1550
+ * LeetCode 1550. Three Consecutive Odds
  */
 public class ThreeConsecutiveOdds {
 	public boolean threeConsecutiveOdds(int[] arr) {

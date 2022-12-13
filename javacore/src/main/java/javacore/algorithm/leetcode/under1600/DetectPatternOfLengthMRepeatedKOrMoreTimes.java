@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1600;
 import java.util.Arrays;
 
 /*
- * LeetCode 1566
+ * LeetCode 1566. Detect Pattern of Length M Repeated K or More Times
  */
 public class DetectPatternOfLengthMRepeatedKOrMoreTimes {
 	public boolean containsPattern(int[] arr, int m, int k) {

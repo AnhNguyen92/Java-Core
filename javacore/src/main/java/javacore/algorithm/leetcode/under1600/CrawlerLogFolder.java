@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1598
+ * LeetCode 1598. Crawler Log Folder
  */
 public class CrawlerLogFolder {
 	public int minOperations(String[] logs) {

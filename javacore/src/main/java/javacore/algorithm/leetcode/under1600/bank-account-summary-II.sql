@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1587
+ * LeetCode 1587. Bank Account Summary II
  */
 
 select u.name as 'name', sum(t.amount) 'balance'

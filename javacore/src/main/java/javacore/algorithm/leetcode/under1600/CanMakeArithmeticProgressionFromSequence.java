@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1600;
 import java.util.Arrays;
 
 /*
- * LeetCode 1502
+ * LeetCode 1502. Can Make Arithmetic Progression From Sequence
  */
 public class CanMakeArithmeticProgressionFromSequence {
 	public boolean canMakeArithmeticProgression(int[] arr) {

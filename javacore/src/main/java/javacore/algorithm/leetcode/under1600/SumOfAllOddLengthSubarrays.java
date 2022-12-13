@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1588
+ * LeetCode 1588. Sum of All Odd Length Subarrays
  */
 public class SumOfAllOddLengthSubarrays {
 	public int sumOddLengthSubarrays(int[] arr) {

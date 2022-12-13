@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * LeetCode 1592
+ * LeetCode 1592. Rearrange Spaces Between Words
  */
 public class RearrangeSpacesBetweenWords {
 	public String reorderSpaces(String text) {

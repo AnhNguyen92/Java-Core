@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1534
+ * LeetCode 1534. Count Good Triplets
  */
 public class CountGoodTriplets {
 	public int countGoodTriplets(int[] arr, int a, int b, int c) {

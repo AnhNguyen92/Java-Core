@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1600;
 import java.util.Arrays;
 
 /*
- * LeetCode 1508
+ * LeetCode 1508. Range Sum of Sorted Subarray Sums
  */
 public class RangeSumOfSortedSubarraySums {
 

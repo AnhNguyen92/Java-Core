@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 1560
+ * LeetCode 1560. Most Visited Sector in a Circular Track
  */
 public class MostVisitedSectorInACircularTrack {
 	public List<Integer> mostVisited(int n, int[] rounds) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1572
+ * LeetCode 1572. Matrix Diagonal Sum
  */
 public class MatrixDiagonalSum {
 	public int diagonalSum(int[][] mat) {

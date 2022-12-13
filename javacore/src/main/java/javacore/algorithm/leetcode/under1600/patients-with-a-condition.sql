@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1484
+ * LeetCode 1527. Patients With a Condition
  */
 
 select patient_id, patient_name, conditions

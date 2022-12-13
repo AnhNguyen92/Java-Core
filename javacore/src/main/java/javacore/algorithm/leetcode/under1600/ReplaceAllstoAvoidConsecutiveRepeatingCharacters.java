@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1576
+ * LeetCode 1576. Replace All ?'s to Avoid Consecutive Repeating Characters
  */
 public class ReplaceAllstoAvoidConsecutiveRepeatingCharacters {
 	public String modifyString(String s) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1582
+ * LeetCode 1582. Special Positions in a Binary Matrix
  */
 public class SpecialPositionsInABinaryMatrix {
 	public int numSpecial(int[][] mat) {

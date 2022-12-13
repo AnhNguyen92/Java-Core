@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1507
+ * LeetCode 1507. Reformat Date
 */
 
 public class ReformatDate {

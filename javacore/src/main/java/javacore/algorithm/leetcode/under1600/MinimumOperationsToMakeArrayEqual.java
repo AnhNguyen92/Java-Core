@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1551
+ * LeetCode 1551. Minimum Operations to Make Array Equal
  */
 public class MinimumOperationsToMakeArrayEqual {
 	public int minOperations(int n) {

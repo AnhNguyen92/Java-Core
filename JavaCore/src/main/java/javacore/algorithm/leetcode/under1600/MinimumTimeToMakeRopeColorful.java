@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1600;
 import java.util.Arrays;
 
 /*
- * LeetCode 1578
+ * LeetCode 1578. Minimum Time to Make Rope Colorful
  */
 public class MinimumTimeToMakeRopeColorful {
     public static int minCost(String colors, int[] neededTime) {

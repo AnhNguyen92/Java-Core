@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1523
+ * LeetCode 1523. Count Odd Numbers in an Interval Range
  */
 public class CountOddNumbersInAnIntervalRange {
 	public int countOdds(int low, int high) {

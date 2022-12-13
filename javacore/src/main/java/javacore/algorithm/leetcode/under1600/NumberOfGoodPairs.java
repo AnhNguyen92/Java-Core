@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 1512
+ * LeetCode 1512. Number of Good Pairs
  */
 public class NumberOfGoodPairs {
 	public int numIdenticalPairs(int[] nums) {

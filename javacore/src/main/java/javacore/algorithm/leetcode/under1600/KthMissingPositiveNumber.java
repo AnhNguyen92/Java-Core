@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * LeetCode 1539
+ * LeetCode 1539. Kth Missing Positive Number
  */
 public class KthMissingPositiveNumber {
 	public int findKthPositive(int[] arr, int k) {

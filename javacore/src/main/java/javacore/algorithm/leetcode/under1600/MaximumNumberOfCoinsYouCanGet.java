@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1600;
 import java.util.Arrays;
 
 /*
- * LeetCode 1561
+ * LeetCode 1561. Maximum Number of Coins You Can Get
  */
 public class MaximumNumberOfCoinsYouCanGet {
 	public int maxCoins(int[] piles) {
