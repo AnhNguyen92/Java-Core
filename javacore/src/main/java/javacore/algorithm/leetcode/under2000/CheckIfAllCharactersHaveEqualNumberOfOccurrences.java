@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * LeetCode 1941
+ * LeetCode 1941. Check if All Characters Have Equal Number of Occurrences
  */
 public class CheckIfAllCharactersHaveEqualNumberOfOccurrences {
 	public boolean areOccurrencesEqual(String s) {

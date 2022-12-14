@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1991
+ * LeetCode 1991. Find the Middle Index in Array
  */
 public class FindTheMiddleIndexInArray {
 	public int findMiddleIndex(int[] nums) {

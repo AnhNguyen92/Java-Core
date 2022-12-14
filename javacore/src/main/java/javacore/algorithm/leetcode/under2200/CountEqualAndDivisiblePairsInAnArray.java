@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2176
+ * LeetCode 2176. Count Equal and Divisible Pairs in an Array
  */
 public class CountEqualAndDivisiblePairsInAnArray {
 	public int countPairs(int[] nums, int k) {

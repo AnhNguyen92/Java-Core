@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1945
+ * LeetCode 1945. Sum of Digits of String After Convert
  */
 public class SumOfDigitsOfStringAfterConvert {
 	public int getLucky(String s, int k) {

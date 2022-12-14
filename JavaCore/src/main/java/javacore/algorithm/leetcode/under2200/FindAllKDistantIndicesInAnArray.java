@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 2200
+ * LeetCode 2200. Find All K-Distant Indices in an Array
 */
 public class FindAllKDistantIndicesInAnArray {
 	public List<Integer> findKDistantIndices(int[] nums, int key, int k) {

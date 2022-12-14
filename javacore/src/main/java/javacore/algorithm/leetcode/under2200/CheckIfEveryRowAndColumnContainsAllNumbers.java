@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 2133
+ * LeetCode 2133. Check if Every Row and Column Contains All Numbers
  */
 public class CheckIfEveryRowAndColumnContainsAllNumbers {
 	public boolean checkValid(int[][] matrix) {

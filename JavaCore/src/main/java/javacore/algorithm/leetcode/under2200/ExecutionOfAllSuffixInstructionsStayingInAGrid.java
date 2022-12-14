@@ -5,12 +5,10 @@ package javacore.algorithm.leetcode.under2200;
  */
 public class ExecutionOfAllSuffixInstructionsStayingInAGrid {
     public int[] executeInstructions(int n, int[] startPos, String s) {
-        int count;
         char c;
         int len = s.length();
         int[] arr = new int[len];
         for (int i = 0; i < len; i++) {
-            count = 0;
             int ans = 0;
             int[] start = new int[]{startPos[0], startPos[1]};
             for (int j = i; j < len; j++) {

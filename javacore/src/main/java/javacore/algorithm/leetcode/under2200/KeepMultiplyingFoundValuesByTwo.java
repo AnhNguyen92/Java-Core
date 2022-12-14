@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /*
- * LeetCode 2154
+ * LeetCode 2154. Keep Multiplying Found Values by Two
  */
 public class KeepMultiplyingFoundValuesByTwo {
 	public int findFinalValue(int[] nums, int original) {

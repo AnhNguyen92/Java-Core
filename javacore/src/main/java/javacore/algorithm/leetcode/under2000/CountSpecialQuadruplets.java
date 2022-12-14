@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1995
+ * LeetCode 1995. Count Special Quadruplets
  */
 public class CountSpecialQuadruplets {
 	public int countQuadruplets(int[] nums) {

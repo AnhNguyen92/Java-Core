@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1752
+ * Leetcode 1752. Check if Array Is Sorted and Rotated
  */
 public class CheckIfArrayIsSortedAndRotated {
 	public boolean check(int[] nums) {

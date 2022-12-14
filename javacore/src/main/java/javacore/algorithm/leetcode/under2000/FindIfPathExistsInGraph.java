@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 1971
+ * LeetCode 1971. Find if Path Exists in Graph
  */
 public class FindIfPathExistsInGraph {
 	public boolean validPath(int n, int[][] edges, int source, int destination) {

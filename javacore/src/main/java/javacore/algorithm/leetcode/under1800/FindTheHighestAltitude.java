@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1732
+ * Leetcode 1732. Find the Highest Altitude
  */
 public class FindTheHighestAltitude {
 	public int largestAltitude(int[] gain) {

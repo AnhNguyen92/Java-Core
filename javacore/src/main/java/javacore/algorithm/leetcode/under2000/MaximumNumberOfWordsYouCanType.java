@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1935
+ * LeetCode 1935. Maximum Number of Words You Can Type
  */
 public class MaximumNumberOfWordsYouCanType {
 	public int canBeTypedWords(String text, String brokenLetters) {

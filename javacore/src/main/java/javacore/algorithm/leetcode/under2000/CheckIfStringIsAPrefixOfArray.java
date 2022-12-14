@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1961
+ * LeetCode 1961. Check If String Is a Prefix of Array
 */
 public class CheckIfStringIsAPrefixOfArray {
 	public boolean isPrefixString(String s, String[] words) {

@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1965
+ * LeetCode 1965. Employees With Missing Information
  */
 
 select employee_id

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1952
+ * LeetCode 1952. Three Divisors
  */
 public class ThreeDivisors {
 	public boolean isThree(int n) {

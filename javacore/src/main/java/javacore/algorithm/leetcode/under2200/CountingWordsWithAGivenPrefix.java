@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2185
+ * LeetCode 2185. Counting Words With a Given Prefix
  */
 public class CountingWordsWithAGivenPrefix {
 	public int prefixCount(String[] words, String pref) {

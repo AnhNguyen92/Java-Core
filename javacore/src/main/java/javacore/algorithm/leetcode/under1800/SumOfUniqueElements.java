@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1800;
 import java.util.Arrays;
 
 /*
- * Leetcode 1748
+ * Leetcode 1748. Sum of Unique Elements
  */
 public class SumOfUniqueElements {
 	public int sumOfUnique(int[] nums) {

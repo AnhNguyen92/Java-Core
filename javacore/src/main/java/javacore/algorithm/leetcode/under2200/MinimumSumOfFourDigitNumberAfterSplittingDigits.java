@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2200;
 import java.util.Arrays;
 
 /*
- * LeetCode 2160
+ * LeetCode 2160. Minimum Sum of Four Digit Number After Splitting Digits
  */
 public class MinimumSumOfFourDigitNumberAfterSplittingDigits {
 	public int minimumSum(int num) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1716
+ * Leetcode 1716. Calculate Money in Leetcode Bank
  */
 public class CalculateMoneyInLeetcodeBank {
 	public int totalMoney(int n) {

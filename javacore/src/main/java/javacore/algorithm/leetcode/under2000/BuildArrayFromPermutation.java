@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1920
+ * LeetCode 1920. Build Array from Permutation
  */
 public class BuildArrayFromPermutation {
 	public int[] buildArray(int[] nums) {

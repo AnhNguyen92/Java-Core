@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2000;
 import java.util.Arrays;
 
 /*
- * LeetCode 1984
+ * LeetCode 1984. Minimum Difference Between Highest and Lowest of K Scores
  */
 public class MinimumDifferenceBetweenHighestAndLowestOfKScores {
 	public int minimumDifference(int[] nums, int k) {

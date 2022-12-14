@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2114
+ * LeetCode 2114. Maximum Number of Words Found in Sentences
  */
 public class MaximumNumberOfWordsFoundInSentences {
 	public int mostWordsFound(String[] sentences) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * LeetCode 2194
+ * LeetCode 2194. Cells in a Range on an Excel Sheet
  */
 public class CellsInARangeOnAnExcelSheet {
 	char[] alpha = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q',

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1929
+ * LeetCode 1929. Concatenation of Array
  */
 public class ConcatenationOfArray {
 	public int[] getConcatenation(int[] nums) {

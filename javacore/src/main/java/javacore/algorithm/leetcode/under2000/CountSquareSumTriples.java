@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1925
+ * LeetCode 1925. Count Square Sum Triples
  */
 public class CountSquareSumTriples {
 

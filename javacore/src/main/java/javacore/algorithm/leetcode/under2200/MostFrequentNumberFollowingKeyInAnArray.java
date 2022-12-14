@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2190
+ * LeetCode 2190. Most Frequent Number Following Key In an Array
 */
 public class MostFrequentNumberFollowingKeyInAnArray {
 	public int mostFrequent(int[] nums, int key) {

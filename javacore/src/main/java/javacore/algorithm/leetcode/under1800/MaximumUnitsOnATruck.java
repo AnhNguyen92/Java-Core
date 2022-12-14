@@ -4,7 +4,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 /*
- * Leetcode 1710
+ * Leetcode 1710. Maximum Units on a Truck
  */
 public class MaximumUnitsOnATruck {
 	public int maximumUnits(int[][] boxTypes, int truckSize) {

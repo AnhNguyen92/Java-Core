@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2138
+ * LeetCode 2138. Divide a String Into Groups of Size k
 */
 public class DivideAStringIntoGroupsOfSizeK {
 	public String[] divideString(String s, int k, char fill) {

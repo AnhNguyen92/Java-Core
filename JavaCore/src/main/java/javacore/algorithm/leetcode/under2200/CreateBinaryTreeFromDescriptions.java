@@ -8,24 +8,9 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * LeetCode 1209. Remove All Adjacent Duplicates in String II
+ * LeetCode 2196. Create Binary Tree From Descriptions
  */
 public class CreateBinaryTreeFromDescriptions {
-    /**
-     * Definition for a binary tree node.
-     * public class TreeNode {
-     * int val;
-     * TreeNode left;
-     * TreeNode right;
-     * TreeNode() {}
-     * TreeNode(int val) { this.val = val; }
-     * TreeNode(int val, TreeNode left, TreeNode right) {
-     * this.val = val;
-     * this.left = left;
-     * this.right = right;
-     * }
-     * }
-     */
 
     public TreeNode createBinaryTree(int[][] descriptions) {
         Map<Integer, int[]> map = new HashMap<>();

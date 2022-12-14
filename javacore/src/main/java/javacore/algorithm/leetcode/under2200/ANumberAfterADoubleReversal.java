@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2119
+ * LeetCode 2119. A Number After a Double Reversal
  */
 public class ANumberAfterADoubleReversal {
 	public boolean isSameAfterReversals(int num) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2129
+ * LeetCode 2129. Capitalize the Title
  */
 public class CapitalizeTheTitle {
 	public String capitalizeTitle(String title) {

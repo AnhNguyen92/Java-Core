@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2108
+ * LeetCode 2108. Find First Palindromic String in the Array
  */
 public class FindFirstPalindromicStringInTheArray {
 	public String firstPalindrome(String[] words) {

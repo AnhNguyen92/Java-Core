@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1791
+ * Leetcode 1791. Find Center of Star Graph
  */
 public class FindCenterOfStarGraph {
 	public int findCenter(int[][] edges) {

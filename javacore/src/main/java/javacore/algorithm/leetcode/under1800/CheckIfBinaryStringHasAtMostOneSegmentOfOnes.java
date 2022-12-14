@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1784
+ * Leetcode 1784. Check if Binary String Has at Most One Segment of Ones
  */
 public class CheckIfBinaryStringHasAtMostOneSegmentOfOnes {
 	public boolean checkOnesSegment(String s) {

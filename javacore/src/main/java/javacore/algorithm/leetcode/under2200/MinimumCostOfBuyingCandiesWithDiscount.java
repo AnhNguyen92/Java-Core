@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2200;
 import java.util.Arrays;
 
 /*
- * LeetCode 2144
+ * LeetCode 2144. Minimum Cost of Buying Candies With Discount
  */
 public class MinimumCostOfBuyingCandiesWithDiscount {
 	public int minimumCost(int[] cost) {

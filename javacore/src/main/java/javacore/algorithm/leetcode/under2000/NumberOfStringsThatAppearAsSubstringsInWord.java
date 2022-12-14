@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1967
+ * LeetCode 1967. Number of Strings That Appear as Substrings in Word
  */
 public class NumberOfStringsThatAppearAsSubstringsInWord {
 	public int numOfStrings(String[] patterns, String word) {

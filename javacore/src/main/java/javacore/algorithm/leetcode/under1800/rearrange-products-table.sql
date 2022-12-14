@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 1795
+ * LeetCode 1795. Rearrange Products Table
  */
 
 select * 

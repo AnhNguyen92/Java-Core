@@ -1,7 +1,7 @@
-package javacore.algorithm.leetcode.under1900;
+package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1800
+ * Leetcode 1800. Maximum Ascending Subarray Sum
  */
 public class MaximumAscendingSubarraySum {
 	public int maxAscendingSum(int[] nums) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2000;
 import java.util.Arrays;
 
 /*
- * LeetCode 1913
+ * LeetCode 1913. Maximum Product Difference Between Two Pairs
  */
 public class MaximumProductDifferenceBetweenTwoPairs {
 	public int maxProductDifference(int[] nums) {

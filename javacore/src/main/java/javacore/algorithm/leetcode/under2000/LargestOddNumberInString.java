@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1903
+ * LeetCode 1903. Largest Odd Number in String
 */
 public class LargestOddNumberInString {
 	public String largestOddNumber(String num) {

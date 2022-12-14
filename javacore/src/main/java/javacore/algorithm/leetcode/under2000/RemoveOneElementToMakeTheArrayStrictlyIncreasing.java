@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2000;
 
 /*
- * LeetCode 1909
+ * LeetCode 1909. Remove One Element to Make the Array Stri
  */
 public class RemoveOneElementToMakeTheArrayStrictlyIncreasing {
 	public boolean canBeIncreasing(int[] nums) {

@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2200;
 import java.util.Arrays;
 
 /*
- * LeetCode 2148
+ * LeetCode 2148. Count Elements With Strictly Smaller and Greater Elements
  */
 public class CountElementsWithStrictlySmallerAndGreaterElements {
 	public int countElements(int[] nums) {

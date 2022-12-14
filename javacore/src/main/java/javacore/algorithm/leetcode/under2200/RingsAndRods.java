@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * LeetCode 2103
+ * LeetCode 2103. Rings and Rods
  */
 public class RingsAndRods {
 	public int countPoints(String rings) {

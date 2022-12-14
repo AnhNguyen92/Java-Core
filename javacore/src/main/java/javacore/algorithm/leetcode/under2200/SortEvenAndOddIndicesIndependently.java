@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2200;
 import java.util.Arrays;
 
 /*
- * LeetCode 2164
+ * LeetCode 2164. Sort Even and Odd Indices Independently
  */
 public class SortEvenAndOddIndicesIndependently {
 	public int[] sortEvenOdd(int[] nums) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1725
+ * Leetcode 1725. Number Of Rectangles That Can Form The Largest Square
  */
 public class NumberOfRectanglesThatCanFormTheLargestSquare {
 	public int countGoodRectangles(int[][] rectangles) {

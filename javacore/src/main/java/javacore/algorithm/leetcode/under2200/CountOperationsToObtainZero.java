@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2200;
 
 /*
- * LeetCode 2169
+ * LeetCode 2169. Count Operations to Obtain Zero
  */
 public class CountOperationsToObtainZero {
 	public int countOperations(int num1, int num2) {
