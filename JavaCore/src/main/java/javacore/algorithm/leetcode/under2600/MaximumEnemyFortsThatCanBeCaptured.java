@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2600;
 
 /*
- * LeetCode 2506. Count Pairs Of Similar Strings
+ * LeetCode 2515. MaximumEnemyFortsThatCanBeCaptured
  */
 public class MaximumEnemyFortsThatCanBeCaptured {
 
