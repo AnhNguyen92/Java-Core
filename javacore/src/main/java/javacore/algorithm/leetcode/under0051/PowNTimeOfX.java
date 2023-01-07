@@ -6,7 +6,6 @@ import java.util.List;
 /*
  * LeetCode 50. Pow(x, n)
  */
-
 public class PowNTimeOfX {
     public double myPow(double x, int n) {
         if (n == 0) {

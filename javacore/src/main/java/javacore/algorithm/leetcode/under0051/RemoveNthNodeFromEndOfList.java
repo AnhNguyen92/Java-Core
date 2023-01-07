@@ -5,7 +5,6 @@ import javacore.algorithm.leetcode.model.ListNode;
 /*
  * LeetCode 19. Remove Nth Node From End of List
  */
-
 public class RemoveNthNodeFromEndOfList {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		if (n > length(head)) {

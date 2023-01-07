@@ -3,7 +3,6 @@ package javacore.algorithm.leetcode.under0051;
 /*
  * LeetCode 35. Search Insert Position
  */
-
 public class SearchInsertPosition {
 	public int searchInsert(int[] nums, int target) {
 		int position = 0;
