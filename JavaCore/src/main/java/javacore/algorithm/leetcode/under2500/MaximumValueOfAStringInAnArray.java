@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * Leetcode 2496. Maximum Value of a String in an Array
+ * LeetCode 2496. Maximum Value of a String in an Array
  */
 public class MaximumValueOfAStringInAnArray {
 	public int maximumValue(String[] strs) {

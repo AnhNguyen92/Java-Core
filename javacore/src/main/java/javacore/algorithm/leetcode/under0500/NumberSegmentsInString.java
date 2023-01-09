@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * LeetCode 434
+ * LeetCode 434. Number of Segments in a String
 */
 public class NumberSegmentsInString {
 	public int countSegments(String s) {

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * LeetCode 872. Uncommon Words from Two Sentences
+ * LeetCode 884. Uncommon Words from Two Sentences
  */
 public class UncommonWordsFromTwoSentences {
 	public String[] uncommonFromSentences(String a, String b) {

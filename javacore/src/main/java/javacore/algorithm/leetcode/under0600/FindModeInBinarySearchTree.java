@@ -8,7 +8,7 @@ import java.util.Map;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 501. Find Mode in Binary Search Tree
+ * LeetCode 501. Find Mode in Binary Search Tree
  */
 public class FindModeInBinarySearchTree {
 	public int[] findMode(TreeNode root) {

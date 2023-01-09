@@ -2,7 +2,6 @@ package javacore.algorithm.leetcode.under2500;
 
 /*
  * LeetCode 2475. Number of Unequal Triplets in Array
-
  */
 public class NumberOfUnequalTripletsInArray {
 	public int unequalTriplets(int[] nums) {

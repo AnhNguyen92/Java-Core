@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1500;
 
 /*
- * LeetCode . Maximum Score After Splitting a String
+ * LeetCode 1422. Maximum Score After Splitting a String
  */
 public class MaximumScoreAfterSplittingAString {
 	public int maxScore(String s) {

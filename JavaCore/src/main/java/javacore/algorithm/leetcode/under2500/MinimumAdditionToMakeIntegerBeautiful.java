@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- * Leetcode 2457. Minimum Addition to Make Integer Beautiful
+ * LeetCode 2457. Minimum Addition to Make Integer Beautiful
  */
 public class MinimumAdditionToMakeIntegerBeautiful {
 	public long makeIntegerBeautiful(long n, int target) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2500;
 
 /*
- *LeetCode 2433. Find The Original Array of Prefix Xor
+ * LeetCode 2433. Find The Original Array of Prefix Xor
  */
 public class FindTheOriginalArrayOfPrefixXor {
 	public int[] findArray(int[] pref) {

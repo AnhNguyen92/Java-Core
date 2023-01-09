@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under2500;
 import java.util.Arrays;
 
 /*
- * Leetcode 2500. Delete Greatest Value in Each Row
+ * LeetCode 2500. Delete Greatest Value in Each Row
  */
 public class DeleteGreatestValueInEachRow {
 	public int deleteGreatestValue(int[][] grid) {
