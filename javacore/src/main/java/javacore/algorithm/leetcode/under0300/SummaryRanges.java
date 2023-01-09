@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leet code 228. Summary Ranges
+ *LeetCode 228. Summary Ranges
  */
 public class SummaryRanges {
     public List<String> summaryRanges(int[] nums) {

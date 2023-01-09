@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- * Leet code 258. Add Digits
+ * LeetCode 258. Add Digits
  */
 public class AddDigits {
     public int addDigits(int num) {

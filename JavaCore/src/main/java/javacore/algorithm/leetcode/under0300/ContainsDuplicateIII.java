@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.TreeSet;
 
 /*
- * Leet code 220. Contains Duplicate III
+ *LeetCode 220. Contains Duplicate III
  */
 public class ContainsDuplicateIII {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
