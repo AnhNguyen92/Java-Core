@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 463. Island Perimeter
+ * LeetCode 463. Island Perimeter
  */
 public class IslandPerimeter {
 	public int islandPerimeter(int[][] grid) {

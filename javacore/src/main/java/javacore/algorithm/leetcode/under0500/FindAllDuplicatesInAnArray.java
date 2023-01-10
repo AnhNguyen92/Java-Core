@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /*
- * Leetcode 442. Find All Duplicates in an Array
+ * LeetCode 442. Find All Duplicates in an Array
  */
 public class FindAllDuplicatesInAnArray {
 	public List<Integer> findDuplicates(int[] nums) {

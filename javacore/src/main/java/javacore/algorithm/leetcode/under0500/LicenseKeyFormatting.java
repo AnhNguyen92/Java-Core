@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 482. License Key Formatting
+ * LeetCode 482. License Key Formatting
  */
 public class LicenseKeyFormatting {
 	public String licenseKeyFormatting(String s, int k) {

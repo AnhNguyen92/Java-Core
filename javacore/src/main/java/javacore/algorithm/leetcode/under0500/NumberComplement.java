@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 476. Number Complement
+ * LeetCode 476. Number Complement
  */
 public class NumberComplement {
 	public int findComplement(int num) {

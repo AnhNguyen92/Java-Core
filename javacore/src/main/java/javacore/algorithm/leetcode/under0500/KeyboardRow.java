@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 500. Keyboard Row
+ * LeetCode 500. Keyboard Row
  */
 public class KeyboardRow {
 	public String[] findWords(String[] words) {

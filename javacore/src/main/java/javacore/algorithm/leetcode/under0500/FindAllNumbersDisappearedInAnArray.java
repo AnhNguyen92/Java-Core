@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /*
- * Leetcode 448. Find All Numbers Disappeared in an Array
+ * LeetCode 448. Find All Numbers Disappeared in an Array
  */
 public class FindAllNumbersDisappearedInAnArray {
 	public List<Integer> findDisappearedNumbers(int[] nums) {

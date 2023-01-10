@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 441. Arranging Coins
+ * LeetCode 441. Arranging Coins
  */
 public class ArrangingCoins {
 	public int arrangeCoins(int n) {

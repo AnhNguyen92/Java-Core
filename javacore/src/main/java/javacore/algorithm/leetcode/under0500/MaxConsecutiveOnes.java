@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 485. Max Consecutive Ones
+ * LeetCode 485. Max Consecutive Ones
  */
 public class MaxConsecutiveOnes {
 	public int findMaxConsecutiveOnes(int[] nums) {

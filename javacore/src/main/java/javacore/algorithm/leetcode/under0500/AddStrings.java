@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 415. Add Strings
+ * LeetCode 415. Add Strings
  */
 public class AddStrings {
 	public String addStrings(String num1, String num2) {

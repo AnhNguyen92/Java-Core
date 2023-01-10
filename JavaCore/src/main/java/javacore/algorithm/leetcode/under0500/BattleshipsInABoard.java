@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0500;
 
 /*
- * Leetcode 419. Battleships in a Board
+ * LeetCode 419. Battleships in a Board
  */
 public class BattleshipsInABoard {
 	int ans = 0;
