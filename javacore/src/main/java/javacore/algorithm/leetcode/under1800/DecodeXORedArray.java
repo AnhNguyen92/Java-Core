@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1720. Decode XORed Array
+ * LeetCode 1720. Decode XORed Array
  */
 public class DecodeXORedArray {
 	public int[] decode(int[] encoded, int first) {

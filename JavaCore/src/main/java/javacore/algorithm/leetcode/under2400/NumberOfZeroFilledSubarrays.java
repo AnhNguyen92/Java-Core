@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2400;
 
 /*
- * Leetcode 2348. Number of Zero-Filled Subarrays
+ * LeetCode 2348. Number of Zero-Filled Subarrays
  */
 public class NumberOfZeroFilledSubarrays {
 	public long zeroFilledSubarray(int[] nums) {

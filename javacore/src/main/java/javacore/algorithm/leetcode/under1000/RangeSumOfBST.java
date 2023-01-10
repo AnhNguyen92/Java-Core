@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1000;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 938. Range Sum of BST
+ * LeetCode 938. Range Sum of BST
  */
 public class RangeSumOfBST {
 	public int rangeSumBST(TreeNode root, int low, int high) {

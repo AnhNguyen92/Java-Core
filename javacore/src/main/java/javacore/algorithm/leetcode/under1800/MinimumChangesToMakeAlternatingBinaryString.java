@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1758. Minimum Changes To Make Alternating Binary String
+ * LeetCode 1758. Minimum Changes To Make Alternating Binary String
  */
 public class MinimumChangesToMakeAlternatingBinaryString {
 	public int minOperations(String s) {

@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /*
- * Leetcode 933. Number of Recent Calls
+ * LeetCode 933. Number of Recent Calls
  */
 public class NumberOfRecentCalls {
 	private Deque<Integer> buffer = new LinkedList<>();

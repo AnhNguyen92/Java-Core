@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 1260. Shift 2D Grid
+ * LeetCode 1260. Shift 2D Grid
  */
 public class Shift2DGrid {
 	public List<List<Integer>> shiftGrid(int[][] grid, int k) {

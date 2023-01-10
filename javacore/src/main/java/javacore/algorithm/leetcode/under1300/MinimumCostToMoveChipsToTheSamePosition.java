@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1217. Minimum Cost to Move Chips to The Same Position
+ * LeetCode 1217. Minimum Cost to Move Chips to The Same Position
  */
 public class MinimumCostToMoveChipsToTheSamePosition {
 	public int minCostToMoveChips(int[] position) {

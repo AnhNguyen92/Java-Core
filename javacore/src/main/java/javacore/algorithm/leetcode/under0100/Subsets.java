@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 78. Subsets
+ * LeetCode 78. Subsets
  */
 public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {

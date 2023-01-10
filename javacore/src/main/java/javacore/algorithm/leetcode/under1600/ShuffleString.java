@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1600;
 
 /*
- * Leetcode 1528. Shuffle String
+ * LeetCode 1528. Shuffle String
  */
 public class ShuffleString {
 

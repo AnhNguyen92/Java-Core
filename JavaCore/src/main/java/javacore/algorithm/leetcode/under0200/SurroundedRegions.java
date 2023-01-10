@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * Leetcode 130. Surrounded Regions
+ * LeetCode 130. Surrounded Regions
  */
 public class SurroundedRegions {
 	public void solve(char[][] board) {

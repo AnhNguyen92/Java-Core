@@ -7,7 +7,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 783. Minimum Distance Between BST Nodes
+ * LeetCode 783. Minimum Distance Between BST Nodes
  */
 public class MinimumDistanceBetweenBSTNodes {
 	public int minDiffInBST(TreeNode root) {

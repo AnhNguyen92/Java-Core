@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1900;
 import java.util.Arrays;
 
 /*
- * Leetcode 1833. Maximum Ice Cream Bars
+ * LeetCode 1833. Maximum Ice Cream Bars
  */
 public class MaximumIceCreamBars {
 	public int maxIceCream(int[] costs, int coins) {

@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 173. Binary Search Tree Iterator
+ * LeetCode 173. Binary Search Tree Iterator
  */
 public class BinarySearchTreeIterator {
 	class BSTIterator {

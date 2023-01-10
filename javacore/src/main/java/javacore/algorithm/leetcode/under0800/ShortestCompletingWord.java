@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * Leetcode 748. Shortest Completing Word
+ * LeetCode 748. Shortest Completing Word
  */
 public class ShortestCompletingWord {
 	public String shortestCompletingWord(String licensePlate, String[] words) {

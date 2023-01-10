@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1796. Second Largest Digit in a String
+ * LeetCode 1796. Second Largest Digit in a String
  */
 public class SecondLargestDigitInAString {
 	public int secondHighest(String s) {

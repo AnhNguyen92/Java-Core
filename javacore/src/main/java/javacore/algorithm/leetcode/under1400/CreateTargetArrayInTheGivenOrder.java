@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1400;
 
 /*
- * Leetcode 1389. Create Target Array in the Given Order
+ * LeetCode 1389. Create Target Array in the Given Order
  */
 public class CreateTargetArrayInTheGivenOrder {
 	public int[] createTargetArray(int[] nums, int[] index) {

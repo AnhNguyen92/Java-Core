@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1816. Truncate Sentence
+ * LeetCode 1816. Truncate Sentence
  */
 public class TruncateSentence {
 	public String truncateSentence(String s, int k) {

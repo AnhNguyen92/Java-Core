@@ -6,7 +6,7 @@ import java.util.Set;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 968. Binary Tree Cameras
+ * LeetCode 968. Binary Tree Cameras
  */
 public class BinaryTreeCameras {
 	Set<TreeNode> covered = new HashSet<>();

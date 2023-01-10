@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1800;
 import java.util.List;
 
 /*
- * Leetcode 1773. Count Items Matching a Rule
+ * LeetCode 1773. Count Items Matching a Rule
  */
 public class CountItemsMatchingARule {
 	public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {

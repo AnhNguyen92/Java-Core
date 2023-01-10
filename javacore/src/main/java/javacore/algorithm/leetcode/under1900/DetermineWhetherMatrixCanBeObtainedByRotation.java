@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1886. Determine Whether Matrix Can Be Obtained By Rotation
+ * LeetCode 1886. Determine Whether Matrix Can Be Obtained By Rotation
  */
 public class DetermineWhetherMatrixCanBeObtainedByRotation {
     public boolean findRotation(int[][] mat, int[][] target) {

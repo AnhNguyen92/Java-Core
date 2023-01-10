@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1763. Longest Nice Substring
+ * LeetCode 1763. Longest Nice Substring
  */
 public class LongestNiceSubstring {
 	public String longestNiceSubstring(String s) {

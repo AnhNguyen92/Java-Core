@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- * Leetcode 174. Dungeon Game
+ * LeetCode 174. Dungeon Game
  */
 public class DungeonGame {
 	public int calculateMinimumHP(int[][] dungeon) {

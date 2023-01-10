@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 1496. Path Crossing
+ * LeetCode 1496. Path Crossing
  */
 public class PathCrossing {
 	public boolean isPathCrossing(String path) {

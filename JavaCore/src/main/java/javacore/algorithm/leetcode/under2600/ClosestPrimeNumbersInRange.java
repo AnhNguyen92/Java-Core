@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 2523. Closest Prime Numbers in Range
+ * LeetCode 2523. Closest Prime Numbers in Range
  */
 public class ClosestPrimeNumbersInRange {
 	public int[] closestPrimes(int left, int right) {

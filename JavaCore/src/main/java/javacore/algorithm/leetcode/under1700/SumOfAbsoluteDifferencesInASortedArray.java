@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 import java.util.Arrays;
 
 /*
- * Leetcode 1685. Sum of Absolute Differences in a Sorted Array
+ * LeetCode 1685. Sum of Absolute Differences in a Sorted Array
  */
 public class SumOfAbsoluteDifferencesInASortedArray {
 	public int[] getSumAbsoluteDifferences(int[] nums) {

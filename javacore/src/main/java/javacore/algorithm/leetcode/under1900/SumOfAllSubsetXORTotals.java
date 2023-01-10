@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 1863. Sum of All Subset XOR Totals
+ * LeetCode 1863. Sum of All Subset XOR Totals
  */
 public class SumOfAllSubsetXORTotals {
 	public int subsetXORSum(int[] nums) {

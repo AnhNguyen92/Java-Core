@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 1161. Maximum Level Sum of a Binary Tree
+ * LeetCode 1161. Maximum Level Sum of a Binary Tree
  */
 public class MaximumLevelSumOfABinaryTree {
 	public int maxLevelSum(TreeNode root) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 908. Smallest Range I
+ * LeetCode 908. Smallest Range I
  */
 public class SmallestRangeI {
 	public int smallestRangeI(int[] arr, int k) {

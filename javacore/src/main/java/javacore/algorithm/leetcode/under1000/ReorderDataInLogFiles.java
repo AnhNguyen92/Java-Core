@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 937. Reorder Data in Log Files
+ * LeetCode 937. Reorder Data in Log Files
  */
 public class ReorderDataInLogFiles {
 	public String[] reorderLogFiles(String[] logs) {

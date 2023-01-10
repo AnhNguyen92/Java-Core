@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0200;
 
 /*
- *  Leetcode 125. Valid Palindrome
+ *  LeetCode 125. Valid Palindrome
  */
 public class ValidPalindrome {
 	public boolean isPalindrome(String s) {

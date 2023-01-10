@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1000;
 import java.util.Arrays;
 
 /*
- * Leetcode 976. Largest Perimeter Triangle
+ * LeetCode 976. Largest Perimeter Triangle
  */
 public class LargestPerimeterTriangle {
 	public int largestPerimeter(int[] nums) {

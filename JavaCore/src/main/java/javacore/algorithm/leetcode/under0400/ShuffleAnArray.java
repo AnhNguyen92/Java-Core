@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /*
- * Leetcode 384. Shuffle an Array
+ * LeetCode 384. Shuffle an Array
  */
 public class ShuffleAnArray {
 	private int n;

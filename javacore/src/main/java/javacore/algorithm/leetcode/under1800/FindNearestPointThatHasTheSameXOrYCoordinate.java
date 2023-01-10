@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1779. Find Nearest Point That Has the Same X or Y Coordinate
+ * LeetCode 1779. Find Nearest Point That Has the Same X or Y Coordinate
  */
 public class FindNearestPointThatHasTheSameXOrYCoordinate {
 	public int nearestValidPoint(int x, int y, int[][] points) {

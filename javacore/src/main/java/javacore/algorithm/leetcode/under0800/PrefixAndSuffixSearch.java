@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /*
- * Leetcode 745. Prefix and Suffix Search
+ * LeetCode 745. Prefix and Suffix Search
  */
 public class PrefixAndSuffixSearch {
 	class WordFilter {

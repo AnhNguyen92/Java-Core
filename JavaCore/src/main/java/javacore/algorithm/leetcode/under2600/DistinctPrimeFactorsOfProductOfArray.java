@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * Leetcode 2521. Distinct Prime Factors of Product of Array
+ * LeetCode 2521. Distinct Prime Factors of Product of Array
  */
 public class DistinctPrimeFactorsOfProductOfArray {
 	public int distinctPrimeFactors(int[] nums) {

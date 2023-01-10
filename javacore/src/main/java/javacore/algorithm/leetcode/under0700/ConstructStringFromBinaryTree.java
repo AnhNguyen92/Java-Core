@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0700;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 606. Construct String from Binary Tree
+ * LeetCode 606. Construct String from Binary Tree
  */
 public class ConstructStringFromBinaryTree {
 	

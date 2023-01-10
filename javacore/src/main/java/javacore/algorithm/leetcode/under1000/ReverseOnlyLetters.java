@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 917. Reverse Only Letters
+ * LeetCode 917. Reverse Only Letters
  */
 public class ReverseOnlyLetters {
 	public String reverseOnlyLetters(String s) {

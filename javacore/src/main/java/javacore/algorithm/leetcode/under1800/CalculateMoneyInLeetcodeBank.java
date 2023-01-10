@@ -1,9 +1,9 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1716. Calculate Money in Leetcode Bank
+ * LeetCode 1716. Calculate Money in LeetCode Bank
  */
-public class CalculateMoneyInLeetcodeBank {
+public class CalculateMoneyInLeetCodeBank {
 	public int totalMoney(int n) {
 		int weeks = n / 7;
 		int days = n % 7;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 1275. Find Winner on a Tic Tac Toe Game
+ * LeetCode 1275. Find Winner on a Tic Tac Toe Game
  */
 public class FindWinnerOnATicTacToeGame {
 	public String tictactoe(int[][] moves) {

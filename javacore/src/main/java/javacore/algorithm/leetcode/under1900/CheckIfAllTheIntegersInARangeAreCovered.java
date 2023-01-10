@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1893. Check if All the Integers in a Range Are Cover
+ * LeetCode 1893. Check if All the Integers in a Range Are Cover
  */
 public class CheckIfAllTheIntegersInARangeAreCovered {
 	public boolean isCovered(int[][] ranges, int left, int right) {

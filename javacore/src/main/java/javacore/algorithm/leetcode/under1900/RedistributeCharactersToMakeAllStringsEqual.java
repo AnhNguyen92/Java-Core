@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * Leetcode 1897. Redistribute Characters to Make All Strings Equal
+ * LeetCode 1897. Redistribute Characters to Make All Strings Equal
  */
 public class RedistributeCharactersToMakeAllStringsEqual {
 

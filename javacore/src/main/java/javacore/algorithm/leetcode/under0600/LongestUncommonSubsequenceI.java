@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0600;
 
 /*
- * Leetcode 521. Longest Uncommon Subsequence I
+ * LeetCode 521. Longest Uncommon Subsequence I
  */
 public class LongestUncommonSubsequenceI {
 	public int findLUSlength(String a, String b) {

@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * Leetcode 1207. Unique Number of Occurrences
+ * LeetCode 1207. Unique Number of Occurrences
  */
 public class UniqueNumberOfOccurrences {
 	public boolean uniqueOccurrences(int[] arr) {

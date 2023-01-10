@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 922. Sort Array By Parity II
+ * LeetCode 922. Sort Array By Parity II
  */
 public class SortArrayByParityII {
 	public int[] sortArrayByParityII(int[] nums) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0051;
 
 /*
- * Leetcode 16. 3Sum Closest
+ * LeetCode 16. 3Sum Closest
  */
 public class ThreeSumClosest {
     public int threeSumClosest(int[] nums, int target) {

@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1000;
 
 /*
- * Leetcode 944. Delete Columns to Make Sorted
+ * LeetCode 944. Delete Columns to Make Sorted
  */
 public class DeleteColumnsToMakeSorted {
 	public int minDeletionSize(String[] nums) {

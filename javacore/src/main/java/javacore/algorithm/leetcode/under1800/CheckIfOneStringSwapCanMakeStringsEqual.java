@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1790. Check if One String Swap Can Make Strings Equal
+ * LeetCode 1790. Check if One String Swap Can Make Strings Equal
  */
 public class CheckIfOneStringSwapCanMakeStringsEqual {
 	public boolean areAlmostEqual(String s1, String s2) {

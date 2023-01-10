@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1400;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+ * LeetCode 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
  */
 public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree {
 	public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {

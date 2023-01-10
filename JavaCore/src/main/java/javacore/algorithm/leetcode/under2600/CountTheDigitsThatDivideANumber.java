@@ -1,6 +1,6 @@
 package javacore.algorithm.leetcode.under2600;
 /*
- * Leetcode 2520. Count the Digits That Divide a Number
+ * LeetCode 2520. Count the Digits That Divide a Number
  */
 public class CountTheDigitsThatDivideANumber {
 	public int countDigits(int num) {

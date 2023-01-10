@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1500;
 import java.util.Arrays;
 
 /*
- * Leetcode 1402. Reducing Dishes
+ * LeetCode 1402. Reducing Dishes
  */
 public class ReducingDishes {
 	public int maxSatisfaction(int[] satisfaction) {

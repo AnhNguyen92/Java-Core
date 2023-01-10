@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 969. Pancake Sorting
+ * LeetCode 969. Pancake Sorting
  */
 public class PancakeSorting {
 	public List<Integer> pancakeSort(int[] arr) {

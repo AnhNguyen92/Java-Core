@@ -41,7 +41,7 @@ public class MapExample {
 
 	/*
 	 * using merge method to increase value of specific key may not exist in map.
-	 * usage: @Leetcode no. 2244
+	 * usage: @LeetCode no. 2244
 	 * @Link  https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/
 	 */
 	public void mergeValuExample() {

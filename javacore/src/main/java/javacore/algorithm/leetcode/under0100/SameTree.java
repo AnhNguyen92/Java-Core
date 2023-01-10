@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0100;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 100. Same Tree
+ * LeetCode 100. Same Tree
  */
 
 public class SameTree {

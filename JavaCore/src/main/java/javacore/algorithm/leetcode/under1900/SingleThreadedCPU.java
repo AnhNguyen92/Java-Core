@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1900;
 import java.util.Arrays;
 
 /*
- * Leetcode 1834. Single-Threaded CPU
+ * LeetCode 1834. Single-Threaded CPU
  */
 public class SingleThreadedCPU {
 	public static void main(String[] args) {

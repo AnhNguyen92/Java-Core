@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1000;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * Leetcode 965. Univalued Binary Tree
+ * LeetCode 965. Univalued Binary Tree
  */
 public class UnivaluedBinaryTree {
 	public boolean isUnivalTree(TreeNode root) {

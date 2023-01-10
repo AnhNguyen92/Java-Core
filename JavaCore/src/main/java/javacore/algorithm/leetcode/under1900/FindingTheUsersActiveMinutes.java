@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /*
- * Leetcode 1817. Finding the Users Active Minutes
+ * LeetCode 1817. Finding the Users Active Minutes
  */
 public class FindingTheUsersActiveMinutes {
 

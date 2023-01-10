@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under2600;
 
 /*
- * Leetcode 2529. Maximum Count of Positive Integer and Negative Integer
+ * LeetCode 2529. Maximum Count of Positive Integer and Negative Integer
  */
 public class MaximumCountOfPositiveIntegerAndNegativeInteger {
 	public int maximumCount(int[] nums) {

@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 /*
- * Leetcode 2225. Find Players With Zero or One Losses
+ * LeetCode 2225. Find Players With Zero or One Losses
  */
 public class FindPlayersWithZeroOrOneLosses {
 	public List<List<Integer>> findWinners(int[][] matches) {

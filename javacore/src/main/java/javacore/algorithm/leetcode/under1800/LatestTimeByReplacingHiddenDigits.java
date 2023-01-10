@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1736. Latest Time by Replacing Hidden Digits
+ * LeetCode 1736. Latest Time by Replacing Hidden Digits
  */
 public class LatestTimeByReplacingHiddenDigits {
 	public String maximumTime(String time) {

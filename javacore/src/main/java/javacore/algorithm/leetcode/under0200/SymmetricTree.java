@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0200;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- *  Leetcode 101. Symmetric Tree
+ *  LeetCode 101. Symmetric Tree
  */
 public class SymmetricTree {
 	public boolean isSymmetric(TreeNode root) {

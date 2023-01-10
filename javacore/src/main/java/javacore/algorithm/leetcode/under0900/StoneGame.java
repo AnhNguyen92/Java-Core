@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
 /*
- * Leetcode 877. Stone Game
+ * LeetCode 877. Stone Game
  */
 public class StoneGame {
 	// Alice take first, and the game has no tie so she always choose the best choice for each turn.

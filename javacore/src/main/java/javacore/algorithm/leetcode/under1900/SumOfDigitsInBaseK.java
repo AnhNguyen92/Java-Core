@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1837. Sum of Digits in Base K
+ * LeetCode 1837. Sum of Digits in Base K
  */
 public class SumOfDigitsInBaseK {
 	public int sumBase(int n, int k) {

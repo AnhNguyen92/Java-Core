@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1900;
 
 /*
- * Leetcode 1854. Maximum Population Year
+ * LeetCode 1854. Maximum Population Year
  */
 public class MaximumPopulationYear {
 	public int maximumPopulation(int[][] logs) {

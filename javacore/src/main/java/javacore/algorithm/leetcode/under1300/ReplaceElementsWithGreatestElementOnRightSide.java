@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1299. Replace Elements with Greatest Element on Right Side
+ * LeetCode 1299. Replace Elements with Greatest Element on Right Side
  */
 public class ReplaceElementsWithGreatestElementOnRightSide {
 	public int[] replaceElements(int[] arr) {

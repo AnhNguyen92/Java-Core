@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
- * Leetcode 989. Add to Array-Form of Integer
+ * LeetCode 989. Add to Array-Form of Integer
  */
 public class AddToArrayFormOfInteger {
 	public List<Integer> addToArrayForm(int[] nums, int k) {

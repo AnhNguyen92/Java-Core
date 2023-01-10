@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- * Leetcode 1268. Search Suggestions System
+ * LeetCode 1268. Search Suggestions System
  */
 public class SearchSuggestionsSystem {
 	public List<List<String>> suggestedProducts(String[] products, String searchWord) {

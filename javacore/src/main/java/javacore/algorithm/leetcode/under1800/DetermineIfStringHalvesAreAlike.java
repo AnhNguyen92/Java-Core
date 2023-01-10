@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1704. Determine if String Halves Are Alike
+ * LeetCode 1704. Determine if String Halves Are Alike
  */
 public class DetermineIfStringHalvesAreAlike {
 	public boolean halvesAreAlike(String s) {

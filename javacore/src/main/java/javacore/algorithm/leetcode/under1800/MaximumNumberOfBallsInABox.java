@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1800;
 
 /*
- * Leetcode 1742. Maximum Number of Balls in a Box
+ * LeetCode 1742. Maximum Number of Balls in a Box
  */
 public class MaximumNumberOfBallsInABox {
 	public int countBalls(int lowLimit, int highLimit) {

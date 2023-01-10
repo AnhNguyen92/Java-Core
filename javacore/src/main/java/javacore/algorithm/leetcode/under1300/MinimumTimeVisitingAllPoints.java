@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under1300;
 
 /*
- * Leetcode 1266. Minimum Time Visiting All Points
+ * LeetCode 1266. Minimum Time Visiting All Points
  */
 public class MinimumTimeVisitingAllPoints {
 	public int minTimeToVisitAllPoints(int[][] points) {
