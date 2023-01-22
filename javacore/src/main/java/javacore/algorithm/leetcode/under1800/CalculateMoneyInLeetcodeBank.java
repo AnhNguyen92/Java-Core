@@ -11,7 +11,6 @@ public class CalculateMoneyInLeetCodeBank {
 		for (int i = 1; i <= weeks; i++) {
 			total += 21 + 7 * i;
 		}
-
 		for (int i = 0; i < days; i++) {
 			total += ++weeks;
 		}
