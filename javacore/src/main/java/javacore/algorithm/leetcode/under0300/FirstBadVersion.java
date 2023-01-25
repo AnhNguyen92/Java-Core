@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- *LeetCode 278. First Bad Version
+ * LeetCode 278. First Bad Version
  */
 public class FirstBadVersion extends VersionControl {
     public int firstBadVersion(int n) {

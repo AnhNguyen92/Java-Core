@@ -2,7 +2,6 @@ package javacore.algorithm.leetcode.under0100;
 
 import javacore.algorithm.leetcode.model.ListNode;
 
-
 /*
  * LeetCode 83. Remove Duplicates from Sorted List
  */

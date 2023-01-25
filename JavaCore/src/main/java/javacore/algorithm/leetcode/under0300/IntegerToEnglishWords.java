@@ -1,7 +1,7 @@
 package javacore.algorithm.leetcode.under0300;
 
 /*
- *LeetCode 273. Integer to English Words
+ * LeetCode 273. Integer to English Words
  */
 public class IntegerToEnglishWords {
 

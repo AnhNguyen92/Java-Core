@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import java.util.Arrays;
 
 /*
- *LeetCode 238. Product of Array Except Self
+ * LeetCode 238. Product of Array Except Self
  */
 public class ProductOfArrayExceptSelf {
 	public int[] productExceptSelf(int[] nums) {

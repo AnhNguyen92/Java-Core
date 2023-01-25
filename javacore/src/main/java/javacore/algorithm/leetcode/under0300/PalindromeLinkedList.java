@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under0300;
 import javacore.algorithm.leetcode.model.ListNode;
 
 /*
- *LeetCode 234. Palindrome Linked List
+ * LeetCode 234. Palindrome Linked List
  */
 public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
