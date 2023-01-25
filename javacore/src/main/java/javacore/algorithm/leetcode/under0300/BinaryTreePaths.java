@@ -6,7 +6,7 @@ import java.util.List;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- *LeetCode 257. Binary Tree Paths
+ * LeetCode 257. Binary Tree Paths
  */
 public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
