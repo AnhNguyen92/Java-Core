@@ -23,8 +23,7 @@ public class ReadFileUtil {
 	}
 
 	public static InputStream getFileFromResourceAsStream(String fileName) {
-		ReadFileUtil readFileUtil = new ReadFileUtil();
-		ClassLoader classLoader = readFileUtil.getClass().getClassLoader();
+		ClassLoader classLoader = ReadFileUtil.class.getClassLoader();
 		InputStream inputStream = classLoader.getResourceAsStream(fileName);
 		if (inputStream == null) {
 			throw new IllegalArgumentException("file not found! " + fileName);
