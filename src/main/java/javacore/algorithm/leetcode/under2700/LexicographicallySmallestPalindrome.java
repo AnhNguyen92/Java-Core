@@ -10,20 +10,14 @@ public class LexicographicallySmallestPalindrome {
 		char f, l;
 		int j = len - 1;
 		for (int i = 0; i <= len / 2; i++, j--) {
-			f = s.charAt(i);
-			l = s.charAt(j);
+			f = crr[i];
+			l = crr[j];
 			if (f - l >= 0) {
 				crr[i] = l;
-				crr[j] = l;
 			} else {
-				crr[i] = f;
 				crr[j] = f;
 			}
 		}
-		StringBuilder sb = new StringBuilder();
-		for (char c : crr) {
-			sb.append(c);
-		}
-		return sb.toString();
+		return new String(crr);
 	}
 }
