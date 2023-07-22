@@ -3,7 +3,6 @@ package javacore.algorithm.leetcode.under0051;
 /*
  * LeetCode 20. Valid Parentheses
  */
-
 public class ValidParentheses {
 	public boolean isValid(String s) {
 		boolean isValid = true;
