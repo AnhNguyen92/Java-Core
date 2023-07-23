@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1100;
 import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
- * LeetCode 10081008. Construct Binary Search Tree from Preorder Traversal
+ * LeetCode 1008. Construct Binary Search Tree from Preorder Traversal
  */
 public class ConstructBinarySearchTreeFromPreorderTraversal {
 	
