@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode.under3200;
+package javacore.algorithm.leetcode.under3100;
 
 /**
  * 3100. Water Bottles II

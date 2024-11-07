@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode.under3000;
+package javacore.algorithm.leetcode.under2900;
 
 import java.util.ArrayList;
 import java.util.List;

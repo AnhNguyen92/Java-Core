@@ -1,4 +1,4 @@
-package javacore.algorithm.leetcode.under3100;
+package javacore.algorithm.leetcode.under3000;
 
 /**
  * 3000. Maximum Area of Longest Diagonal Rectangle
