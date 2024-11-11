@@ -3,7 +3,7 @@ package javacore.algorithm.leetcode.under1700;
 /*
  * LeetCode 1684. Count the Number of Consistent Strings
  */
-public class CounttheNumberOfConsistentStrings {
+public class CountTheNumberOfConsistentStrings {
 	public int countConsistentStrings(String allowed, String[] words) {
         char[] arr = allowed.toCharArray();
         boolean iscontain = true;
