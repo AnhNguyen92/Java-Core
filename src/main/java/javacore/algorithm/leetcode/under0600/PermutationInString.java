@@ -11,20 +11,20 @@ public class PermutationInString {
 			return false;
 		int[] arr1 = frequentArr(s1);
 		int[] arr2 = frequentArr(s2.substring(0, len1));
-		if (isInClude(arr1, arr2)) {
+		if (isInclude(arr1, arr2)) {
 			return true;
 		}
 		for (int i = 1; i <= len2 - len1; i++) {
 			arr2[s2.charAt(i - 1) - 'a']--;
 			arr2[s2.charAt(i + len1 - 1) - 'a']++;
-			if (isInClude(arr1, arr2)) {
+			if (isInclude(arr1, arr2)) {
 				return true;
 			}
 		}
 		return false;
 	}
 
-	private boolean isInClude(int[] arr1, int[] arr2) {
+	private boolean isInclude(int[] arr1, int[] arr2) {
 		for (int i = 0; i < arr1.length; i++) {
 			if (arr1[i] !=  arr2[i]) {
 				return false;

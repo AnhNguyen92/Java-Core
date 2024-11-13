@@ -10,7 +10,7 @@ public class IntegerBreak {
 		if (n == 3)
 			return 2;
 		int prod = 1;
-		while (n > 3 && n > 4) {
+		while (n > 4) {
 			prod *= 3;
 			n -= 3;
 		}

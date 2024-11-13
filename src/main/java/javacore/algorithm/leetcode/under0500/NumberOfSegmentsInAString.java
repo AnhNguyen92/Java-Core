@@ -6,7 +6,7 @@ package javacore.algorithm.leetcode.under0500;
 public class NumberOfSegmentsInAString {
 	public int countSegments(String s) {
         String str = s.trim();
-        if (str.equals("")) return 0;
+        if (str.isEmpty()) return 0;
         String[] arr = str.trim().split("\\s+");
         return arr.length;
     }

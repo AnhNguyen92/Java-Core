@@ -8,13 +8,13 @@ import java.util.List;
  */
 public class ImplementStackUsingQueues {
     class MyStack {
-        private List<Integer> list = new ArrayList<>();
+        private List<Integer> list;
 
         /**
          * Initialize your data structure here.
          */
         public MyStack() {
-
+            list = new ArrayList<>();
         }
 
         /**

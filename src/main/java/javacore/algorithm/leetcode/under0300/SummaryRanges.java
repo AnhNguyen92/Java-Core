@@ -12,10 +12,10 @@ public class SummaryRanges {
         
         for (int i = 0; i < nums.length; i++) {
             int j = i;
-            while (j < nums.length && (nums[j] - nums[i]) / 1 == (j-i)) {
+            while (j < nums.length && (nums[j] - nums[i]) == (j-i)) {
                 j++;
             }
-            if ((j - i) != 1) res.add("" + nums[i] + "->" + nums[j-1]);
+            if ((j - i) != 1) res.add(nums[i] + "->" + nums[j-1]);
             else        res.add("" + nums[i]);
             i= j-1;
         }

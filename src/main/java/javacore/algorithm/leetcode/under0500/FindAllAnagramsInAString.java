@@ -14,13 +14,13 @@ public class FindAllAnagramsInAString {
         if (len2 >= len1) {
             int[] arr1 = frequentArr(p);
             int[] arr2 = frequentArr(s.substring(0, len1));
-            if (isInClude(arr1, arr2)) {
+            if (isInclude(arr1, arr2)) {
                 lst.add(0);
             }
             for (int i = 1; i <= len2 - len1; i++) {
                 arr2[s.charAt(i - 1) - 'a']--;
                 arr2[s.charAt(i + len1 - 1) - 'a']++;
-                if (isInClude(arr1, arr2)) {
+                if (isInclude(arr1, arr2)) {
                     lst.add(i);
                 }
             }
@@ -28,7 +28,7 @@ public class FindAllAnagramsInAString {
         return lst;
     }
     
-    private boolean isInClude(int[] arr1, int[] arr2) {
+    private boolean isInclude(int[] arr1, int[] arr2) {
 		for (int i = 0; i < arr1.length; i++) {
 			if (arr1[i] !=  arr2[i]) {
 				return false;

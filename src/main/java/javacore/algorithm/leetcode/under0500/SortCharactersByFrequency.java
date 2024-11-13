@@ -21,9 +21,7 @@ public class SortCharactersByFrequency {
                         (oldValue, newValue) -> oldValue, LinkedHashMap::new));
         StringBuilder sb = new StringBuilder();
         for (Map.Entry<Character, Integer> mapEntry : sortedMap.entrySet()) {
-            for (int i = 1; i <= mapEntry.getValue(); i++) {
-                sb.append(mapEntry.getKey());
-            }
+            sb.append(String.valueOf(mapEntry.getKey()).repeat(Math.max(0, mapEntry.getValue())));
         }
         return sb.toString();
     }

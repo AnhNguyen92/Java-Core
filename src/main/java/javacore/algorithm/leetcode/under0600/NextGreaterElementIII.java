@@ -14,7 +14,7 @@ public class NextGreaterElementIII {
 			for (int i : arr) {
 				ans = ans * 10 + i;
 			}
-			if (ans <= 2147483647l)
+			if (ans <= 2147483647L)
 				return (int) ans;
 		}
 

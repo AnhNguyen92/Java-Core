@@ -1,10 +1,10 @@
 package javacore.algorithm.leetcode.under0600;
 
+import javacore.algorithm.leetcode.model.TreeNode;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
  * LeetCode 530. Minimum Absolute Difference in BST
@@ -17,7 +17,7 @@ public class MinimumAbsoluteDifferenceInBST {
 		if (root != null) {
 			inorder(root.left);
 			if (last != null)
-				minDiff = (minDiff < (root.val - last.val)) ? minDiff : (root.val - last.val);
+				minDiff = Math.min(minDiff, (root.val - last.val));
 			last = root;
 			inorder(root.right);
 		}
@@ -33,7 +33,7 @@ public class MinimumAbsoluteDifferenceInBST {
 		minimunDiff(root, lst);
 		int[] arr = new int[lst.size()];
 		for (int i = 0; i < lst.size(); i++) {
-			arr[i] = lst.get(i).intValue();
+			arr[i] = lst.get(i);
 		}
 		Arrays.sort(arr);
 		int min = Integer.MAX_VALUE;

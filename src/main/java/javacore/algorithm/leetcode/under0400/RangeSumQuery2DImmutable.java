@@ -16,7 +16,7 @@ public class RangeSumQuery2DImmutable {
 		}
 
 		public int sumRegion(int row1, int col1, int row2, int col2) {
-			String key = new StringBuilder().append(row1).append(col1).append(row2).append(col2).toString();
+			String key = String.valueOf(row1) + col1 + row2 + col2;
 			if (map.containsKey(key))
 	            return map.get(key);
 			int sum = 0;

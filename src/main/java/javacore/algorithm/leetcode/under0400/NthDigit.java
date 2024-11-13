@@ -7,7 +7,7 @@ public class NthDigit {
 	public int findNthDigit(int n) {
         int i = 0;
         while (9 * (i + 1) * Math.pow(10, i) < n) {
-            n -= 9 * (i + 1) * Math.pow(10, i);
+            n -= (int) (9 * (i + 1) * Math.pow(10, i));
             i++;
         }
         int x = (int) Math.pow(10, i) + n / (i+1);

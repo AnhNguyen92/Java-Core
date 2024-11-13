@@ -10,16 +10,16 @@ public class MaxConsecutiveOnes {
 		}
 		int con = 0;
 		int max = 0;
-		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] == 0) {
-				if (max < con) {
-					max = con;
-				}
-				con = 0;
-			} else {
-				con++;
-			}
-		}
+        for (int num : nums) {
+            if (num == 0) {
+                if (max < con) {
+                    max = con;
+                }
+                con = 0;
+            } else {
+                con++;
+            }
+        }
 		if (con > max) {
 			max = con;
 		}

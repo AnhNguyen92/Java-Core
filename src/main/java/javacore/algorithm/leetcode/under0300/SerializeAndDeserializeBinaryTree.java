@@ -22,7 +22,7 @@ public class SerializeAndDeserializeBinaryTree {
                 if (curr == null) {
                     sb.append(",null");
                 } else {
-                    if (sb.length() > 0)
+                    if (!sb.isEmpty())
                         sb.append(",");
                     sb.append(curr.val);
                     queue.offer(curr.left);

@@ -27,7 +27,7 @@ public class IntersectionOfTwoArraysII {
         }
         int[] arr = new int[lst.size()];
         for (int k = 0; k < lst.size(); k++) {
-            arr[k] = lst.get(k).intValue();
+            arr[k] = lst.get(k);
         }
         return arr;
     }

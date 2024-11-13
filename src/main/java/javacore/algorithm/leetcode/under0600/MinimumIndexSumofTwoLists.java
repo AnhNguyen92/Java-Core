@@ -20,7 +20,7 @@ public class MinimumIndexSumofTwoLists {
         for (int i = 0; i < list2.length; i++) {
             String s = list2[i];
             if (map.get(s) != null) {
-                int sum = map.get(s).intValue() + i;
+                int sum = map.get(s) + i;
                 if (sum < min) {
                     lst = new ArrayList<>();
                     lst.add(s);

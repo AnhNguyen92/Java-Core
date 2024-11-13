@@ -1,11 +1,11 @@
 package javacore.algorithm.leetcode.under0600;
 
+import javacore.algorithm.leetcode.model.TreeNode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
  * LeetCode 501. Find Mode in Binary Search Tree
@@ -17,7 +17,7 @@ public class FindModeInBinarySearchTree {
 		List<Integer> lst = new ArrayList<>();
 		int max = -1;
 		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-			int value = entry.getValue().intValue();
+			int value = entry.getValue();
 			if (max < value) {
 				lst = new ArrayList<>();
 				max = value;
@@ -38,8 +38,7 @@ public class FindModeInBinarySearchTree {
 
 	private void addMode(Map<Integer, Integer> map, TreeNode root) {
 		if (root != null) {
-			Integer j = map.get(root.val);
-			map.put(root.val, (j == null) ? 1 : j + 1);
+            map.compute(root.val, (k, j) -> (j == null) ? 1 : j + 1);
 			addMode(map, root.left);
 			addMode(map, root.right);
 		}

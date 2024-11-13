@@ -8,11 +8,11 @@ import java.util.PriorityQueue;
 public class KthSmallestElementInASortedMatrix {
 	public int kthSmallest(int[][] matrix, int k) {
 		PriorityQueue<Integer> queue = new PriorityQueue<>();
-		for (int i = 0; i < matrix.length; i++) {
-			for (int j = 0; j < matrix[0].length; j++) {
-				queue.add(matrix[i][j]);
-			}
-		}
+        for (int[] ints : matrix) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                queue.add(ints[j]);
+            }
+        }
 		while (k-- > 1) {
 			queue.poll();
 		}
