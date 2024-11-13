@@ -1,16 +1,16 @@
 package javacore.algorithm.leetcode.under0700;
 
+import javacore.algorithm.leetcode.model.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
  * LeetCode 637. Average of Levels in Binary Tree
  */
 public class AverageOfLevelsInBinaryTree {
 	List<List<Integer>> lst = new ArrayList<>();
-	int size = lst.size();
+	int size = 0;
 
 	public List<Double> averageOfLevels(TreeNode root) {
 		addNodeSum(root, 0);
@@ -19,7 +19,7 @@ public class AverageOfLevelsInBinaryTree {
 			double sum = 0.0;
 			int count = 0;
 			for (Integer i : item) {
-				sum += i.intValue();
+				sum += i;
 				count++;
 			}
 			ans.add(sum / count);
