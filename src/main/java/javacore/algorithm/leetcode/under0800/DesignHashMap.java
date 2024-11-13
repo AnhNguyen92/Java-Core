@@ -25,7 +25,7 @@ public class DesignHashMap {
 	 */
 	public int get(int key) {
 		if (map.containsKey(key))
-			return map.get(key).intValue();
+			return map.get(key);
 		return -1;
 	}
 
