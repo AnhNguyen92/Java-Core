@@ -14,8 +14,8 @@ public class CompareVersionNumbers {
 		if (srr1.length > srr2.length)
 			return 1;
 		while (i < srr1.length) {
-			v1 = Integer.valueOf(srr1[i]);
-			v2 = Integer.valueOf(srr2[i]);
+			v1 = Integer.parseInt(srr1[i]);
+			v2 = Integer.parseInt(srr2[i]);
 			if (v1 > v2) {
 				return 1;
 			}

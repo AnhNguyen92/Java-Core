@@ -23,7 +23,7 @@ public class MinStack {
 	}
 
 	public int top() {
-		return array.get(array.size() - 1).intValue();
+		return array.get(array.size() - 1);
 	}
 
 	public int getMin() {
@@ -33,7 +33,7 @@ public class MinStack {
 				min = i;
 			}
 		}
-		return min.intValue();
+		return min;
 	}
 }
 

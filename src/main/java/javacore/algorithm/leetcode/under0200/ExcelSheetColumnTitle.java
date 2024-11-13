@@ -15,7 +15,7 @@ public class ExcelSheetColumnTitle {
 				"Y",  "Z"};
 		// @formatter:on
 
-		StringBuilder ans = new StringBuilder("");
+		StringBuilder ans = new StringBuilder();
 		if (n < arr.length)
 			return arr[n];
 		while (n > 26) {

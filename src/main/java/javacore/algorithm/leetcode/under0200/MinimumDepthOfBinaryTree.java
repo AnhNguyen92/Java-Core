@@ -16,7 +16,7 @@ public class MinimumDepthOfBinaryTree {
 		depth++;
 		if (root.left == null)
 			return minDepthRecur(root.right, depth);
-		if (root.left == null || root.right == null)
+		if (root.right == null)
 			return minDepthRecur(root.left, depth);
 
 		return Math.min(minDepthRecur(root.left, depth), minDepthRecur(root.right, depth));
