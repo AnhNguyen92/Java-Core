@@ -14,10 +14,10 @@ public class FairCandySwap {
 		for (int i : a) {
 			sumA += i;
 		}
-		for (int i = 0; i < b.length; i++) {
-			sumB += b[i];
-			map.put(b[i], b[i]);
-		}
+        for (int j : b) {
+            sumB += j;
+            map.put(j, j);
+        }
 		int diff = (sumA - sumB) / 2;
 		for (int i : a) {
 			if (map.get(i - diff) != null) {

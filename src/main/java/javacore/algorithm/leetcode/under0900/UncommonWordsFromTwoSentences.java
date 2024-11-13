@@ -19,7 +19,7 @@ public class UncommonWordsFromTwoSentences {
             map.put(s, map.getOrDefault(s, 0) + 1);
         List<String> lst = new ArrayList<>();
         for (String key : map.keySet()) {
-            if (map.get(key).intValue() == 1) {
+            if (map.get(key) == 1) {
                 lst.add(key);
             }
         }

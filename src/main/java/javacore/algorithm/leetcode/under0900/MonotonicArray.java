@@ -1,7 +1,5 @@
 package javacore.algorithm.leetcode.under0900;
 
-import java.util.Arrays;
-
 /*
  * LeetCode 896. Monotonic Array
  */
@@ -23,23 +21,4 @@ public class MonotonicArray {
 
 		return (asc + desc != 2);
 	}
-	
-	public boolean isMonotonic2(int[] a) {
-        int[] arr = new int[a.length];
-        
-        System.arraycopy(a, 0, arr, 0, a.length);
-        Arrays.sort(arr);
-        if (Arrays.equals(a, arr)) return true;
-        int[] revertArr = descendingArray(arr);
-
-        return Arrays.equals(a, revertArr);
-    }
-    
-    private int[] descendingArray(int[] array) {
-    int[] descArray = new int[array.length];
-    for(int i=0; i<array.length; i++) {
-        descArray[i] = array[(array.length-1)-i];
-    }
-    return descArray;
-}
 }

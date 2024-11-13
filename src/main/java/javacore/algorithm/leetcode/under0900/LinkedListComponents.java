@@ -12,8 +12,8 @@ public class LinkedListComponents {
 	public int numComponents(ListNode head, int[] nums) {
         int count = 0;
         Map<Integer, Boolean> map = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            map.put(nums[i], true);
+        for (int num : nums) {
+            map.put(num, true);
         }
         while (head != null) {
             if (map.get(head.val) != null) {
