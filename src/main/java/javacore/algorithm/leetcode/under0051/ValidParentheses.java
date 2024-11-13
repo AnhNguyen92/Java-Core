@@ -7,7 +7,7 @@ package javacore.algorithm.leetcode.under0051;
 public class ValidParentheses {
 	public boolean isValid(String s) {
 		boolean isValid = true;
-		StringBuilder builder = new StringBuilder("");
+		StringBuilder builder = new StringBuilder();
 		int i = 0;
 		while (i < s.length() && isValid) {
 			char c = s.charAt(i);
@@ -16,7 +16,7 @@ public class ValidParentheses {
 				builder.append("(");
 				break;
 			case ')':
-				if (builder.length() > 0 && builder.charAt(builder.length() - 1) == '(') {
+				if (!builder.isEmpty() && builder.charAt(builder.length() - 1) == '(') {
 					builder.deleteCharAt(builder.length() - 1);
 				} else {
 					isValid = false;
@@ -26,7 +26,7 @@ public class ValidParentheses {
 				builder.append("{");
 				break;
 			case '}':
-				if (builder.length() > 0 && builder.charAt(builder.length() - 1) == '{') {
+				if (!builder.isEmpty() && builder.charAt(builder.length() - 1) == '{') {
 					builder.deleteCharAt(builder.length() - 1);
 				} else {
 					isValid = false;
@@ -36,7 +36,7 @@ public class ValidParentheses {
 				builder.append("[");
 				break;
 			case ']':
-				if (builder.length() > 0 && builder.charAt(builder.length() - 1) == '[') {
+				if (!builder.isEmpty() && builder.charAt(builder.length() - 1) == '[') {
 					builder.deleteCharAt(builder.length() - 1);
 				} else {
 					isValid = false;
@@ -47,6 +47,6 @@ public class ValidParentheses {
 			}
 			i++;
 		}
-		return (isValid && builder.toString().equals(""));
+		return (isValid && builder.toString().isEmpty());
 	}
 }
