@@ -9,7 +9,7 @@ public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         if (head != null && head.next != null) {
             ListNode temp = head;
-            while (temp != null && temp.next != null) {
+            while (temp.next != null) {
                 if (temp.val == temp.next.val) {
                     ListNode nextNode = temp.next;
                     temp.next = nextNode.next;

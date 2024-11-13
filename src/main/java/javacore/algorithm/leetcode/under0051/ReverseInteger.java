@@ -5,7 +5,7 @@ package javacore.algorithm.leetcode.under0051;
  */
 public class ReverseInteger {
 	public int reverse(int x) {
-        return x >= 0 ? reverseX(x) : (0 - reverseX(-1 * x));
+        return x >= 0 ? reverseX(x) : (-reverseX(-1 * x));
     }
     
     private int reverseX(int x) {

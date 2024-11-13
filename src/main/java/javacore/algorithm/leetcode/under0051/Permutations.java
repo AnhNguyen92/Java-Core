@@ -20,9 +20,7 @@ public class Permutations {
 				}
 				curr.add(num);
 			}
-			for (List<Integer> item : newSubsets) {
-				output.add(item);
-			}
+            output.addAll(newSubsets);
 		}
 
 		return output;
