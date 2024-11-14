@@ -14,7 +14,7 @@ public class KeyboardRow {
             if (inOneRow(word))
                 list.add(word);
         }
-		return list.toArray(new String[list.size()]);
+		return list.toArray(new String[0]);
 	}
 
 	public static boolean inOneRow(String s) {
