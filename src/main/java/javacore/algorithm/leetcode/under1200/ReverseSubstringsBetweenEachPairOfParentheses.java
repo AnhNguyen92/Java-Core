@@ -4,35 +4,16 @@ package javacore.algorithm.leetcode.under1200;
  * LeetCode 1190. Reverse Substrings Between Each Pair of Parentheses
  */
 public class ReverseSubstringsBetweenEachPairOfParentheses {
-	public static void main(String[] args) {
-		String ans = new ReverseSubstringsBetweenEachPairOfParentheses().reverseParentheses("(u(love)i)");
-		System.out.println(ans);
-	}
-
 	public String reverseParentheses(String s) {
-		StringBuilder sb = new StringBuilder(s);
-		int e = sb.indexOf(")");
-		while (e > 0) {
-			int f = e;
-			while (sb.charAt(f) != '(') {
-				f--;
-			}
-
-		}
-		StringBuilder temp = new StringBuilder();
-		char c;
-		for (int i = s.length() - 1; i >= 0; i--) {
-			c = s.charAt(i);
-			if (c != '(' && c != ')') {
-				temp.append(c);
-			} else {
-				sb.append(temp.toString().toLowerCase());
-				temp = new StringBuilder();
-			}
-		}
-		if (temp.length() > 0) {
-			sb.append(temp.toString().toLowerCase());
-		}
-		return sb.toString();
-	}
+        int x = s.lastIndexOf("(");
+        int y;
+        String str;
+        while (x >= 0) {
+            y = s.indexOf(")", x);
+            str = s.substring(x+1, y);
+            s = s.replace("(" + str + ")", new StringBuilder(str).reverse().toString());
+            x = s.lastIndexOf("(");
+        }
+        return s;
+    }
 }

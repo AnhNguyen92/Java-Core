@@ -13,7 +13,6 @@ public class ValidateIPAddress {
 
         private String checkIPv6(String queryIP) {
             String[] arr = queryIP.split(":", -1);
-            //System.out.println(arr.length);
             if (arr.length == 8) {
                 for (int i = 0; i < 8; i++) {
                     if (arr[i].isEmpty() || arr[i].length() > 4) {
