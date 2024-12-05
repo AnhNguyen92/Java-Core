@@ -16,7 +16,7 @@ public class LargestTriangleArea {
 				for (int k = j + 1; k < points.length; k++) {
 					y = distance(points[i], points[k]);
 					z = distance(points[j], points[k]);
-					s = dientich(x, y, z);
+					s = area(x, y, z);
 					if (s > max) {
 						max = s;
 					}
@@ -26,12 +26,12 @@ public class LargestTriangleArea {
 		return max;
 	}
 
-	private double dientich(double a, double b, double c) {
-		double p = chuvi(a, b, c);
+	private double area(double a, double b, double c) {
+		double p = perimeter(a, b, c);
 		return Math.sqrt(p * (p - a) * (p - b) * (p - c));
 	}
 
-	private double chuvi(double a, double b, double c) {
+	private double perimeter(double a, double b, double c) {
 		return (a + b + c) / 2;
 	}
 

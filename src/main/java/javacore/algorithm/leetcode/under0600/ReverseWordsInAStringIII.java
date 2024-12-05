@@ -6,7 +6,7 @@ package javacore.algorithm.leetcode.under0600;
 public class ReverseWordsInAStringIII {
 	public String reverseWords(String s) {
 		String[] arr = s.split(" ");
-		StringBuilder sb = new StringBuilder("");
+		StringBuilder sb = new StringBuilder();
 		for (String str : arr) {
 			sb.append(" ");
 			StringBuilder input = new StringBuilder();

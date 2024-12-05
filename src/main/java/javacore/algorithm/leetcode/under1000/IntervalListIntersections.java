@@ -3,11 +3,11 @@ package javacore.algorithm.leetcode.under1000;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * LeetCode 986. Interval List Intersections
+/**
+ * 986. Interval List Intersections
  */
 public class IntervalListIntersections {
-	public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
+    public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
         int i = 0;
         int j = 0;
         List<int[]> lst = new ArrayList<>();
@@ -22,7 +22,7 @@ public class IntervalListIntersections {
             } else if (c > b) {
                 i++;
             } else {
-                lst.add(new int[]{ Math.max(a, c), Math.min(b, d) });
+                lst.add(new int[]{Math.max(a, c), Math.min(b, d)});
                 if (b < d) {
                     i++;
                 } else if (b > d) {

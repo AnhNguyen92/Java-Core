@@ -20,13 +20,13 @@ public class MostCommonWord {
                 sb.append(c);
             } else {
                 String s = sb.toString().toLowerCase();
-                if (s.length() > 0)
+                if (!s.isEmpty())
                     lst.add(s);
                 sb = new StringBuilder();
             }
         }
         String s1 = sb.toString().toLowerCase();
-                if (s1.length() > 0)
+                if (!s1.isEmpty())
                     lst.add(s1);
         for (String s : lst) {
             map.put(s, map.getOrDefault(s, 0) + 1);

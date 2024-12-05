@@ -1,13 +1,6 @@
 package javacore.algorithm.leetcode.under0051;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.*;
 
 /*
  * LeetCode 18. 4Sum
@@ -19,7 +12,7 @@ public class FourSum {
         for (int i = 0; i <= nums.length - 4; i++) {
             for (int j = i + 1; j <= nums.length - 3; j++) {
                 Map<Integer, Integer> numMap = twoSum(nums, j + 1, target - nums[i] - nums[j]);
-                if (numMap.size() > 0) {
+                if (!numMap.isEmpty()) {
                     List<List<Integer>> lists = new ArrayList<>();
                     numMap.forEach((key, value) -> {
                         List<Integer> item = new ArrayList<>();
@@ -36,7 +29,7 @@ public class FourSum {
             }
         }
 
-        return result.stream().collect(Collectors.toList());
+        return new ArrayList<>(result);
     }
 
     public Map<Integer, Integer> twoSum(int[] nums, int firstIndex, int target) {

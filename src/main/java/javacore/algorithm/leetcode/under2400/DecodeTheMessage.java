@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * LeetCode 2336. Decode the Message
+ * LeetCode 2325. Decode the Message
  */
 public class DecodeTheMessage {
 	public String decodeMessage(String key, String message) {

@@ -21,7 +21,7 @@ public class SubdomainVisitCount {
                 int index = key.indexOf(".");
                 key = key.substring(index + 1);
                 map.put(key, map.getOrDefault(key, 0) + val);
-            } while (key.indexOf(".") >= 0);
+            } while (key.contains("."));
         }
         List<String> ans = new ArrayList<>();
         map.forEach((key, value) -> {

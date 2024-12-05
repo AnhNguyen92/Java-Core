@@ -30,7 +30,7 @@ public class DegreeOfAnArray {
 			}
 
 		}
-		if (map.size() == 0)
+		if (map.isEmpty())
 			return 1;
 		return minLen;
 	}

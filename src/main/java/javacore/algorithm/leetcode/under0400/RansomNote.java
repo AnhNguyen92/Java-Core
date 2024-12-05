@@ -17,7 +17,7 @@ public class RansomNote {
 			mapMagazine.put(c, mapMagazine.getOrDefault(c, 0) + 1);
 		}
 		for (Character c : mapNote.keySet()) {
-			if (mapMagazine.get(c) == null || (mapMagazine.get(c).intValue() < mapNote.get(c).intValue())) {
+			if (mapMagazine.get(c) == null || (mapMagazine.get(c) < mapNote.get(c))) {
 				return false;
 			}
 		}

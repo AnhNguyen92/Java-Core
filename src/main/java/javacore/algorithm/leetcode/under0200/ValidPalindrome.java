@@ -5,9 +5,9 @@ package javacore.algorithm.leetcode.under0200;
  */
 public class ValidPalindrome {
 	public boolean isPalindrome(String s) {
-        if (s.length() == 0) return true;
-        StringBuilder str = new StringBuilder("");
-        StringBuilder reverseStr = new StringBuilder("");
+        if (s.isEmpty()) return true;
+        StringBuilder str = new StringBuilder();
+        StringBuilder reverseStr = new StringBuilder();
         char c;
         for (int i = 0; i < s.length(); i++) {
             c = s.charAt(i);

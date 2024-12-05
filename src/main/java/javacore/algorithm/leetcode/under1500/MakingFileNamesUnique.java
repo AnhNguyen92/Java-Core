@@ -3,11 +3,11 @@ package javacore.algorithm.leetcode.under1500;
 import java.util.HashMap;
 import java.util.Map;
 
-/*
- * LeetCode 1487. Making File Names Unique
+/**
+ * 1487. Making File Names Unique
  */
 public class MakingFileNamesUnique {
-	public String[] getFolderNames(String[] names) {
+    public String[] getFolderNames(String[] names) {
         String[] arr = new String[names.length];
         Map<String, Integer> map = new HashMap<>();
         int x, n;
@@ -22,7 +22,7 @@ public class MakingFileNamesUnique {
                 n = s.length();
                 if (s.charAt(n - 1) == ')') {
                     x = 1;
-                    while (map.get(s + "("+ x + ")") != null) {
+                    while (map.get(s + "(" + x + ")") != null) {
                         x++;
                     }
                     map.put(s + "(" + x + ")", 1);

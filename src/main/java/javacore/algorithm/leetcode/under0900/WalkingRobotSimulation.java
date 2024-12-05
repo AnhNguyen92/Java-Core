@@ -15,13 +15,12 @@ public class WalkingRobotSimulation {
 	int ans = 0;
 
 	public int robotSim(int[] commands, int[][] obstacles) {
-		for (int i = 0; i < obstacles.length; i++) {
-			int[] arr = obstacles[i];
-			List<Integer> item = new ArrayList<>();
-			item.add(arr[0]);
-			item.add(arr[1]);
-			map.put(item, true);
-		}
+        for (int[] arr : obstacles) {
+            List<Integer> item = new ArrayList<>();
+            item.add(arr[0]);
+            item.add(arr[1]);
+            map.put(item, true);
+        }
 
 		int direct = 0;
 		for (int i : commands) {

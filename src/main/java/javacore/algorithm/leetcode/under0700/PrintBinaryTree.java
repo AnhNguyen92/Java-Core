@@ -1,18 +1,19 @@
 package javacore.algorithm.leetcode.under0700;
 
+import javacore.algorithm.leetcode.model.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import javacore.algorithm.leetcode.model.TreeNode;
-/*
- * LeetCode 655. Print Binary Tree
+/**
+ * 655. Print Binary Tree
  */
 public class PrintBinaryTree {
-	List<List<String>> lines;
+    List<List<String>> lines;
     int height = 0;
     public List<List<String>> printTree(TreeNode root) {
         lines = new ArrayList<>();
-        getHeight(root, 0);
+        travel(root, 0);
         int n = (int) Math.pow(2, height) - 1;
         for (int i = 0; i < height; i++) {
             List<String> line = lines.get(i);
@@ -32,14 +33,14 @@ public class PrintBinaryTree {
         }
     }
 
-    private void getHeight(TreeNode root, int level) {
+    private void travel(TreeNode root, int level) {
         if (root != null) {
             if (height == level) {
                 lines.add(new ArrayList<>());
                 height++;
             }
-            getHeight(root.left, level + 1);
-            getHeight(root.right, level + 1);
+            travel(root.left, level + 1);
+            travel(root.right, level + 1);
         }
     }
 }

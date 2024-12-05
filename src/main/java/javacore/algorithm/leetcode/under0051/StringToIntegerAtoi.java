@@ -5,15 +5,14 @@ package javacore.algorithm.leetcode.under0051;
  */
 public class StringToIntegerAtoi {
 	public int myAtoi(String str) {
-        if (str == null || str.length() == 0) return 0;
+        if (str == null || str.isEmpty()) return 0;
     str = str.trim();
-    if (str.equals("")) return 0;
+    if (str.isEmpty()) return 0;
     int idx = 0;
     int sign = 1;
     long sum = 0;
     char firstChar = str.charAt(0);
     if (firstChar == '+') {
-        sign = 1;
         idx++;
     } else if (firstChar == '-') {
         sign = -1;

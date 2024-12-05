@@ -13,7 +13,7 @@ public class LongestHarmoniousSubsequence {
 		for (int n : nums) {
 			map.put(n, map.getOrDefault(n, 0) + 1);
 		}
-		Integer count = 0;
+		int count = 0;
 		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 			Integer key = entry.getKey();
 			Integer val = entry.getValue();

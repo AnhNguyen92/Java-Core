@@ -13,8 +13,8 @@ public class PowNTimeOfX {
         }
         List<Double> pows = new ArrayList<>();
         
-        pows.add(Double.valueOf(1));
-        pows.add(Double.valueOf(x));
+        pows.add(1.0);
+        pows.add(x);
         boolean isNegative = n < 0;
         long k = n;
         if (n < 0) {
@@ -23,7 +23,7 @@ public class PowNTimeOfX {
         double result = 1;
         while (k > 0) {
             if (pows.size() <= k) {
-                pows.add(Double.valueOf(x * pows.get(pows.size() - 1).doubleValue()));
+                pows.add(x * pows.get(pows.size() - 1));
                 result *= pows.get(pows.size() - 1);
                 k -= pows.size() - 1;
             } else {

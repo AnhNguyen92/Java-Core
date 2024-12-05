@@ -8,7 +8,7 @@ import javacore.algorithm.leetcode.model.TreeNode;
 public class DeleteNodeInABST {
 	public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
-            return root;
+            return null;
         }
         if (root.val > key) {
             root.left = deleteNode(root.left, key);

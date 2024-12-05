@@ -9,7 +9,7 @@ public class CountAndSay {
 		if (n == 1) {
 			return "1";
 		}
-		StringBuilder builder = new StringBuilder("");
+		StringBuilder builder = new StringBuilder();
 		String previous = countAndSay(n - 1);
 		int i = 0;
 		int j = 0;

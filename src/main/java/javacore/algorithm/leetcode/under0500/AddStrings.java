@@ -11,7 +11,7 @@ public class AddStrings {
         int b;
         int reminder = 0;
         int sum = 0;
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
         while (i >= 0 || j >= 0) {
             a = (i >= 0) ? num1.charAt(i) - '0' : 0;
             b = (j >= 0) ? num2.charAt(j) - '0' : 0;

@@ -29,18 +29,4 @@ public class KthLargestElementInAStream {
 		}
 		return pq.peek();
 	}
-	
-//	int kth;
-//    List<Integer> list= new ArrayList<>();
-//    public KthLargestElementInAStream(int k, int[] nums) {
-//        kth = k;
-//        for(int i : nums)
-//            list.add(i);
-//    }
-//    
-//    public int add(int val) {
-//        list.add(val);
-//        Collections.sort(list);
-//        return list.get(list.size() - kth);
-//    }
 }

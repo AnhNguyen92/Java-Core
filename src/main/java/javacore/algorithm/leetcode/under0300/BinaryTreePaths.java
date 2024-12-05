@@ -1,9 +1,9 @@
 package javacore.algorithm.leetcode.under0300;
 
+import javacore.algorithm.leetcode.model.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import javacore.algorithm.leetcode.model.TreeNode;
 
 /*
  * LeetCode 257. Binary Tree Paths
@@ -11,13 +11,13 @@ import javacore.algorithm.leetcode.model.TreeNode;
 public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> ans = new ArrayList<>();
-        addNode(ans, root, new StringBuilder(""));
+        addNode(ans, root, new StringBuilder());
         return ans;
     }
     
     private void addNode(List<String> ans, TreeNode root, StringBuilder sb) {
         if (root != null) {
-            if (sb.length() != 0) {
+            if (!sb.isEmpty()) {
                 sb.append("->").append(root.val);
             } else {
                 sb.append(root.val);

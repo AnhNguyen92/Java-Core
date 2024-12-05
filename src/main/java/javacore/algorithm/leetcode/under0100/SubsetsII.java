@@ -22,9 +22,7 @@ public class SubsetsII {
 				item.add(num);
 				newSubsets.add(item);
 			}
-			for (List<Integer> curr : newSubsets) {
-				output.add(curr);
-			}
+            output.addAll(newSubsets);
 		}
 		return new ArrayList<>(output);
 	}

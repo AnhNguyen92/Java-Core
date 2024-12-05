@@ -16,8 +16,7 @@ public class WiggleSubsequence {
 				int sign = (nums[i] > nums[i - 1]) ? 1 : -1;
 				if (sign != presign) {
 					presign = sign;
-					if (presign != 0)
-						count++;
+                    count++;
 				}
 			}
 		}

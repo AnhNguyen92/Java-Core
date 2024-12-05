@@ -1,5 +1,7 @@
 package javacore.algorithm.leetcode.under0900;
 
+import java.util.Arrays;
+
 /*
  * LeetCode 821. Shortest Distance to a Character
  */
@@ -7,9 +9,7 @@ public class ShortestDistanceToACharacter {
 	public int[] shortestToChar(String s, char c) {
         int indexC = -1;
         int[] ans = new int[s.length()];
-        for (int i = 0 ; i < ans.length; i++) {
-            ans[i] = Integer.MAX_VALUE;
-        }
+        Arrays.fill(ans, Integer.MAX_VALUE);
         for (int i = 0; i < ans.length; i++) {
             if (s.charAt(i) == c) {
                 ans[i] = 0;

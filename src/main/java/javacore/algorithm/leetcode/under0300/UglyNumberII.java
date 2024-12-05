@@ -1,10 +1,10 @@
 package javacore.algorithm.leetcode.under0300;
 
-/*
- * LeetCode 264. Ugly Number II
+/**
+ * 264. Ugly Number II
  */
 public class UglyNumberII {
-	public int nthUglyNumber(int n) {
+    public int nthUglyNumber(int n) {
         int[] arr = new int[n];
         int i2 = 0, i3 = 0, i5 = 0;
         arr[0] = 1;
@@ -23,6 +23,6 @@ public class UglyNumberII {
                 i5++;
             }
         }
-        return arr[n-1];
+        return arr[n - 1];
     }
 }

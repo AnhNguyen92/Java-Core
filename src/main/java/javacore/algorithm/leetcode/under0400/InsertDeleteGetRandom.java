@@ -8,7 +8,6 @@ import java.util.Set;
  */
 public class InsertDeleteGetRandom {
     class RandomizedSet {
-
         Set<Integer> set;
 
         public RandomizedSet() {
@@ -28,7 +27,7 @@ public class InsertDeleteGetRandom {
             int i = 0;
             for (Integer x : set) {
                 if (i == idx) {
-                    return x.intValue();
+                    return x;
                 }
                 i++;
             }
@@ -38,7 +37,6 @@ public class InsertDeleteGetRandom {
         public int getRandomNumber(int min, int max) {
             return (int) ((Math.random() * (max - min)) + min);
         }
-
     }
 
 /**

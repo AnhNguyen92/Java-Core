@@ -12,7 +12,7 @@ public class ContainsDuplicateIII {
         Long floor;
         Long ceil;
         for (int i = 0; i < nums.length; i++) {
-            num = Long.valueOf(nums[i]);
+            num = (long) nums[i];
             floor = set.floor(num);
             ceil = set.ceiling(num);
             if (floor != null && Math.abs(floor - num) <= t) {
@@ -23,7 +23,7 @@ public class ContainsDuplicateIII {
             }
             set.add(num);
             if (set.size() > k) {
-                set.remove(1L * nums[i - k]);
+                set.remove((long) nums[i - k]);
             }
         }
 

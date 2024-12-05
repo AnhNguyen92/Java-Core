@@ -16,15 +16,15 @@ public class PartitionList {
 		}
 		List<ListNode> lst = new ArrayList<>();
 		travel(lst, head);
-		Collections.sort(lst, (a, b) -> {
-			if (a.val < x && b.val >= x) {
-				return -1;
-			}
-			if (a.val >= x && b.val < x) {
-				return 1;
-			}
-			return (lst.indexOf(a) - lst.indexOf(b));
-		});
+		lst.sort((a, b) -> {
+            if (a.val < x && b.val >= x) {
+                return -1;
+            }
+            if (a.val >= x && b.val < x) {
+                return 1;
+            }
+            return (lst.indexOf(a) - lst.indexOf(b));
+        });
 		ListNode ans = null;
 		for (int i = lst.size() - 1; i >= 0; i--) {
 			ans = new ListNode(lst.get(i).val, ans);

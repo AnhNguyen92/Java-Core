@@ -12,7 +12,7 @@ public class OneTwoThreePattern {
         int[] mins = new int[nums.length];
         mins[0] = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            mins[i] = (nums[i] < mins[i-1]) ? nums[i] : mins[i-1];
+            mins[i] = Math.min(nums[i], mins[i - 1]);
         }
         Stack<Integer> stack = new Stack<>();
         for (int i = nums.length - 1; i > 0; i--) {

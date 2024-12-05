@@ -5,37 +5,37 @@ package javacore.algorithm.leetcode.under0051;
  */
 public class LongestCommonPrefix {
 	public String longestCommonPrefix(String[] strs) {
-		String prefix = "";
+		StringBuilder prefix = new StringBuilder();
 		int i = 0;
-		if (strs.length == 0 || strs[0].length() == 0) {
-			return prefix;
+		if (strs.length == 0 || strs[0].isEmpty()) {
+			return prefix.toString();
 		}
 		int minLength = getMinlength(strs);
 		while ((i < minLength) && hasSameChar(strs, i)) {
-			prefix += strs[0].charAt(i);
+			prefix.append(strs[0].charAt(i));
 			i++;
 		}
 
-		return prefix;
+		return prefix.toString();
 	}
 
 	private boolean hasSameChar(String[] strs, int position) {
-		boolean hasCommonPrefix = true;
-		for (int i = 0; i < strs.length; i++) {
-			if (strs[i].charAt(position) != strs[0].charAt(position))
-				hasCommonPrefix = false;
-		}
+        for (String str : strs) {
+            if (str.charAt(position) != strs[0].charAt(position)) {
+                return false;
+            }
+        }
 
-		return hasCommonPrefix;
+		return true;
 	}
 
 	private int getMinlength(String[] strs) {
 		int minLength = Integer.MAX_VALUE;
-		for (int i = 0; i < strs.length; i++) {
-			if (strs[i].length() < minLength) {
-				minLength = strs[i].length();
-			}
-		}
+        for (String str : strs) {
+            if (str.length() < minLength) {
+                minLength = str.length();
+            }
+        }
 
 		return minLength;
 	}

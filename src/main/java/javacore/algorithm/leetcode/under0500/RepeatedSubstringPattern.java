@@ -38,7 +38,7 @@ public class RepeatedSubstringPattern {
 		}
 		int[] arr = new int[list.size()];
 		for (int i = 0; i < list.size(); i++) {
-			arr[i] = list.get(i).intValue();
+			arr[i] = list.get(i);
 		}
 		return arr;
 	}

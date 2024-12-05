@@ -7,7 +7,7 @@ public class LengthOfLastWord {
 	public int lengthOfLastWord(String s) {
 		s = s.trim();
 		int lastSpace = s.lastIndexOf(' ');
-		String lastStr = s.substring(lastSpace + 1, s.length());
+		String lastStr = s.substring(lastSpace + 1);
 		return lastStr.length();
 	}
 }

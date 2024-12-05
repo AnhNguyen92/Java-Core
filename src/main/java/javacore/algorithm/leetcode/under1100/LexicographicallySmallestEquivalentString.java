@@ -63,7 +63,6 @@ public class LexicographicallySmallestEquivalentString {
 		StringBuilder sb = new StringBuilder();
 		for (char c : baseStr.toCharArray()) {
 			k = map.getOrDefault(c, -1);
-			System.out.println(k);
 			if (k == -1) {
 				sb.append(c);
 			} else {

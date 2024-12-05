@@ -1,11 +1,11 @@
 package javacore.algorithm.leetcode.under0500;
 
-/*
- * LeetCode 443. String Compression
+/**
+ * 443. String Compression
  */
 public class StringCompression {
-	public int compress(char[] chars) {
-		int ans = 0;
+    public int compress(char[] chars) {
+        int ans = 0;
         int count = 0;
         int n = chars.length;
         char c = '!';
@@ -41,5 +41,5 @@ public class StringCompression {
             }
         }
         return ans;
-	}
+    }
 }

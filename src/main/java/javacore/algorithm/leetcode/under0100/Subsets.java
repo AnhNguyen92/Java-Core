@@ -13,9 +13,9 @@ public class Subsets {
         while (i <= nums.length - 1) {
             int num = nums[i];
             List<List<Integer>> tempLst = new ArrayList<>();
-            for (int j = 0; j < ans.size(); j++) {
-                tempLst.add(new ArrayList<>(ans.get(j)) );
-              }
+            for (List<Integer> an : ans) {
+                tempLst.add(new ArrayList<>(an));
+            }
             for (int j = ans.size() - 1; j >= 0; j--) {
                 List<Integer> temp = tempLst.get(j);
                 temp.add(num);

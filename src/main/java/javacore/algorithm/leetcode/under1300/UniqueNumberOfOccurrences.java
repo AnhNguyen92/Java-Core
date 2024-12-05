@@ -19,7 +19,7 @@ public class UniqueNumberOfOccurrences {
         map.forEach((key, value) -> set.add(value));
         int sum = map.values().stream().reduce(0, Integer::sum);
         for (Integer i : set) {
-            sumSet += i.intValue();
+            sumSet += i;
         }
         return sum == sumSet;
     }

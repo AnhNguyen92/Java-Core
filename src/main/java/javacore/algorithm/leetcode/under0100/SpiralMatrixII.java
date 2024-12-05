@@ -24,7 +24,7 @@ public class SpiralMatrixII {
                     i++;
                 } else if (left) {
                     j--;
-                } else if (up) {
+                } else {
                     i--;
                 }
             } else {
@@ -49,7 +49,7 @@ public class SpiralMatrixII {
                     if (enableMove(arr, i, j)) {                        
                         up = true;
                     }
-                } else if (up) {
+                } else {
                     up = false;
                     j++;
                     i++;

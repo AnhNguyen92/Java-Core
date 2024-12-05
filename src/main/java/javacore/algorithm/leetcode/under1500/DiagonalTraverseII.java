@@ -3,11 +3,11 @@ package javacore.algorithm.leetcode.under1500;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * LeetCode 1424. Diagonal Traverse II
+/**
+ * 1424. Diagonal Traverse II
  */
 public class DiagonalTraverseII {
-	public int[] findDiagonalOrder(List<List<Integer>> nums) {
+    public int[] findDiagonalOrder(List<List<Integer>> nums) {
         List<List<Integer>> sum = new ArrayList<>();
         int n = 0;
         for (int i = 0; i < nums.size(); i++) {
@@ -23,10 +23,9 @@ public class DiagonalTraverseII {
         }
         int[] arr = new int[n];
         int x = 0;
-        for (int i = 0; i < sum.size(); i++) {
-            List<Integer> lst = sum.get(i);
-            for (int j = 0; j < lst.size(); j++) {
-                arr[x++] = lst.get(j);
+        for (List<Integer> lst : sum) {
+            for (Integer item : lst) {
+                arr[x++] = item;
             }
         }
         return arr;

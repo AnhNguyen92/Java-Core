@@ -63,9 +63,7 @@ public class ReconstructOriginalDigitsFromEnglish {
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < 10; i++) {
-            for (int j = 1; j <= arr[i]; j++) {
-                sb.append(i);
-            }
+            sb.append(String.valueOf(i).repeat(Math.max(0, arr[i])));
         }
         return sb.toString();
     }

@@ -25,8 +25,7 @@ public class CombinationSumIII {
 				List<Integer> item = ans.get(j);
 				int val = item.get(item.size() - 1);
 				for (int ii = val + 1; ii <= max; ii++) {
-					List<Integer> newItem = new ArrayList<>();
-					newItem.addAll(item);
+                    List<Integer> newItem = new ArrayList<>(item);
 					newItem.add(ii);
 					ans.add(newItem);
 				}

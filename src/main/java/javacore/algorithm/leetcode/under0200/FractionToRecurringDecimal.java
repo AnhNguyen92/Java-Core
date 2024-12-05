@@ -18,7 +18,7 @@ public class FractionToRecurringDecimal {
 		}
 		long n = Math.abs((long) numerator);
 		long d = Math.abs((long) denominator);
-		sb.append(String.valueOf(n / d));
+		sb.append(n / d);
 		long remind = n % d;
 		if (remind == 0) {
 			return sb.toString();
@@ -34,7 +34,7 @@ public class FractionToRecurringDecimal {
 			}
 			map.put(remind, sb.length());
 			remind *= 10;
-			sb.append(String.valueOf(remind / d));
+			sb.append(remind / d);
 			remind %= d;
 		}
 		return sb.toString();

@@ -9,8 +9,8 @@ public class SubarraySumsDivisibleByK {
         int[] arr = new int[k+1];
         int sum = 0;
         arr[0] = 1;
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
+        for (int num : nums) {
+            sum += num;
             sum %= k;
             if (sum < 0) {
                 sum = sum + k;

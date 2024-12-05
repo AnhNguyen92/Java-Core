@@ -31,7 +31,7 @@ public class IsomorphicStrings {
 			if (map[s.charAt(i)] == -1) {
 				// If current character of str2 is already
 				// seen, one to one mapping not possible
-				if (marked[t.charAt(i)] == true)
+				if (marked[t.charAt(i)])
 					return false;
 
 				// Mark current character of str2 as visited

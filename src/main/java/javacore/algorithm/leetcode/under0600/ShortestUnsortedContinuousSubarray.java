@@ -11,8 +11,8 @@ public class ShortestUnsortedContinuousSubarray {
         Arrays.sort(sorted);
         int first = 0;
         int last = nums.length - 1;
-        for (int i = 0; i < nums.length; i++) {
-            if (sorted[first] == nums[i]) {
+        for (int num : nums) {
+            if (sorted[first] == num) {
                 first++;
             } else {
                 break;
