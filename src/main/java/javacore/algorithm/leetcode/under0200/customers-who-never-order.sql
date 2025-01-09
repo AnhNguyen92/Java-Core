@@ -1,6 +1,6 @@
 
 /*
- * LeetCode 183.Customers Who Never Order
+ * LeetCode 183. Customers Who Never Order
  */
 
 select name "Customers"
